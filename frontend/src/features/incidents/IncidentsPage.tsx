@@ -1,5 +1,5 @@
-import { useMemo, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useEffect, useMemo, useState } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { Search, Download, ArrowUpDown } from "lucide-react";
 import { api } from "@/lib/api";
 import { useAsync } from "@/lib/useAsync";
@@ -51,7 +51,13 @@ export function IncidentsPage() {
   const navigate = useNavigate();
   const { data, loading, error, reload } = useAsync(() => api.incidents(), [version]);
 
-  const [q, setQ] = useState("");
+  const [searchParams] = useSearchParams();
+  const [q, setQ] = useState(searchParams.get("q") ?? "");
+  // Keep the box in sync when arriving via the top-bar search.
+  useEffect(() => {
+    const term = searchParams.get("q");
+    if (term !== null) setQ(term);
+  }, [searchParams]);
   const [severity, setSeverity] = useState<Severity | "All">("All");
   const [status, setStatus] = useState("All");
   const [sort, setSort] = useState<SortKey>("severity");

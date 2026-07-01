@@ -127,6 +127,7 @@ class ServiceHealth(BaseModel):
 
 class TopClusterOut(BaseModel):
     cluster_id: str
+    incident_id: Optional[str] = None
     title: str
     service: Optional[str]
     severity: str
@@ -139,6 +140,17 @@ class InsightOut(BaseModel):
     kind: str
     title: str
     detail: str
+    incident_id: Optional[str] = None
+
+
+class PipelineStats(BaseModel):
+    events: int
+    parsed: int
+    unparsed: int
+    clusters: int
+    anomalies: int
+    incidents: int
+    correlations: int
 
 
 class DashboardOut(BaseModel):
@@ -151,6 +163,7 @@ class DashboardOut(BaseModel):
     top_clusters: list[TopClusterOut]
     severity_distribution: dict[str, int]
     insights: list[InsightOut]
+    pipeline: Optional[PipelineStats] = None
 
 
 class TrendPoint(BaseModel):

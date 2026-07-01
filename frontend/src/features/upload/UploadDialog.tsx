@@ -16,6 +16,7 @@ export function UploadDialog({
 }) {
   const samples = useAsync(() => api.samples(), []);
   const [busy, setBusy] = useState<string | null>(null);
+  const [activeName, setActiveName] = useState<string>("");
   const [error, setError] = useState<string | null>(null);
   const [dragging, setDragging] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -37,6 +38,7 @@ export function UploadDialog({
 
   async function runUpload(file: File) {
     setBusy("__upload__");
+    setActiveName(file.name);
     setError(null);
     try {
       await api.uploadLogs(file);
@@ -77,19 +79,30 @@ export function UploadDialog({
               const file = e.dataTransfer.files?.[0];
               if (file) runUpload(file);
             }}
-            onClick={() => inputRef.current?.click()}
+            onClick={() => !busy && inputRef.current?.click()}
             className={cn(
-              "flex cursor-pointer flex-col items-center justify-center gap-2 rounded-xl border border-dashed py-10 transition-colors",
-              dragging ? "border-white/40 bg-white/5" : "border-hairline hover:border-white/20",
+              "flex flex-col items-center justify-center gap-2 rounded-xl border border-dashed py-10 transition-colors",
+              busy ? "cursor-default border-white/20 bg-white/5" : "cursor-pointer",
+              dragging ? "border-white/40 bg-white/5" : !busy && "border-hairline hover:border-white/20",
             )}
           >
             {busy === "__upload__" ? (
-              <Loader2 className="h-6 w-6 animate-spin text-muted" />
+              <>
+                <Loader2 className="h-6 w-6 animate-spin text-ink" />
+                <p className="text-sm text-ink">
+                  Analyzing <span className="font-mono text-ink">{activeName}</span>…
+                </p>
+                <p className="text-xs text-faint">
+                  Parsing → clustering → anomaly scoring → correlation
+                </p>
+              </>
             ) : (
-              <UploadCloud className="h-6 w-6 text-muted" />
+              <>
+                <UploadCloud className="h-6 w-6 text-muted" />
+                <p className="text-sm text-ink">Drop a log file here, or click to browse</p>
+                <p className="text-xs text-faint">.log, .txt, .ndjson — up to 25 MB</p>
+              </>
             )}
-            <p className="text-sm text-ink">Drop a log file here, or click to browse</p>
-            <p className="text-xs text-faint">.log, .txt, .ndjson — up to 25 MB</p>
             <input
               ref={inputRef}
               type="file"

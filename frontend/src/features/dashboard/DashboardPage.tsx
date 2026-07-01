@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import {
   ArrowDownRight,
   ArrowUpRight,
+  ArrowRight,
   Database,
   ShieldAlert,
   ShieldX,
@@ -9,7 +10,11 @@ import {
   Timer,
   Sparkles,
   Download,
-  SlidersHorizontal,
+  Info,
+  FileText,
+  Activity,
+  GitBranch,
+  Loader2,
 } from "lucide-react";
 import { api } from "@/lib/api";
 import { useAsync } from "@/lib/useAsync";
@@ -20,8 +25,8 @@ import { NoRun } from "@/components/ui/NoRun";
 import { LoadFailed } from "@/components/ui/LoadFailed";
 import { SeverityTimeline } from "@/components/charts/SeverityTimeline";
 import { HealthGauge } from "@/components/charts/HealthGauge";
-import { cn, fmtGrowth, severityFill } from "@/lib/utils";
-import type { Kpi, Severity } from "@/types";
+import { cn, fmtGrowth, severityFill, timeAgo } from "@/lib/utils";
+import type { Kpi, Pipeline, Run, Severity } from "@/types";
 
 const KPI_ICON: Record<string, typeof Database> = {
   events: Database,
@@ -31,6 +36,75 @@ const KPI_ICON: Record<string, typeof Database> = {
   mttr: Timer,
 };
 
+const KPI_EXPLAIN: Record<string, string> = {
+  events: "Total log lines ingested and parsed by the engine in this run.",
+  active: "Incidents not yet resolved (Active, Investigating, or Monitoring).",
+  critical: "Incidents scored Critical by the weighted severity engine.",
+  anomalies:
+    "Clusters flagged as statistically anomalous — peak z-score past the scan-corrected threshold.",
+  mttr: "Mean incident duration: average of (last seen − first seen) across incidents.",
+};
+
+const HEALTH_EXPLAIN =
+  "Health score = 100 − 12 per Critical service − 6 per Degraded service. " +
+  "A service is Critical if it has an active Critical incident, Degraded if it has an active High/Medium incident.";
+
+function fmtWindow(startIso: string, endIso: string): string {
+  const s = new Date(startIso);
+  const e = new Date(endIso);
+  const day = s.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
+  const t = (d: Date) => d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+  return `${day} · ${t(s)}–${t(e)}`;
+}
+
+function RunContext({ run }: { run: Run }) {
+  return (
+    <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-1 rounded-lg border border-hairline bg-card px-4 py-2.5 text-xs">
+      <span className="inline-flex items-center gap-1.5 text-muted">
+        <FileText className="h-3.5 w-3.5" />
+        <span className="font-mono text-ink">{run.source_name}</span>
+      </span>
+      <span className="text-faint">·</span>
+      <span className="text-muted">{fmtWindow(run.window_start, run.window_end)}</span>
+      <span className="text-faint">·</span>
+      <span className="text-muted">analyzed {timeAgo(run.created_at)}</span>
+    </div>
+  );
+}
+
+function PipelineStrip({ p }: { p: Pipeline }) {
+  const stages = [
+    { icon: FileText, label: "Events parsed", value: p.events, sub: p.unparsed ? `${p.unparsed} unparsed` : "structured" },
+    { icon: Boxes, label: "Clusters mined", value: p.clusters, sub: "Drain templates" },
+    { icon: Activity, label: "Anomalies", value: p.anomalies, sub: "flagged" },
+    { icon: ShieldAlert, label: "Incidents", value: p.incidents, sub: "formed" },
+    { icon: GitBranch, label: "Correlations", value: p.correlations, sub: "cause links" },
+  ];
+  return (
+    <Card className="mb-4 p-4">
+      <div className="mb-3 flex items-center gap-2 text-xs text-muted">
+        <Sparkles className="h-3.5 w-3.5 text-violet-400" />
+        Analysis pipeline — how raw logs became incidents
+      </div>
+      <div className="flex flex-wrap items-stretch gap-2">
+        {stages.map((s, i) => (
+          <div key={s.label} className="flex items-center gap-2">
+            <div className="rounded-lg border border-hairline bg-canvas px-4 py-2.5">
+              <div className="flex items-center gap-2 text-[11px] text-muted">
+                <s.icon className="h-3.5 w-3.5" />
+                {s.label}
+              </div>
+              <div className="mt-1 text-xl font-semibold tabular-nums">{s.value.toLocaleString()}</div>
+              <div className="text-[10px] text-faint">{s.sub}</div>
+            </div>
+            {i < stages.length - 1 && <ArrowRight className="h-4 w-4 shrink-0 text-faint" />}
+          </div>
+        ))}
+      </div>
+    </Card>
+  );
+}
+
 function KpiCard({ kpi }: { kpi: Kpi }) {
   const Icon = KPI_ICON[kpi.key] ?? Database;
   const delta = kpi.delta_pct;
@@ -38,7 +112,10 @@ function KpiCard({ kpi }: { kpi: Kpi }) {
   return (
     <Card className="p-5">
       <div className="flex items-center justify-between">
-        <span className="text-xs text-muted">{kpi.label}</span>
+        <span className="inline-flex cursor-help items-center gap-1.5 text-xs text-muted" title={KPI_EXPLAIN[kpi.key]}>
+          {kpi.label}
+          <Info className="h-3 w-3 text-faint" />
+        </span>
         <Icon className="h-4 w-4 text-faint" />
       </div>
       <div className="mt-3 text-3xl font-semibold tracking-tight tabular-nums">{kpi.value}</div>
@@ -59,7 +136,7 @@ export function DashboardPage() {
   const { version } = useApp();
   const { data, loading, error, reload } = useAsync(() => api.dashboard(), [version]);
 
-  if (loading && !data) return <Spinner label="Loading dashboard…" />;
+  if (loading && !data) return <Spinner label="Analyzing…" />;
   if (error && !data) {
     return (
       <>
@@ -87,18 +164,23 @@ export function DashboardPage() {
         title="Overview"
         subtitle="Logs are automatically parsed, clustered, scored, correlated, and explained."
         right={
-          <>
+          <a href={api.exportUrl()} title="Download all incidents in this run as CSV">
             <Button variant="outline" size="sm">
-              <SlidersHorizontal className="h-4 w-4" /> Filters
+              <Download className="h-4 w-4" /> Export incidents (CSV)
             </Button>
-            <a href={api.exportUrl()}>
-              <Button variant="outline" size="sm">
-                <Download className="h-4 w-4" /> Export
-              </Button>
-            </a>
-          </>
+          </a>
         }
       />
+
+      <RunContext run={data.run} />
+
+      {loading && data && (
+        <div className="mb-4 flex items-center gap-2 rounded-lg border border-hairline bg-card px-4 py-2 text-xs text-muted">
+          <Loader2 className="h-3.5 w-3.5 animate-spin" /> Re-analyzing…
+        </div>
+      )}
+
+      {data.pipeline && <PipelineStrip p={data.pipeline} />}
 
       <div className="grid grid-cols-2 gap-4 lg:grid-cols-5">
         {data.kpis.map((k) => (
@@ -110,7 +192,7 @@ export function DashboardPage() {
         <Card className="lg:col-span-2">
           <CardHeader
             title="Incident Timeline"
-            subtitle="Detected incident-cluster volume by severity"
+            subtitle="Events per time bucket from incident clusters, stacked by severity"
             right={
               <div className="flex items-center gap-4 pt-1 text-xs text-muted">
                 {sevOrder.map((s) => (
@@ -128,7 +210,15 @@ export function DashboardPage() {
         </Card>
 
         <Card>
-          <CardHeader title="System Health" subtitle={data.health_summary} />
+          <CardHeader
+            title={
+              <span className="inline-flex cursor-help items-center gap-1.5" title={HEALTH_EXPLAIN}>
+                System Health
+                <Info className="h-3 w-3 text-faint" />
+              </span>
+            }
+            subtitle={data.health_summary}
+          />
           <div className="flex flex-col items-center px-5 pb-5 pt-4">
             <HealthGauge score={data.health_score} />
             <div className="mt-5 grid w-full grid-cols-3 gap-2">
@@ -152,7 +242,7 @@ export function DashboardPage() {
         <Card>
           <CardHeader
             title="Top Anomaly Clusters"
-            subtitle="Highest-signal error groups"
+            subtitle="Highest-signal error groups — click to inspect"
             right={
               <Link to="/incidents" className="pt-1 text-xs text-muted hover:text-ink">
                 View all
@@ -160,22 +250,34 @@ export function DashboardPage() {
             }
           />
           <div className="space-y-1 p-3">
-            {data.top_clusters.map((c) => (
-              <div key={c.cluster_id} className="flex items-center justify-between gap-3 rounded-lg px-2 py-2 hover:bg-white/5">
-                <div className="min-w-0">
-                  <div className="flex items-center gap-2">
-                    <span className="font-mono text-xs text-faint">{c.cluster_id}</span>
-                    <SeverityBadge severity={c.severity} />
+            {data.top_clusters.map((c) => {
+              const inner = (
+                <>
+                  <div className="min-w-0">
+                    <div className="flex items-center gap-2">
+                      <span className="font-mono text-xs text-faint">{c.cluster_id}</span>
+                      <SeverityBadge severity={c.severity} />
+                    </div>
+                    <p className="mt-0.5 truncate text-sm text-ink">{c.title}</p>
+                    <p className="truncate text-xs text-muted">{c.service}</p>
                   </div>
-                  <p className="mt-0.5 truncate text-sm text-ink">{c.title}</p>
-                  <p className="truncate text-xs text-muted">{c.service}</p>
+                  <div className="shrink-0 text-right">
+                    <div className="tabular-nums text-sm text-ink">{c.count.toLocaleString()}</div>
+                    <div className="text-xs text-sev-critical">{fmtGrowth(c.growth_pct, c.baseline_rate)}</div>
+                  </div>
+                </>
+              );
+              const cls = "flex items-center justify-between gap-3 rounded-lg px-2 py-2 hover:bg-white/5";
+              return c.incident_id ? (
+                <Link key={c.cluster_id} to={`/incidents/${c.incident_id}`} className={cls}>
+                  {inner}
+                </Link>
+              ) : (
+                <div key={c.cluster_id} className={cls}>
+                  {inner}
                 </div>
-                <div className="shrink-0 text-right">
-                  <div className="tabular-nums text-sm text-ink">{c.count.toLocaleString()}</div>
-                  <div className="text-xs text-sev-critical">{fmtGrowth(c.growth_pct, c.baseline_rate)}</div>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </Card>
 
@@ -209,21 +311,33 @@ export function DashboardPage() {
                 <Sparkles className="h-4 w-4 text-violet-400" /> AI Insights
               </span>
             }
-            subtitle="Automated correlations across your incidents"
+            subtitle="Automated correlations across your incidents — click to open"
           />
           <div className="space-y-2 p-3">
             {data.insights.length === 0 && (
               <p className="px-2 py-6 text-center text-sm text-muted">No correlations detected.</p>
             )}
-            {data.insights.map((ins, i) => (
-              <div key={i} className="rounded-lg border border-hairline bg-card p-3">
-                <div className="flex items-center justify-between">
-                  <span className="text-sm font-medium text-ink">{ins.title}</span>
-                  <span className="rounded bg-white/5 px-1.5 py-0.5 text-[10px] text-muted">{ins.kind}</span>
+            {data.insights.map((ins, i) => {
+              const body = (
+                <>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm font-medium text-ink">{ins.title}</span>
+                    <span className="rounded bg-white/5 px-1.5 py-0.5 text-[10px] text-muted">{ins.kind}</span>
+                  </div>
+                  <p className="mt-1 text-xs leading-relaxed text-muted">{ins.detail}</p>
+                </>
+              );
+              const cls = "block rounded-lg border border-hairline bg-card p-3";
+              return ins.incident_id ? (
+                <Link key={i} to={`/incidents/${ins.incident_id}`} className={cn(cls, "hover:bg-white/5")}>
+                  {body}
+                </Link>
+              ) : (
+                <div key={i} className={cls}>
+                  {body}
                 </div>
-                <p className="mt-1 text-xs leading-relaxed text-muted">{ins.detail}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </Card>
       </div>

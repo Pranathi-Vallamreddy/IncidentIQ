@@ -94,9 +94,9 @@ def _kpis(db: Session, run: models.Run,
         schemas.KpiOut(key="anomalies", label="Anomaly clusters",
                        value=str(len(anomalies)), raw=len(anomalies),
                        hint="detected"),
-        schemas.KpiOut(key="mttr", label="Mean time to resolve",
+        schemas.KpiOut(key="mttr", label="Mean incident duration",
                        value=_fmt_minutes(mttr), raw=mttr,
-                       hint="incident span"),
+                       hint="first → last seen"),
     ]
 
 
@@ -173,12 +173,14 @@ def _service_health(incidents: list[models.Incident],
 def _top_clusters(clusters: list[models.Cluster],
                   incidents: list[models.Incident]) -> list[schemas.TopClusterOut]:
     title_by_cluster = {i.cluster_id: i.title for i in incidents}
+    incident_by_cluster = {i.cluster_id: i.incident_id for i in incidents}
     ranked = sorted(clusters, key=lambda c: (c.anomaly_score, c.growth_pct, c.count), reverse=True)
     out = []
     for c in ranked[:5]:
         primary = max(c.services, key=c.services.get) if c.services else None
         out.append(schemas.TopClusterOut(
             cluster_id=c.cluster_id,
+            incident_id=incident_by_cluster.get(c.cluster_id),
             title=title_by_cluster.get(c.cluster_id, c.example[:60] or c.template[:60]),
             service=primary,
             severity=c.severity,
@@ -187,6 +189,20 @@ def _top_clusters(clusters: list[models.Cluster],
             baseline_rate=c.baseline_rate,
         ))
     return out
+
+
+def _pipeline(run: models.Run, clusters: list[models.Cluster],
+              incidents: list[models.Incident],
+              correlations: list[models.Correlation]) -> schemas.PipelineStats:
+    return schemas.PipelineStats(
+        events=run.event_count,
+        parsed=run.parsed_count,
+        unparsed=run.unparsed_count,
+        clusters=len(clusters),
+        anomalies=sum(1 for c in clusters if c.is_anomaly),
+        incidents=len(incidents),
+        correlations=len(correlations),
+    )
 
 
 def _insights(incidents: list[models.Incident],
@@ -212,6 +228,7 @@ def _insights(incidents: list[models.Incident],
             title="Cascading failure detected",
             detail=(f"{down.incident_id} ({down.service}) is downstream of "
                     f"{up.incident_id} ({up.service}). {corr.detail}"),
+            incident_id=up.incident_id,  # link to the root cause
         ))
     # A spike highlight for the strongest active anomaly.
     active_anoms = sorted(
@@ -224,6 +241,7 @@ def _insights(incidents: list[models.Incident],
             title="Volume spike detected",
             detail=(f"{top.incident_id} on {top.service} is spiking "
                     f"({top.count} events, {top.severity.lower()} severity)."),
+            incident_id=top.incident_id,
         ))
     return insights[:4]
 
@@ -255,6 +273,7 @@ def build_dashboard(db: Session, run: Optional[models.Run]) -> schemas.Dashboard
         top_clusters=_top_clusters(clusters, incidents),
         severity_distribution=dist,
         insights=_insights(incidents, correlations),
+        pipeline=_pipeline(run, clusters, incidents, correlations),
     )
 
 

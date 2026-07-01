@@ -121,6 +121,7 @@ export interface ServiceHealth {
 
 export interface TopCluster {
   cluster_id: string;
+  incident_id: string | null;
   title: string;
   service: string | null;
   severity: Severity;
@@ -133,6 +134,17 @@ export interface Insight {
   kind: string;
   title: string;
   detail: string;
+  incident_id: string | null;
+}
+
+export interface Pipeline {
+  events: number;
+  parsed: number;
+  unparsed: number;
+  clusters: number;
+  anomalies: number;
+  incidents: number;
+  correlations: number;
 }
 
 export interface Dashboard {
@@ -145,6 +157,7 @@ export interface Dashboard {
   top_clusters: TopCluster[];
   severity_distribution: Record<string, number>;
   insights: Insight[];
+  pipeline: Pipeline | null;
 }
 
 export interface TrendPoint {
