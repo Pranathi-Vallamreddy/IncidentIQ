@@ -32,7 +32,7 @@ feature works without an API key.
 
 ---
 
-## What to look at (for reviewers)
+## What to look at 
 
 - **A from-scratch [Drain](https://github.com/logpai/Drain3)-inspired template miner** (`engine/templates.py`) — a fixed-depth parse tree, not a library call.
 - **Statistically defensible anomaly detection** (`engine/anomaly.py`) — robust median/MAD baseline with a Poisson-style scale floor and a **√(2·ln n) scan correction** for the multiple-comparisons problem of scanning many time buckets.
