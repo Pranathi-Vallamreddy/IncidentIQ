@@ -126,25 +126,26 @@ determinism, and the full API surface.
 
 ## Deployment
 
-Architecture: the frontend calls the Render backend directly using a build-time
-`VITE_API_BASE` env var (no backend URL is hardcoded in the repo). The backend
-allows the Vercel origin via CORS.
+Architecture: the browser calls same-origin `/api`, and Vercel rewrites those
+requests to the Render backend server-side (`vercel.json`), so **no CORS is
+exercised** in production and there is no build-time API URL to configure.
 
 **Backend → Render** (`backend/render.yaml` blueprint):
 - Create a Blueprint from this repo (Blueprint Path `backend/render.yaml`).
 - Build generates the sample datasets; start runs uvicorn; health check is
   `/api/health`.
 - `GEMINI_API_KEY` is optional (blank → deterministic explainer).
-- CORS: by default the backend accepts any `https://*.vercel.app` origin
-  (`CORS_ORIGIN_REGEX`), so it works with your Vercel URL out of the box. To
-  restrict it, set `CORS_ORIGINS` to your exact frontend URL and blank out
-  `CORS_ORIGIN_REGEX`.
+- Note your service's URL (e.g. `https://incidentiq-api-xxxx.onrender.com`) — it
+  goes into `vercel.json` below. The backend also allows `*.vercel.app` via CORS
+  (`CORS_ORIGIN_REGEX`) in case you prefer direct calls instead of the proxy.
 
 **Frontend → Vercel** (`frontend/vercel.json`):
 - Set the Vercel project's **Root Directory to `frontend`** (monorepo).
-- Add an env var **`VITE_API_BASE`** = your Render URL + `/api` (no trailing
-  slash), e.g. `https://incidentiq-api.onrender.com/api`, for Production +
-  Preview.
+- In `vercel.json`, set the `/api/:path*` rewrite **destination** to your Render
+  URL + `/api/:path*`. This is the one value to update per deployment.
+- Do **not** set `VITE_API_BASE` in Vercel — leaving it unset makes the app use
+  the same-origin `/api` proxy. (Set it only if you intentionally want direct
+  cross-origin calls to Render instead of the proxy.)
 - `vercel.json` builds the Vite app, serves `dist/`, and falls back all routes
   to `index.html` for client-side routing.
 
