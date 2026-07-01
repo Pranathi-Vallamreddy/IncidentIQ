@@ -1,0 +1,1125 @@
+{"timestamp": "2026-06-30T12:00:22.539Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_76649 rows=46181 duration=673ms"}
+{"timestamp": "2026-06-30T12:00:22.845Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_31062 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:00:34.562Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_55049 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:00:34.949Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_470468 ms=144"}
+{"timestamp": "2026-06-30T12:00:52.232Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_185436 bytes=457609 heap=46%"}
+{"timestamp": "2026-06-30T12:00:52.805Z", "level": "INFO", "service": "auth-service", "message": "login success user=168241 method=password"}
+{"timestamp": "2026-06-30T12:00:55.238Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_991367 amount=197.11 currency=USD"}
+{"timestamp": "2026-06-30T12:00:56.007Z", "level": "INFO", "service": "auth-service", "message": "login success user=373896 method=password"}
+{"timestamp": "2026-06-30T12:01:01.203Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_767530 items=2 status=200 latency=124ms"}
+{"timestamp": "2026-06-30T12:01:17.613Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_090071 ms=167"}
+{"timestamp": "2026-06-30T12:01:18.586Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_155282 ms=95"}
+{"timestamp": "2026-06-30T12:01:19.727Z", "level": "INFO", "service": "auth-service", "message": "token issued user=204542 scope=read latency=93ms"}
+{"timestamp": "2026-06-30T12:01:23.116Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_238623 amount=221.51 currency=USD"}
+{"timestamp": "2026-06-30T12:01:26.890Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/59623 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T12:01:35.350Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_87356 rows=34477 duration=397ms"}
+{"timestamp": "2026-06-30T12:02:05.557Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_773270 ms=79"}
+{"timestamp": "2026-06-30T12:02:08.084Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/30835 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T12:02:10.243Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/24447 region=us-east ratio=0.92"}
+{"timestamp": "2026-06-30T12:02:15.188Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_280536 bytes=721641 heap=49%"}
+{"timestamp": "2026-06-30T12:02:15.486Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 9224 latency=135ms"}
+{"timestamp": "2026-06-30T12:02:16.576Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_011482 amount=468.25 currency=USD"}
+{"timestamp": "2026-06-30T12:02:25.053Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_87875 rows=5851 duration=417ms"}
+{"timestamp": "2026-06-30T12:02:26.095Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_577514 bytes=644250 heap=65%"}
+{"timestamp": "2026-06-30T12:02:50.296Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_69770 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:02:59.527Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/71646 region=us-east ratio=0.92"}
+{"timestamp": "2026-06-30T12:03:09.590Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/29278 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T12:03:20.838Z", "level": "INFO", "service": "auth-service", "message": "token issued user=490213 scope=read latency=98ms"}
+{"timestamp": "2026-06-30T12:03:22.130Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/89677 region=us-east ratio=0.92"}
+{"timestamp": "2026-06-30T12:03:23.451Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 1731 latency=166ms"}
+{"timestamp": "2026-06-30T12:03:27.666Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=0242493 total=335.15"}
+{"timestamp": "2026-06-30T12:03:29.795Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_16259 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:03:45.322Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_89523 rows=37080 duration=507ms"}
+{"timestamp": "2026-06-30T12:03:46.691Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_42069 rows=44555 duration=433ms"}
+{"timestamp": "2026-06-30T12:04:00.863Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 4755 latency=40ms"}
+{"timestamp": "2026-06-30T12:04:01.414Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_915505 bytes=794216 heap=52%"}
+{"timestamp": "2026-06-30T12:04:05.894Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_866303 bytes=804934 heap=65%"}
+{"timestamp": "2026-06-30T12:04:22.509Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_67204 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:04:26.391Z", "level": "INFO", "service": "auth-service", "message": "login success user=600948 method=password"}
+{"timestamp": "2026-06-30T12:04:31.252Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/20154 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T12:04:33.301Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/33125 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T12:04:38.680Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_485077 amount=361.03 currency=USD"}
+{"timestamp": "2026-06-30T12:04:42.395Z", "level": "INFO", "service": "auth-service", "message": "token issued user=882901 scope=read latency=111ms"}
+{"timestamp": "2026-06-30T12:04:44.200Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_318737 ms=108"}
+{"timestamp": "2026-06-30T12:05:03.532Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/51906 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T12:05:15.203Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 1546 latency=119ms"}
+{"timestamp": "2026-06-30T12:05:19.389Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_22628 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:05:20.478Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_99110 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:05:28.060Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_65084 rows=42882 duration=274ms"}
+{"timestamp": "2026-06-30T12:05:33.045Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_26546 rows=9328 duration=518ms"}
+{"timestamp": "2026-06-30T12:05:42.625Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_400533 ms=105"}
+{"timestamp": "2026-06-30T12:05:44.622Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_07509 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:05:48.312Z", "level": "INFO", "service": "auth-service", "message": "token issued user=383655 scope=read latency=115ms"}
+{"timestamp": "2026-06-30T12:06:01.493Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_949317 ms=267"}
+{"timestamp": "2026-06-30T12:06:01.768Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_66404 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:06:06.403Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 9604 latency=88ms"}
+{"timestamp": "2026-06-30T12:06:18.126Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_86723 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:06:20.198Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 8115 latency=53ms"}
+{"timestamp": "2026-06-30T12:06:20.266Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_835440 bytes=371934 heap=49%"}
+{"timestamp": "2026-06-30T12:06:32.996Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 6044 latency=57ms"}
+{"timestamp": "2026-06-30T12:06:40.473Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_81611 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:06:43.323Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/98126 region=us-east ratio=0.92"}
+{"timestamp": "2026-06-30T12:06:45.840Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/98882 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T12:06:51.229Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_34512 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:06:52.096Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_182554 ms=89"}
+{"timestamp": "2026-06-30T12:06:55.985Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_42905 rows=8550 duration=674ms"}
+{"timestamp": "2026-06-30T12:07:16.198Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_622994 ms=334"}
+{"timestamp": "2026-06-30T12:07:18.785Z", "level": "INFO", "service": "auth-service", "message": "login success user=316966 method=password"}
+{"timestamp": "2026-06-30T12:07:19.646Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=1827616 total=258.07"}
+{"timestamp": "2026-06-30T12:07:28.086Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_546874 ms=288"}
+{"timestamp": "2026-06-30T12:07:44.593Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_13626 rows=25069 duration=843ms"}
+{"timestamp": "2026-06-30T12:07:46.572Z", "level": "INFO", "service": "auth-service", "message": "token issued user=713307 scope=read latency=92ms"}
+{"timestamp": "2026-06-30T12:07:56.933Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_049581 amount=872.90 currency=USD"}
+{"timestamp": "2026-06-30T12:07:57.175Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_87623 rows=35293 duration=861ms"}
+{"timestamp": "2026-06-30T12:08:06.731Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/28128 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T12:08:07.238Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_98695 rows=48627 duration=205ms"}
+{"timestamp": "2026-06-30T12:08:09.826Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/74191 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T12:08:17.890Z", "level": "INFO", "service": "auth-service", "message": "login success user=874291 method=password"}
+{"timestamp": "2026-06-30T12:08:30.908Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_20051 rows=44737 duration=594ms"}
+{"timestamp": "2026-06-30T12:08:31.219Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6189951 total=64.01"}
+{"timestamp": "2026-06-30T12:08:33.133Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_581863 amount=482.67 currency=USD"}
+{"timestamp": "2026-06-30T12:08:38.129Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_12776 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:08:40.490Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_16646 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:08:51.906Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_839248 items=1 status=200 latency=291ms"}
+{"timestamp": "2026-06-30T12:08:58.777Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/72397 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T12:08:59.356Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 9156 latency=89ms"}
+{"timestamp": "2026-06-30T12:09:02.366Z", "level": "INFO", "service": "auth-service", "message": "login success user=656711 method=password"}
+{"timestamp": "2026-06-30T12:09:05.980Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/18493 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T12:09:06.163Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=2320247 total=299.51"}
+{"timestamp": "2026-06-30T12:09:15.649Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_343127 bytes=697296 heap=49%"}
+{"timestamp": "2026-06-30T12:09:18.535Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_546607 items=6 status=200 latency=167ms"}
+{"timestamp": "2026-06-30T12:09:22.189Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/06522 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T12:09:37.528Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_130797 items=5 status=200 latency=200ms"}
+{"timestamp": "2026-06-30T12:09:46.176Z", "level": "INFO", "service": "auth-service", "message": "login success user=759831 method=password"}
+{"timestamp": "2026-06-30T12:10:11.617Z", "level": "INFO", "service": "auth-service", "message": "login success user=560256 method=password"}
+{"timestamp": "2026-06-30T12:10:23.621Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/05810 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T12:10:26.425Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_63664 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:10:38.123Z", "level": "INFO", "service": "auth-service", "message": "token issued user=213231 scope=read latency=113ms"}
+{"timestamp": "2026-06-30T12:10:40.217Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_20098 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:10:44.017Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_485837 amount=756.64 currency=USD"}
+{"timestamp": "2026-06-30T12:10:45.267Z", "level": "INFO", "service": "auth-service", "message": "login success user=259996 method=password"}
+{"timestamp": "2026-06-30T12:10:57.769Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=4 idle=7"}
+{"timestamp": "2026-06-30T12:11:05.509Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_89580 rows=11974 duration=275ms"}
+{"timestamp": "2026-06-30T12:11:07.082Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_878539 amount=95.59 currency=USD"}
+{"timestamp": "2026-06-30T12:11:15.965Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=0070760 total=331.24"}
+{"timestamp": "2026-06-30T12:11:31.388Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/44322 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T12:11:36.887Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=7352826 total=369.84"}
+{"timestamp": "2026-06-30T12:11:46.613Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 1659 latency=148ms"}
+{"timestamp": "2026-06-30T12:11:46.901Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_60476 rows=5089 duration=298ms"}
+{"timestamp": "2026-06-30T12:11:47.783Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_15097 rows=10597 duration=491ms"}
+{"timestamp": "2026-06-30T12:12:00.211Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_769968 items=6 status=200 latency=97ms"}
+{"timestamp": "2026-06-30T12:12:16.280Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=2143607 total=179.27"}
+{"timestamp": "2026-06-30T12:12:30.307Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=7721635 total=135.46"}
+{"timestamp": "2026-06-30T12:12:35.109Z", "level": "INFO", "service": "auth-service", "message": "login success user=628273 method=password"}
+{"timestamp": "2026-06-30T12:12:36.027Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_46143 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:12:49.504Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_783280 items=7 status=200 latency=272ms"}
+{"timestamp": "2026-06-30T12:13:08.457Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_645139 amount=338.44 currency=USD"}
+{"timestamp": "2026-06-30T12:13:28.878Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/20956 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T12:13:33.470Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 4359 latency=139ms"}
+{"timestamp": "2026-06-30T12:13:41.576Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_49588 rows=45764 duration=362ms"}
+{"timestamp": "2026-06-30T12:13:42.343Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_907166 items=7 status=200 latency=211ms"}
+{"timestamp": "2026-06-30T12:13:43.693Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_73136 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:13:53.159Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_996421 bytes=253135 heap=56%"}
+{"timestamp": "2026-06-30T12:13:58.616Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=36 idle=32"}
+{"timestamp": "2026-06-30T12:13:59.533Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_03534 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:13:59.965Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_92110 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:14:04.713Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_868062 ms=72"}
+{"timestamp": "2026-06-30T12:14:08.819Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/61684 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T12:14:14.617Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_454227 items=7 status=200 latency=255ms"}
+{"timestamp": "2026-06-30T12:14:21.746Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 6266 latency=64ms"}
+{"timestamp": "2026-06-30T12:14:27.645Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_486654 ms=174"}
+{"timestamp": "2026-06-30T12:14:30.211Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/05474 region=us-east ratio=0.91"}
+{"timestamp": "2026-06-30T12:14:32.800Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_446616 amount=529.14 currency=USD"}
+{"timestamp": "2026-06-30T12:14:44.533Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=2811920 total=355.50"}
+{"timestamp": "2026-06-30T12:14:47.842Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/73944 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T12:14:49.498Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_94318 rows=28098 duration=892ms"}
+{"timestamp": "2026-06-30T12:14:53.769Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/44428 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T12:14:59.748Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6687437 total=375.66"}
+{"timestamp": "2026-06-30T12:15:02.092Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_141254 items=3 status=200 latency=299ms"}
+{"timestamp": "2026-06-30T12:15:16.806Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_61862 rows=27109 duration=291ms"}
+{"timestamp": "2026-06-30T12:15:17.310Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=7762251 total=362.82"}
+{"timestamp": "2026-06-30T12:15:21.100Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/54086 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T12:15:21.614Z", "level": "INFO", "service": "auth-service", "message": "login success user=393002 method=password"}
+{"timestamp": "2026-06-30T12:15:24.652Z", "level": "INFO", "service": "auth-service", "message": "login success user=592153 method=password"}
+{"timestamp": "2026-06-30T12:15:34.085Z", "level": "INFO", "service": "auth-service", "message": "token issued user=872981 scope=read latency=70ms"}
+{"timestamp": "2026-06-30T12:15:36.816Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/18999 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T12:15:57.757Z", "level": "INFO", "service": "auth-service", "message": "token issued user=495696 scope=read latency=47ms"}
+{"timestamp": "2026-06-30T12:16:09.211Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=39 idle=31"}
+{"timestamp": "2026-06-30T12:16:11.723Z", "level": "INFO", "service": "auth-service", "message": "token issued user=104482 scope=read latency=39ms"}
+{"timestamp": "2026-06-30T12:16:21.269Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_26160 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:16:22.579Z", "level": "INFO", "service": "auth-service", "message": "token issued user=384406 scope=read latency=33ms"}
+{"timestamp": "2026-06-30T12:16:27.324Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_68156 rows=34707 duration=697ms"}
+{"timestamp": "2026-06-30T12:16:27.493Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_159702 amount=74.63 currency=USD"}
+{"timestamp": "2026-06-30T12:16:27.745Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_490626 amount=45.62 currency=USD"}
+{"timestamp": "2026-06-30T12:16:47.245Z", "level": "INFO", "service": "auth-service", "message": "login success user=348248 method=password"}
+{"timestamp": "2026-06-30T12:16:47.602Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=12 idle=18"}
+{"timestamp": "2026-06-30T12:16:49.235Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/07046 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T12:17:07.668Z", "level": "INFO", "service": "auth-service", "message": "login success user=276103 method=password"}
+{"timestamp": "2026-06-30T12:17:11.740Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 7550 latency=127ms"}
+{"timestamp": "2026-06-30T12:17:27.248Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_720437 items=6 status=200 latency=236ms"}
+{"timestamp": "2026-06-30T12:17:30.797Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_38527 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:17:33.565Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_94484 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:18:11.943Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_260757 items=2 status=200 latency=203ms"}
+{"timestamp": "2026-06-30T12:18:12.680Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_260173 items=6 status=200 latency=201ms"}
+{"timestamp": "2026-06-30T12:18:14.917Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_98375 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:18:15.391Z", "level": "INFO", "service": "auth-service", "message": "login success user=408709 method=password"}
+{"timestamp": "2026-06-30T12:18:23.782Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_868293 ms=298"}
+{"timestamp": "2026-06-30T12:18:29.039Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_52275 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:18:45.191Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 2660 latency=37ms"}
+{"timestamp": "2026-06-30T12:18:49.052Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/26782 region=us-east ratio=0.91"}
+{"timestamp": "2026-06-30T12:18:57.159Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=4369311 total=186.28"}
+{"timestamp": "2026-06-30T12:19:12.730Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=4892484 total=329.82"}
+{"timestamp": "2026-06-30T12:19:15.703Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_81577 rows=21133 duration=238ms"}
+{"timestamp": "2026-06-30T12:19:18.850Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_046353 bytes=182719 heap=46%"}
+{"timestamp": "2026-06-30T12:19:37.923Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_61518 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:20:02.987Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_25989 rows=27325 duration=229ms"}
+{"timestamp": "2026-06-30T12:20:08.286Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=9041849 total=14.80"}
+{"timestamp": "2026-06-30T12:20:20.453Z", "level": "INFO", "service": "auth-service", "message": "token issued user=892247 scope=read latency=63ms"}
+{"timestamp": "2026-06-30T12:20:24.405Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_399199 bytes=356363 heap=68%"}
+{"timestamp": "2026-06-30T12:20:37.838Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_360759 ms=356"}
+{"timestamp": "2026-06-30T12:20:43.894Z", "level": "INFO", "service": "auth-service", "message": "login success user=703138 method=password"}
+{"timestamp": "2026-06-30T12:20:46.898Z", "level": "INFO", "service": "auth-service", "message": "token issued user=997113 scope=read latency=117ms"}
+{"timestamp": "2026-06-30T12:20:57.694Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_588447 bytes=456234 heap=65%"}
+{"timestamp": "2026-06-30T12:21:16.316Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=1004780 total=99.93"}
+{"timestamp": "2026-06-30T12:21:17.999Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_467288 items=7 status=200 latency=262ms"}
+{"timestamp": "2026-06-30T12:21:25.493Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_235005 ms=159"}
+{"timestamp": "2026-06-30T12:21:31.950Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=7 idle=18"}
+{"timestamp": "2026-06-30T12:21:33.925Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_12588 rows=44857 duration=377ms"}
+{"timestamp": "2026-06-30T12:21:44.470Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_71483 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:21:46.154Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=11 idle=5"}
+{"timestamp": "2026-06-30T12:21:50.435Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=39 idle=28"}
+{"timestamp": "2026-06-30T12:22:03.657Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_753744 bytes=129703 heap=68%"}
+{"timestamp": "2026-06-30T12:22:07.305Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_558048 items=3 status=200 latency=230ms"}
+{"timestamp": "2026-06-30T12:22:07.832Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_78819 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:22:08.165Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_149323 bytes=567018 heap=57%"}
+{"timestamp": "2026-06-30T12:22:19.684Z", "level": "INFO", "service": "auth-service", "message": "login success user=850941 method=password"}
+{"timestamp": "2026-06-30T12:22:29.352Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=9623791 total=62.45"}
+{"timestamp": "2026-06-30T12:22:31.356Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=15 idle=42"}
+{"timestamp": "2026-06-30T12:22:46.517Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_770346 items=5 status=200 latency=88ms"}
+{"timestamp": "2026-06-30T12:22:58.023Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_300541 ms=200"}
+{"timestamp": "2026-06-30T12:22:59.904Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_944816 bytes=621953 heap=44%"}
+{"timestamp": "2026-06-30T12:23:07.851Z", "level": "INFO", "service": "auth-service", "message": "token issued user=278721 scope=read latency=59ms"}
+{"timestamp": "2026-06-30T12:23:08.936Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_318894 items=4 status=200 latency=216ms"}
+{"timestamp": "2026-06-30T12:24:09.588Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_38211 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:24:10.556Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_46919 rows=38108 duration=693ms"}
+{"timestamp": "2026-06-30T12:24:11.152Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_76088 rows=44804 duration=671ms"}
+{"timestamp": "2026-06-30T12:24:15.890Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_47044 rows=27441 duration=216ms"}
+{"timestamp": "2026-06-30T12:24:19.564Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_108385 items=4 status=200 latency=91ms"}
+{"timestamp": "2026-06-30T12:24:21.959Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_45417 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:24:23.022Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_961171 items=5 status=200 latency=102ms"}
+{"timestamp": "2026-06-30T12:24:34.319Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_945834 amount=549.18 currency=USD"}
+{"timestamp": "2026-06-30T12:24:39.836Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_51406 rows=12323 duration=557ms"}
+{"timestamp": "2026-06-30T12:24:48.880Z", "level": "INFO", "service": "auth-service", "message": "token issued user=045098 scope=read latency=67ms"}
+{"timestamp": "2026-06-30T12:24:53.142Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_94685 rows=38077 duration=847ms"}
+{"timestamp": "2026-06-30T12:25:07.011Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/70033 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T12:25:16.895Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 3014 latency=54ms"}
+{"timestamp": "2026-06-30T12:25:24.981Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_70905 rows=1422 duration=434ms"}
+{"timestamp": "2026-06-30T12:26:17.860Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_301106 amount=844.48 currency=USD"}
+{"timestamp": "2026-06-30T12:26:24.168Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_99217 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:26:25.191Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_19190 rows=10242 duration=788ms"}
+{"timestamp": "2026-06-30T12:26:25.742Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_65360 rows=35909 duration=521ms"}
+{"timestamp": "2026-06-30T12:26:26.944Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_22303 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:26:33.508Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_24674 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:26:40.980Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/14985 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T12:26:42.450Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_95586 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:26:42.683Z", "level": "INFO", "service": "auth-service", "message": "login success user=391819 method=password"}
+{"timestamp": "2026-06-30T12:26:50.320Z", "level": "INFO", "service": "auth-service", "message": "token issued user=791334 scope=read latency=47ms"}
+{"timestamp": "2026-06-30T12:26:52.008Z", "level": "INFO", "service": "auth-service", "message": "token issued user=984401 scope=read latency=80ms"}
+{"timestamp": "2026-06-30T12:27:07.486Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_46661 rows=4825 duration=772ms"}
+{"timestamp": "2026-06-30T12:27:10.694Z", "level": "INFO", "service": "auth-service", "message": "login success user=409426 method=password"}
+{"timestamp": "2026-06-30T12:27:14.989Z", "level": "INFO", "service": "auth-service", "message": "login success user=113130 method=password"}
+{"timestamp": "2026-06-30T12:27:28.411Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_69642 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:27:37.321Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_563161 bytes=789796 heap=53%"}
+{"timestamp": "2026-06-30T12:27:38.159Z", "level": "INFO", "service": "auth-service", "message": "token issued user=711572 scope=read latency=36ms"}
+{"timestamp": "2026-06-30T12:27:38.913Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=1416156 total=24.59"}
+{"timestamp": "2026-06-30T12:27:44.245Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_84576 rows=17744 duration=518ms"}
+{"timestamp": "2026-06-30T12:27:44.599Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_217386 amount=469.54 currency=USD"}
+{"timestamp": "2026-06-30T12:27:51.151Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=9 idle=21"}
+{"timestamp": "2026-06-30T12:27:56.902Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=15 idle=48"}
+{"timestamp": "2026-06-30T12:28:06.654Z", "level": "INFO", "service": "auth-service", "message": "token issued user=630389 scope=read latency=108ms"}
+{"timestamp": "2026-06-30T12:28:13.225Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/11297 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T12:28:15.592Z", "level": "INFO", "service": "auth-service", "message": "login success user=092257 method=password"}
+{"timestamp": "2026-06-30T12:28:22.840Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_997613 bytes=585825 heap=41%"}
+{"timestamp": "2026-06-30T12:28:31.151Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_35427 rows=14658 duration=466ms"}
+{"timestamp": "2026-06-30T12:28:32.743Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_369009 amount=258.92 currency=USD"}
+{"timestamp": "2026-06-30T12:28:38.497Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_49506 rows=17228 duration=397ms"}
+{"timestamp": "2026-06-30T12:28:42.794Z", "level": "INFO", "service": "auth-service", "message": "login success user=143674 method=password"}
+{"timestamp": "2026-06-30T12:28:47.571Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/57833 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T12:28:54.373Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_89240 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:28:59.009Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_958594 amount=370.37 currency=USD"}
+{"timestamp": "2026-06-30T12:29:01.824Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/59416 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T12:29:03.424Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_038246 items=1 status=200 latency=146ms"}
+{"timestamp": "2026-06-30T12:29:07.321Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_98784 rows=23311 duration=796ms"}
+{"timestamp": "2026-06-30T12:29:27.195Z", "level": "INFO", "service": "auth-service", "message": "login success user=600915 method=password"}
+{"timestamp": "2026-06-30T12:29:30.748Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=7523625 total=198.89"}
+{"timestamp": "2026-06-30T12:30:05.611Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_695222 bytes=440926 heap=51%"}
+{"timestamp": "2026-06-30T12:30:07.130Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_42741 rows=45213 duration=488ms"}
+{"timestamp": "2026-06-30T12:30:13.649Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_510645 ms=315"}
+{"timestamp": "2026-06-30T12:30:21.667Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_168402 bytes=158925 heap=61%"}
+{"timestamp": "2026-06-30T12:30:24.375Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/70344 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T12:30:28.829Z", "level": "INFO", "service": "auth-service", "message": "login success user=956826 method=password"}
+{"timestamp": "2026-06-30T12:30:29.024Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_61185 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:30:53.508Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_90477 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:30:55.472Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_15419 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:30:56.656Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_59283 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:30:57.925Z", "level": "INFO", "service": "auth-service", "message": "login success user=722342 method=password"}
+{"timestamp": "2026-06-30T12:31:03.483Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_15067 rows=6429 duration=230ms"}
+{"timestamp": "2026-06-30T12:31:13.870Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/12930 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T12:31:16.103Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/90589 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T12:31:29.477Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/68648 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T12:31:37.001Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 2342 latency=135ms"}
+{"timestamp": "2026-06-30T12:31:40.941Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_995725 ms=261"}
+{"timestamp": "2026-06-30T12:31:47.649Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_11544 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:32:16.248Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_12152 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:32:18.221Z", "level": "INFO", "service": "auth-service", "message": "login success user=745945 method=password"}
+{"timestamp": "2026-06-30T12:32:21.976Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/17542 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T12:32:24.383Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_962352 ms=81"}
+{"timestamp": "2026-06-30T12:32:25.368Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_48850 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:32:31.482Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 3223 latency=88ms"}
+{"timestamp": "2026-06-30T12:32:31.632Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/39300 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T12:32:32.520Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_66613 rows=8353 duration=359ms"}
+{"timestamp": "2026-06-30T12:32:43.539Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/79516 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T12:32:45.217Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/07982 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T12:32:45.260Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_91259 rows=22273 duration=489ms"}
+{"timestamp": "2026-06-30T12:32:45.757Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/98385 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T12:32:46.277Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_89470 rows=28524 duration=572ms"}
+{"timestamp": "2026-06-30T12:32:48.587Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_916671 amount=155.75 currency=USD"}
+{"timestamp": "2026-06-30T12:33:02.461Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=7693829 total=218.61"}
+{"timestamp": "2026-06-30T12:33:04.125Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/49375 region=us-east ratio=0.91"}
+{"timestamp": "2026-06-30T12:33:07.683Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=6 idle=17"}
+{"timestamp": "2026-06-30T12:33:25.810Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_65931 rows=42302 duration=358ms"}
+{"timestamp": "2026-06-30T12:33:38.865Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=0591813 total=21.29"}
+{"timestamp": "2026-06-30T12:33:44.126Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/90222 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T12:33:49.478Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_557558 items=1 status=200 latency=277ms"}
+{"timestamp": "2026-06-30T12:33:50.077Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_567475 items=3 status=200 latency=206ms"}
+{"timestamp": "2026-06-30T12:33:50.306Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/39943 region=us-east ratio=0.91"}
+{"timestamp": "2026-06-30T12:33:59.378Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_951123 bytes=587255 heap=65%"}
+{"timestamp": "2026-06-30T12:33:59.714Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_137806 bytes=741763 heap=41%"}
+{"timestamp": "2026-06-30T12:34:06.416Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_58767 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:34:29.131Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_62299 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:34:29.362Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/33634 region=us-east ratio=0.92"}
+{"timestamp": "2026-06-30T12:34:32.072Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_59390 rows=35535 duration=233ms"}
+{"timestamp": "2026-06-30T12:34:41.004Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_33193 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:34:43.749Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_66853 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:34:48.860Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_369880 amount=344.67 currency=USD"}
+{"timestamp": "2026-06-30T12:34:59.526Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 8429 latency=96ms"}
+{"timestamp": "2026-06-30T12:35:00.257Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_714653 amount=823.29 currency=USD"}
+{"timestamp": "2026-06-30T12:35:09.078Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_175206 items=6 status=200 latency=211ms"}
+{"timestamp": "2026-06-30T12:35:25.297Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_515097 items=4 status=200 latency=146ms"}
+{"timestamp": "2026-06-30T12:35:55.700Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=3911427 total=139.04"}
+{"timestamp": "2026-06-30T12:35:56.747Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_092288 items=1 status=200 latency=288ms"}
+{"timestamp": "2026-06-30T12:36:01.551Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_475459 ms=113"}
+{"timestamp": "2026-06-30T12:36:01.690Z", "level": "INFO", "service": "auth-service", "message": "login success user=724798 method=password"}
+{"timestamp": "2026-06-30T12:36:11.076Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/98748 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T12:36:13.925Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_712295 bytes=428987 heap=51%"}
+{"timestamp": "2026-06-30T12:36:17.669Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 5399 latency=131ms"}
+{"timestamp": "2026-06-30T12:36:18.356Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_28295 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:36:29.785Z", "level": "INFO", "service": "auth-service", "message": "login success user=495065 method=password"}
+{"timestamp": "2026-06-30T12:36:31.362Z", "level": "INFO", "service": "auth-service", "message": "login success user=990929 method=password"}
+{"timestamp": "2026-06-30T12:36:39.053Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/39680 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T12:36:44.227Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_97020 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:36:53.516Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_962938 bytes=86180 heap=54%"}
+{"timestamp": "2026-06-30T12:37:09.245Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_907839 bytes=27687 heap=60%"}
+{"timestamp": "2026-06-30T12:37:10.147Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/67856 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T12:37:15.428Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_86477 rows=39589 duration=515ms"}
+{"timestamp": "2026-06-30T12:37:16.069Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/94419 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T12:37:22.136Z", "level": "INFO", "service": "auth-service", "message": "login success user=560814 method=password"}
+{"timestamp": "2026-06-30T12:37:25.922Z", "level": "INFO", "service": "auth-service", "message": "login success user=634166 method=password"}
+{"timestamp": "2026-06-30T12:37:35.763Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_86497 rows=28108 duration=351ms"}
+{"timestamp": "2026-06-30T12:37:42.498Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_63506 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:37:42.711Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_09660 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:38:02.021Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 9941 latency=86ms"}
+{"timestamp": "2026-06-30T12:38:03.951Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_26865 rows=23109 duration=342ms"}
+{"timestamp": "2026-06-30T12:38:09.265Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_103898 bytes=503907 heap=58%"}
+{"timestamp": "2026-06-30T12:38:13.707Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_14082 rows=44265 duration=564ms"}
+{"timestamp": "2026-06-30T12:38:13.895Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_545099 bytes=73917 heap=41%"}
+{"timestamp": "2026-06-30T12:38:18.211Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/82650 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T12:38:27.666Z", "level": "INFO", "service": "auth-service", "message": "login success user=285701 method=password"}
+{"timestamp": "2026-06-30T12:38:28.464Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/15907 region=us-east ratio=0.92"}
+{"timestamp": "2026-06-30T12:38:41.969Z", "level": "INFO", "service": "auth-service", "message": "login success user=879017 method=password"}
+{"timestamp": "2026-06-30T12:38:48.664Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_00039 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:38:54.568Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=4496294 total=34.54"}
+{"timestamp": "2026-06-30T12:38:57.130Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_36118 rows=22968 duration=311ms"}
+{"timestamp": "2026-06-30T12:38:57.574Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_99342 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:39:31.866Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_606385 bytes=247640 heap=55%"}
+{"timestamp": "2026-06-30T12:39:32.643Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/65959 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T12:39:32.984Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_811626 bytes=371063 heap=50%"}
+{"timestamp": "2026-06-30T12:39:34.091Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_30766 rows=24773 duration=301ms"}
+{"timestamp": "2026-06-30T12:39:38.197Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_330892 items=7 status=200 latency=251ms"}
+{"timestamp": "2026-06-30T12:39:48.924Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=37 idle=26"}
+{"timestamp": "2026-06-30T12:39:57.367Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_85543 rows=6917 duration=878ms"}
+{"timestamp": "2026-06-30T12:39:59.637Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_75631 rows=26807 duration=890ms"}
+{"timestamp": "2026-06-30T12:40:16.713Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_28706 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:40:18.545Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6886156 total=166.89"}
+{"timestamp": "2026-06-30T12:40:33.095Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_62507 rows=36537 duration=220ms"}
+{"timestamp": "2026-06-30T12:40:34.375Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=6 idle=31"}
+{"timestamp": "2026-06-30T12:40:37.118Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_099297 ms=360"}
+{"timestamp": "2026-06-30T12:40:38.732Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=5067571 total=249.79"}
+{"timestamp": "2026-06-30T12:40:53.816Z", "level": "INFO", "service": "auth-service", "message": "login success user=814892 method=password"}
+{"timestamp": "2026-06-30T12:40:54.067Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_33558 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:40:54.679Z", "level": "INFO", "service": "auth-service", "message": "token issued user=166330 scope=read latency=111ms"}
+{"timestamp": "2026-06-30T12:40:55.870Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=12 idle=16"}
+{"timestamp": "2026-06-30T12:41:01.536Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/10740 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T12:41:08.341Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_379799 amount=345.54 currency=USD"}
+{"timestamp": "2026-06-30T12:41:28.573Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_092378 items=2 status=200 latency=239ms"}
+{"timestamp": "2026-06-30T12:41:42.497Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=9933547 total=326.93"}
+{"timestamp": "2026-06-30T12:41:52.413Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=35 idle=49"}
+{"timestamp": "2026-06-30T12:42:01.913Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/50177 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T12:42:14.383Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_724101 bytes=173995 heap=60%"}
+{"timestamp": "2026-06-30T12:42:14.407Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/69061 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T12:42:23.050Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/63468 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T12:42:41.428Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_18449 rows=21650 duration=515ms"}
+{"timestamp": "2026-06-30T12:42:42.748Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6871777 total=200.37"}
+{"timestamp": "2026-06-30T12:42:57.792Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/09142 region=us-east ratio=0.92"}
+{"timestamp": "2026-06-30T12:43:14.883Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_61973 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:43:15.401Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_82014 rows=21918 duration=291ms"}
+{"timestamp": "2026-06-30T12:43:16.148Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/86256 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T12:43:16.752Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_778254 amount=45.72 currency=USD"}
+{"timestamp": "2026-06-30T12:43:34.161Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=34 idle=16"}
+{"timestamp": "2026-06-30T12:43:39.750Z", "level": "INFO", "service": "auth-service", "message": "token issued user=725954 scope=read latency=48ms"}
+{"timestamp": "2026-06-30T12:43:56.985Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=5971867 total=212.90"}
+{"timestamp": "2026-06-30T12:44:01.067Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_126890 ms=380"}
+{"timestamp": "2026-06-30T12:44:03.069Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/20965 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T12:44:05.764Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_52701 rows=12856 duration=858ms"}
+{"timestamp": "2026-06-30T12:44:06.988Z", "level": "INFO", "service": "auth-service", "message": "login success user=772250 method=password"}
+{"timestamp": "2026-06-30T12:44:08.355Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=5 idle=16"}
+{"timestamp": "2026-06-30T12:44:18.274Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6135005 total=226.84"}
+{"timestamp": "2026-06-30T12:44:37.768Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_77608 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:44:43.094Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_120541 bytes=761254 heap=41%"}
+{"timestamp": "2026-06-30T12:44:46.048Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_78604 rows=15106 duration=809ms"}
+{"timestamp": "2026-06-30T12:44:48.727Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_859841 items=5 status=200 latency=252ms"}
+{"timestamp": "2026-06-30T12:44:54.920Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/80523 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T12:44:56.375Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_964224 items=7 status=200 latency=264ms"}
+{"timestamp": "2026-06-30T12:44:56.888Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_508593 amount=223.43 currency=USD"}
+{"timestamp": "2026-06-30T12:45:01.429Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_255017 bytes=132183 heap=52%"}
+{"timestamp": "2026-06-30T12:45:06.389Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=7 idle=39"}
+{"timestamp": "2026-06-30T12:45:15.306Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_45129 rows=26080 duration=349ms"}
+{"timestamp": "2026-06-30T12:45:15.765Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_30501 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:45:15.906Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_33748 rows=15568 duration=353ms"}
+{"timestamp": "2026-06-30T12:45:17.571Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=31 idle=34"}
+{"timestamp": "2026-06-30T12:45:21.557Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_391245 items=3 status=200 latency=179ms"}
+{"timestamp": "2026-06-30T12:45:32.516Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 3715 latency=154ms"}
+{"timestamp": "2026-06-30T12:45:47.281Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_18410 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:45:48.067Z", "level": "INFO", "service": "auth-service", "message": "login success user=092512 method=password"}
+{"timestamp": "2026-06-30T12:46:12.820Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_383899 amount=846.77 currency=USD"}
+{"timestamp": "2026-06-30T12:46:23.881Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 6651 latency=67ms"}
+{"timestamp": "2026-06-30T12:46:38.252Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_702359 ms=74"}
+{"timestamp": "2026-06-30T12:46:57.741Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_862959 amount=487.51 currency=USD"}
+{"timestamp": "2026-06-30T12:47:05.479Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_769052 ms=256"}
+{"timestamp": "2026-06-30T12:47:09.025Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=31 idle=42"}
+{"timestamp": "2026-06-30T12:47:49.057Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_04605 rows=14761 duration=517ms"}
+{"timestamp": "2026-06-30T12:47:58.970Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_628347 items=4 status=200 latency=228ms"}
+{"timestamp": "2026-06-30T12:48:04.422Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_760841 bytes=519570 heap=59%"}
+{"timestamp": "2026-06-30T12:48:04.818Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/63837 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T12:48:23.045Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_639314 amount=139.05 currency=USD"}
+{"timestamp": "2026-06-30T12:48:30.183Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6370670 total=222.75"}
+{"timestamp": "2026-06-30T12:48:35.384Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_413645 amount=308.42 currency=USD"}
+{"timestamp": "2026-06-30T12:49:02.477Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_26021 rows=14245 duration=811ms"}
+{"timestamp": "2026-06-30T12:49:08.048Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_94405 rows=14172 duration=721ms"}
+{"timestamp": "2026-06-30T12:49:14.951Z", "level": "INFO", "service": "auth-service", "message": "token issued user=031059 scope=read latency=54ms"}
+{"timestamp": "2026-06-30T12:49:16.408Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=8407811 total=173.70"}
+{"timestamp": "2026-06-30T12:49:20.583Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 2444 latency=64ms"}
+{"timestamp": "2026-06-30T12:49:25.822Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_19958 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:49:40.675Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/64536 region=us-east ratio=0.92"}
+{"timestamp": "2026-06-30T12:49:41.554Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=3663756 total=230.92"}
+{"timestamp": "2026-06-30T12:49:45.707Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_443904 bytes=150151 heap=54%"}
+{"timestamp": "2026-06-30T12:49:56.127Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/88114 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T12:50:12.705Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/43636 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T12:50:22.063Z", "level": "INFO", "service": "auth-service", "message": "login success user=970602 method=password"}
+{"timestamp": "2026-06-30T12:50:47.673Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_56305 rows=14178 duration=738ms"}
+{"timestamp": "2026-06-30T12:51:06.758Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 1014 latency=158ms"}
+{"timestamp": "2026-06-30T12:51:14.116Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_00373 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:51:30.323Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/39393 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T12:51:33.672Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_24362 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:51:34.867Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/45886 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T12:51:38.419Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_00512 rows=19215 duration=264ms"}
+{"timestamp": "2026-06-30T12:52:03.611Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/10690 region=us-east ratio=0.91"}
+{"timestamp": "2026-06-30T12:52:06.066Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/18190 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T12:52:12.254Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_118831 items=6 status=200 latency=177ms"}
+{"timestamp": "2026-06-30T12:52:26.132Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_28258 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:52:26.519Z", "level": "INFO", "service": "auth-service", "message": "token issued user=015279 scope=read latency=46ms"}
+{"timestamp": "2026-06-30T12:52:28.121Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 9632 latency=50ms"}
+{"timestamp": "2026-06-30T12:52:31.492Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=7333781 total=313.27"}
+{"timestamp": "2026-06-30T12:52:44.678Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_22363 rows=16619 duration=347ms"}
+{"timestamp": "2026-06-30T12:52:52.538Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_201694 ms=310"}
+{"timestamp": "2026-06-30T12:52:53.698Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_094813 items=3 status=200 latency=264ms"}
+{"timestamp": "2026-06-30T12:53:02.304Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=3838941 total=161.29"}
+{"timestamp": "2026-06-30T12:53:03.678Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_51619 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:53:03.867Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 1930 latency=85ms"}
+{"timestamp": "2026-06-30T12:53:09.679Z", "level": "INFO", "service": "auth-service", "message": "login success user=493498 method=password"}
+{"timestamp": "2026-06-30T12:53:11.117Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_855618 amount=734.84 currency=USD"}
+{"timestamp": "2026-06-30T12:53:18.626Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/56959 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T12:53:20.374Z", "level": "INFO", "service": "auth-service", "message": "login success user=036839 method=password"}
+{"timestamp": "2026-06-30T12:53:20.935Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_29332 rows=39491 duration=739ms"}
+{"timestamp": "2026-06-30T12:53:26.266Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_064940 items=2 status=200 latency=263ms"}
+{"timestamp": "2026-06-30T12:53:34.491Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=8736945 total=206.80"}
+{"timestamp": "2026-06-30T12:53:35.353Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/94789 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T12:53:37.529Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_651857 bytes=354330 heap=51%"}
+{"timestamp": "2026-06-30T12:54:01.793Z", "level": "INFO", "service": "auth-service", "message": "login success user=955475 method=password"}
+{"timestamp": "2026-06-30T12:54:14.561Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_15391 rows=27276 duration=363ms"}
+{"timestamp": "2026-06-30T12:54:16.626Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_35068 rows=49548 duration=386ms"}
+{"timestamp": "2026-06-30T12:54:17.499Z", "level": "INFO", "service": "auth-service", "message": "token issued user=969965 scope=read latency=81ms"}
+{"timestamp": "2026-06-30T12:54:18.940Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_35597 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:54:23.308Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_422637 ms=146"}
+{"timestamp": "2026-06-30T12:54:25.486Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_21513 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:54:32.618Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_53643 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:54:32.685Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_98262 rows=7728 duration=414ms"}
+{"timestamp": "2026-06-30T12:54:53.157Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_893943 bytes=389326 heap=54%"}
+{"timestamp": "2026-06-30T12:54:53.888Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_965090 items=3 status=200 latency=231ms"}
+{"timestamp": "2026-06-30T12:55:23.488Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_22248 rows=45511 duration=683ms"}
+{"timestamp": "2026-06-30T12:55:29.193Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_60555 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:55:29.535Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_10752 rows=23215 duration=738ms"}
+{"timestamp": "2026-06-30T12:55:35.965Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_08763 rows=11361 duration=820ms"}
+{"timestamp": "2026-06-30T12:55:54.801Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/53943 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T12:55:59.959Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_190306 bytes=394655 heap=61%"}
+{"timestamp": "2026-06-30T12:56:13.462Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_893495 ms=257"}
+{"timestamp": "2026-06-30T12:56:25.751Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=15 idle=20"}
+{"timestamp": "2026-06-30T12:56:41.386Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_44405 rows=38068 duration=511ms"}
+{"timestamp": "2026-06-30T12:56:50.037Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_441080 ms=252"}
+{"timestamp": "2026-06-30T12:56:59.515Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_294476 ms=112"}
+{"timestamp": "2026-06-30T12:57:00.158Z", "level": "INFO", "service": "auth-service", "message": "token issued user=580233 scope=read latency=25ms"}
+{"timestamp": "2026-06-30T12:57:11.136Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_938008 ms=322"}
+{"timestamp": "2026-06-30T12:57:11.836Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_97582 status=200 attempt=1"}
+{"timestamp": "2026-06-30T12:57:12.582Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/41505 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T12:57:18.379Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=0908359 total=390.67"}
+{"timestamp": "2026-06-30T12:57:34.334Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 8284 latency=116ms"}
+{"timestamp": "2026-06-30T12:57:42.580Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/98270 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T12:57:44.701Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_80660 rows=8144 duration=552ms"}
+{"timestamp": "2026-06-30T12:58:15.493Z", "level": "INFO", "service": "auth-service", "message": "token issued user=860169 scope=read latency=119ms"}
+{"timestamp": "2026-06-30T12:58:28.150Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_07360 rows=37041 duration=442ms"}
+{"timestamp": "2026-06-30T12:58:37.623Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=9712155 total=33.96"}
+{"timestamp": "2026-06-30T12:58:38.912Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_141437 items=7 status=200 latency=298ms"}
+{"timestamp": "2026-06-30T12:58:57.762Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_729593 amount=280.32 currency=USD"}
+{"timestamp": "2026-06-30T12:59:22.221Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_989629 ms=397"}
+{"timestamp": "2026-06-30T12:59:26.367Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 6663 latency=169ms"}
+{"timestamp": "2026-06-30T12:59:42.821Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_563260 items=2 status=200 latency=175ms"}
+{"timestamp": "2026-06-30T12:59:43.690Z", "level": "INFO", "service": "auth-service", "message": "login success user=106608 method=password"}
+{"timestamp": "2026-06-30T12:59:50.793Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6659555 total=273.73"}
+{"timestamp": "2026-06-30T13:00:05.618Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_88764 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:00:05.670Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_17057 rows=13621 duration=600ms"}
+{"timestamp": "2026-06-30T13:00:09.191Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/99751 region=us-east ratio=0.92"}
+{"timestamp": "2026-06-30T13:00:36.212Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_250105 bytes=637649 heap=66%"}
+{"timestamp": "2026-06-30T13:00:37.381Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_464540 bytes=324761 heap=64%"}
+{"timestamp": "2026-06-30T13:00:49.425Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_740952 bytes=275480 heap=40%"}
+{"timestamp": "2026-06-30T13:00:49.938Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_55672 rows=39665 duration=549ms"}
+{"timestamp": "2026-06-30T13:00:52.892Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_39575 rows=49131 duration=257ms"}
+{"timestamp": "2026-06-30T13:00:53.645Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_498110 items=2 status=200 latency=173ms"}
+{"timestamp": "2026-06-30T13:01:08.222Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_60617 rows=10254 duration=590ms"}
+{"timestamp": "2026-06-30T13:01:13.223Z", "level": "INFO", "service": "auth-service", "message": "token issued user=841166 scope=read latency=96ms"}
+{"timestamp": "2026-06-30T13:01:14.495Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_94965 rows=13784 duration=495ms"}
+{"timestamp": "2026-06-30T13:01:19.987Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_923663 ms=242"}
+{"timestamp": "2026-06-30T13:01:21.494Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_39929 rows=21750 duration=245ms"}
+{"timestamp": "2026-06-30T13:01:34.597Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_21452 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:01:45.724Z", "level": "INFO", "service": "auth-service", "message": "login success user=566107 method=password"}
+{"timestamp": "2026-06-30T13:01:46.214Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_503573 items=7 status=200 latency=118ms"}
+{"timestamp": "2026-06-30T13:01:54.741Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_05207 rows=10889 duration=327ms"}
+{"timestamp": "2026-06-30T13:02:13.937Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_461101 bytes=555397 heap=50%"}
+{"timestamp": "2026-06-30T13:02:28.939Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/55081 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T13:02:29.073Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_95817 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:02:35.568Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_49407 rows=36210 duration=776ms"}
+{"timestamp": "2026-06-30T13:02:37.764Z", "level": "INFO", "service": "auth-service", "message": "login success user=697701 method=password"}
+{"timestamp": "2026-06-30T13:02:37.775Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_75740 rows=45371 duration=852ms"}
+{"timestamp": "2026-06-30T13:02:39.870Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_61035 rows=2601 duration=518ms"}
+{"timestamp": "2026-06-30T13:02:48.178Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/92589 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T13:02:48.576Z", "level": "INFO", "service": "auth-service", "message": "login success user=610572 method=password"}
+{"timestamp": "2026-06-30T13:03:13.965Z", "level": "INFO", "service": "auth-service", "message": "token issued user=905341 scope=read latency=46ms"}
+{"timestamp": "2026-06-30T13:03:17.607Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_835579 items=2 status=200 latency=203ms"}
+{"timestamp": "2026-06-30T13:03:20.194Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_95313 rows=2971 duration=438ms"}
+{"timestamp": "2026-06-30T13:03:32.136Z", "level": "INFO", "service": "auth-service", "message": "login success user=923850 method=password"}
+{"timestamp": "2026-06-30T13:03:48.122Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_940216 ms=99"}
+{"timestamp": "2026-06-30T13:03:55.875Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_87926 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:04:09.759Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_251857 bytes=458750 heap=52%"}
+{"timestamp": "2026-06-30T13:04:31.956Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_88210 rows=8744 duration=487ms"}
+{"timestamp": "2026-06-30T13:04:38.953Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_607698 ms=218"}
+{"timestamp": "2026-06-30T13:04:42.123Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_023648 bytes=482118 heap=47%"}
+{"timestamp": "2026-06-30T13:05:08.265Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/81420 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T13:05:20.597Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_021487 amount=462.38 currency=USD"}
+{"timestamp": "2026-06-30T13:05:20.922Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/71661 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T13:05:36.580Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_93033 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:05:46.112Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_201471 items=7 status=200 latency=141ms"}
+{"timestamp": "2026-06-30T13:05:46.616Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/17497 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:05:54.198Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_68587 rows=38290 duration=408ms"}
+{"timestamp": "2026-06-30T13:05:56.101Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=8717308 total=240.84"}
+{"timestamp": "2026-06-30T13:06:12.435Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=14 idle=25"}
+{"timestamp": "2026-06-30T13:06:15.077Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_53036 rows=17656 duration=544ms"}
+{"timestamp": "2026-06-30T13:06:28.303Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/48135 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T13:06:28.682Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_463912 bytes=528628 heap=41%"}
+{"timestamp": "2026-06-30T13:06:48.750Z", "level": "INFO", "service": "auth-service", "message": "login success user=361384 method=password"}
+{"timestamp": "2026-06-30T13:07:06.756Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_196557 amount=843.18 currency=USD"}
+{"timestamp": "2026-06-30T13:07:13.823Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_771956 bytes=869640 heap=48%"}
+{"timestamp": "2026-06-30T13:07:18.757Z", "level": "INFO", "service": "auth-service", "message": "login success user=627232 method=password"}
+{"timestamp": "2026-06-30T13:07:23.395Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/27479 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T13:07:24.985Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 1651 latency=178ms"}
+{"timestamp": "2026-06-30T13:07:28.313Z", "level": "INFO", "service": "auth-service", "message": "login success user=334188 method=password"}
+{"timestamp": "2026-06-30T13:07:34.279Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_14592 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:07:36.671Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_63945 rows=22510 duration=408ms"}
+{"timestamp": "2026-06-30T13:07:40.634Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/36246 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T13:07:41.441Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=4850733 total=23.02"}
+{"timestamp": "2026-06-30T13:07:42.541Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_663092 amount=224.06 currency=USD"}
+{"timestamp": "2026-06-30T13:07:46.396Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/88488 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:07:52.827Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_10049 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:07:54.405Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/48604 region=us-east ratio=0.91"}
+{"timestamp": "2026-06-30T13:07:56.198Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/09351 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T13:08:13.604Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_89908 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:08:17.050Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_706155 ms=376"}
+{"timestamp": "2026-06-30T13:08:18.160Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_044010 amount=231.94 currency=USD"}
+{"timestamp": "2026-06-30T13:08:36.210Z", "level": "INFO", "service": "auth-service", "message": "login success user=557819 method=password"}
+{"timestamp": "2026-06-30T13:08:43.312Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_466838 bytes=401727 heap=57%"}
+{"timestamp": "2026-06-30T13:08:52.256Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_97075 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:09:00.637Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_44120 rows=7024 duration=288ms"}
+{"timestamp": "2026-06-30T13:09:09.540Z", "level": "INFO", "service": "auth-service", "message": "login success user=722686 method=password"}
+{"timestamp": "2026-06-30T13:09:11.757Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 5418 latency=41ms"}
+{"timestamp": "2026-06-30T13:09:25.112Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_968300 bytes=573344 heap=42%"}
+{"timestamp": "2026-06-30T13:09:32.853Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/57856 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T13:09:38.599Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_34799 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:09:41.218Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6006609 total=394.40"}
+{"timestamp": "2026-06-30T13:09:59.515Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_976607 amount=38.92 currency=USD"}
+{"timestamp": "2026-06-30T13:10:04.272Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_20715 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:10:11.599Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_40814 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:10:26.319Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_53925 rows=30591 duration=855ms"}
+{"timestamp": "2026-06-30T13:10:27.004Z", "level": "INFO", "service": "auth-service", "message": "login success user=243805 method=password"}
+{"timestamp": "2026-06-30T13:10:28.586Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/83469 region=us-east ratio=0.91"}
+{"timestamp": "2026-06-30T13:10:29.913Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_093021 ms=237"}
+{"timestamp": "2026-06-30T13:10:32.415Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_757857 items=4 status=200 latency=97ms"}
+{"timestamp": "2026-06-30T13:10:38.131Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_975216 ms=325"}
+{"timestamp": "2026-06-30T13:11:02.846Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_951486 amount=762.32 currency=USD"}
+{"timestamp": "2026-06-30T13:11:11.012Z", "level": "INFO", "service": "auth-service", "message": "token issued user=671842 scope=read latency=83ms"}
+{"timestamp": "2026-06-30T13:11:12.782Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=5674030 total=146.52"}
+{"timestamp": "2026-06-30T13:11:17.968Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_01229 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:11:21.745Z", "level": "INFO", "service": "auth-service", "message": "token issued user=310386 scope=read latency=119ms"}
+{"timestamp": "2026-06-30T13:11:27.721Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_65195 rows=7937 duration=334ms"}
+{"timestamp": "2026-06-30T13:11:39.222Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_823717 ms=397"}
+{"timestamp": "2026-06-30T13:11:44.592Z", "level": "INFO", "service": "auth-service", "message": "login success user=294787 method=password"}
+{"timestamp": "2026-06-30T13:11:53.234Z", "level": "INFO", "service": "auth-service", "message": "token issued user=996789 scope=read latency=49ms"}
+{"timestamp": "2026-06-30T13:11:55.898Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=9860330 total=152.94"}
+{"timestamp": "2026-06-30T13:11:55.919Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_24977 rows=4505 duration=534ms"}
+{"timestamp": "2026-06-30T13:11:56.099Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_595789 bytes=118371 heap=60%"}
+{"timestamp": "2026-06-30T13:12:08.605Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_78690 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:12:19.634Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 8862 latency=86ms"}
+{"timestamp": "2026-06-30T13:12:25.083Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_45338 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:12:30.187Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_893207 ms=102"}
+{"timestamp": "2026-06-30T13:12:32.962Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_798546 items=5 status=200 latency=195ms"}
+{"timestamp": "2026-06-30T13:12:40.788Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/11229 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:12:41.822Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=9492480 total=371.70"}
+{"timestamp": "2026-06-30T13:13:00.307Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_577935 items=1 status=200 latency=276ms"}
+{"timestamp": "2026-06-30T13:13:14.378Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_797732 bytes=536206 heap=57%"}
+{"timestamp": "2026-06-30T13:13:15.723Z", "level": "INFO", "service": "auth-service", "message": "token issued user=450027 scope=read latency=108ms"}
+{"timestamp": "2026-06-30T13:13:19.800Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/80011 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T13:13:25.424Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_063214 bytes=644234 heap=56%"}
+{"timestamp": "2026-06-30T13:13:30.967Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_83797 rows=39190 duration=333ms"}
+{"timestamp": "2026-06-30T13:13:36.228Z", "level": "INFO", "service": "auth-service", "message": "token issued user=598379 scope=read latency=38ms"}
+{"timestamp": "2026-06-30T13:13:41.803Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/97019 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T13:13:42.632Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=1519556 total=208.91"}
+{"timestamp": "2026-06-30T13:13:46.107Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_222996 bytes=772302 heap=54%"}
+{"timestamp": "2026-06-30T13:14:02.593Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_68287 rows=21601 duration=810ms"}
+{"timestamp": "2026-06-30T13:14:10.190Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=39 idle=33"}
+{"timestamp": "2026-06-30T13:14:18.102Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/57314 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T13:14:50.730Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 4581 latency=167ms"}
+{"timestamp": "2026-06-30T13:14:53.767Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_43854 rows=27313 duration=522ms"}
+{"timestamp": "2026-06-30T13:14:56.543Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_99167 rows=34088 duration=401ms"}
+{"timestamp": "2026-06-30T13:15:07.934Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=5218626 total=248.64"}
+{"timestamp": "2026-06-30T13:15:12.031Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_594486 items=7 status=200 latency=230ms"}
+{"timestamp": "2026-06-30T13:15:16.659Z", "level": "INFO", "service": "auth-service", "message": "login success user=063681 method=password"}
+{"timestamp": "2026-06-30T13:15:24.569Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_792030 amount=658.26 currency=USD"}
+{"timestamp": "2026-06-30T13:15:25.492Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_23616 rows=14685 duration=415ms"}
+{"timestamp": "2026-06-30T13:15:26.043Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_11831 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:15:28.914Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_34718 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:15:31.627Z", "level": "INFO", "service": "auth-service", "message": "token issued user=020757 scope=read latency=56ms"}
+{"timestamp": "2026-06-30T13:15:32.928Z", "level": "INFO", "service": "auth-service", "message": "token issued user=208145 scope=read latency=115ms"}
+{"timestamp": "2026-06-30T13:15:43.047Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_226533 bytes=810319 heap=52%"}
+{"timestamp": "2026-06-30T13:15:43.538Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/69081 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T13:15:45.843Z", "level": "INFO", "service": "auth-service", "message": "login success user=929095 method=password"}
+{"timestamp": "2026-06-30T13:15:46.952Z", "level": "INFO", "service": "auth-service", "message": "login success user=940765 method=password"}
+{"timestamp": "2026-06-30T13:15:51.064Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_282497 bytes=60534 heap=51%"}
+{"timestamp": "2026-06-30T13:16:08.094Z", "level": "INFO", "service": "auth-service", "message": "login success user=970164 method=password"}
+{"timestamp": "2026-06-30T13:16:25.502Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_760040 bytes=680780 heap=58%"}
+{"timestamp": "2026-06-30T13:16:57.202Z", "level": "INFO", "service": "auth-service", "message": "login success user=137672 method=password"}
+{"timestamp": "2026-06-30T13:16:59.889Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_621402 ms=350"}
+{"timestamp": "2026-06-30T13:17:03.551Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_96616 rows=8524 duration=528ms"}
+{"timestamp": "2026-06-30T13:17:11.033Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_87798 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:17:20.928Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=23 idle=15"}
+{"timestamp": "2026-06-30T13:17:24.734Z", "level": "INFO", "service": "auth-service", "message": "token issued user=361328 scope=read latency=47ms"}
+{"timestamp": "2026-06-30T13:17:27.252Z", "level": "INFO", "service": "auth-service", "message": "token issued user=060011 scope=read latency=112ms"}
+{"timestamp": "2026-06-30T13:17:45.207Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=3 idle=17"}
+{"timestamp": "2026-06-30T13:17:50.617Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_87815 rows=4660 duration=596ms"}
+{"timestamp": "2026-06-30T13:17:58.506Z", "level": "INFO", "service": "auth-service", "message": "login success user=998370 method=password"}
+{"timestamp": "2026-06-30T13:18:15.276Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=31 idle=26"}
+{"timestamp": "2026-06-30T13:18:19.038Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/82618 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T13:18:19.169Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=14 idle=22"}
+{"timestamp": "2026-06-30T13:18:26.868Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_335156 ms=324"}
+{"timestamp": "2026-06-30T13:18:34.637Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/04458 region=us-east ratio=0.92"}
+{"timestamp": "2026-06-30T13:18:38.747Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_95401 rows=3173 duration=250ms"}
+{"timestamp": "2026-06-30T13:18:59.163Z", "level": "INFO", "service": "auth-service", "message": "token issued user=286162 scope=read latency=51ms"}
+{"timestamp": "2026-06-30T13:19:28.276Z", "level": "INFO", "service": "auth-service", "message": "token issued user=618474 scope=read latency=39ms"}
+{"timestamp": "2026-06-30T13:19:53.517Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/86342 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:20:00.884Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_143979 bytes=146864 heap=66%"}
+{"timestamp": "2026-06-30T13:20:03.957Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/19303 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T13:20:05.824Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_813579 items=3 status=200 latency=212ms"}
+{"timestamp": "2026-06-30T13:20:23.990Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_534556 amount=715.15 currency=USD"}
+{"timestamp": "2026-06-30T13:20:28.159Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_485576 items=1 status=200 latency=290ms"}
+{"timestamp": "2026-06-30T13:20:58.689Z", "level": "INFO", "service": "auth-service", "message": "token issued user=242633 scope=read latency=71ms"}
+{"timestamp": "2026-06-30T13:21:11.557Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_95426 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:21:25.209Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/74642 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:21:37.465Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_077017 ms=333"}
+{"timestamp": "2026-06-30T13:21:56.609Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_102795 items=6 status=200 latency=222ms"}
+{"timestamp": "2026-06-30T13:21:59.721Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 2123 latency=121ms"}
+{"timestamp": "2026-06-30T13:22:02.352Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_46038 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:22:04.755Z", "level": "INFO", "service": "auth-service", "message": "login success user=852975 method=password"}
+{"timestamp": "2026-06-30T13:22:09.809Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_395214 items=3 status=200 latency=276ms"}
+{"timestamp": "2026-06-30T13:22:26.977Z", "level": "INFO", "service": "auth-service", "message": "login success user=334791 method=password"}
+{"timestamp": "2026-06-30T13:22:34.598Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_66856 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:22:38.205Z", "level": "INFO", "service": "auth-service", "message": "login success user=856096 method=password"}
+{"timestamp": "2026-06-30T13:22:41.674Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=3520435 total=325.40"}
+{"timestamp": "2026-06-30T13:22:47.120Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_476221 ms=258"}
+{"timestamp": "2026-06-30T13:22:48.203Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=4372682 total=250.00"}
+{"timestamp": "2026-06-30T13:22:58.708Z", "level": "INFO", "service": "auth-service", "message": "login success user=567032 method=password"}
+{"timestamp": "2026-06-30T13:23:00.859Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_24507 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:23:17.540Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/65358 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T13:23:17.821Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/09563 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:23:29.018Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/10588 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T13:23:35.315Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_934189 bytes=811106 heap=67%"}
+{"timestamp": "2026-06-30T13:23:44.213Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_52824 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:24:02.417Z", "level": "INFO", "service": "auth-service", "message": "login success user=228175 method=password"}
+{"timestamp": "2026-06-30T13:24:02.651Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_068344 amount=753.13 currency=USD"}
+{"timestamp": "2026-06-30T13:24:07.782Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=0264865 total=149.46"}
+{"timestamp": "2026-06-30T13:24:14.145Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_58490 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:24:17.274Z", "level": "INFO", "service": "auth-service", "message": "token issued user=697984 scope=read latency=75ms"}
+{"timestamp": "2026-06-30T13:24:22.353Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_76736 rows=44803 duration=540ms"}
+{"timestamp": "2026-06-30T13:24:43.483Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_36678 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:24:49.678Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_39894 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:24:52.885Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_410378 bytes=67154 heap=46%"}
+{"timestamp": "2026-06-30T13:24:54.029Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_186852 bytes=182973 heap=52%"}
+{"timestamp": "2026-06-30T13:24:55.635Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/89505 region=us-east ratio=0.91"}
+{"timestamp": "2026-06-30T13:25:01.804Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 2547 latency=55ms"}
+{"timestamp": "2026-06-30T13:25:14.486Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_042246 ms=124"}
+{"timestamp": "2026-06-30T13:25:16.124Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/62766 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T13:25:19.885Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_86875 rows=25427 duration=548ms"}
+{"timestamp": "2026-06-30T13:25:30.781Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 7734 latency=102ms"}
+{"timestamp": "2026-06-30T13:25:42.029Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_99382 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:25:51.862Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=4950769 total=363.73"}
+{"timestamp": "2026-06-30T13:25:56.957Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_55639 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:26:05.426Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_02058 rows=19068 duration=574ms"}
+{"timestamp": "2026-06-30T13:26:26.731Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/77765 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T13:26:26.882Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_847589 ms=139"}
+{"timestamp": "2026-06-30T13:26:28.480Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=23 idle=41"}
+{"timestamp": "2026-06-30T13:26:37.500Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_03831 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:26:49.123Z", "level": "INFO", "service": "auth-service", "message": "login success user=676524 method=password"}
+{"timestamp": "2026-06-30T13:26:51.723Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_208163 bytes=41169 heap=61%"}
+{"timestamp": "2026-06-30T13:26:53.193Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_15867 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:27:00.296Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_91705 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:27:03.638Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_255781 amount=247.46 currency=USD"}
+{"timestamp": "2026-06-30T13:27:06.369Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_65254 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:27:09.486Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_25620 rows=6196 duration=691ms"}
+{"timestamp": "2026-06-30T13:27:11.388Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_554072 items=6 status=200 latency=87ms"}
+{"timestamp": "2026-06-30T13:27:24.351Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_692323 bytes=106106 heap=53%"}
+{"timestamp": "2026-06-30T13:27:30.693Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_49651 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:27:30.725Z", "level": "INFO", "service": "auth-service", "message": "login success user=892076 method=password"}
+{"timestamp": "2026-06-30T13:27:34.373Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=4832086 total=260.09"}
+{"timestamp": "2026-06-30T13:27:35.726Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/30182 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T13:27:38.252Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_650706 amount=725.09 currency=USD"}
+{"timestamp": "2026-06-30T13:27:52.235Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=4251199 total=69.29"}
+{"timestamp": "2026-06-30T13:27:53.392Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_755470 bytes=231517 heap=58%"}
+{"timestamp": "2026-06-30T13:27:54.079Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/01681 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T13:28:02.609Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_730172 ms=391"}
+{"timestamp": "2026-06-30T13:28:03.829Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/77841 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:28:09.526Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_936561 items=3 status=200 latency=212ms"}
+{"timestamp": "2026-06-30T13:28:11.108Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_06721 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:28:19.408Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_49435 rows=2655 duration=584ms"}
+{"timestamp": "2026-06-30T13:28:27.936Z", "level": "INFO", "service": "auth-service", "message": "login success user=931698 method=password"}
+{"timestamp": "2026-06-30T13:28:31.880Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/66099 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T13:28:37.586Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_04486 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:28:52.842Z", "level": "INFO", "service": "auth-service", "message": "login success user=125105 method=password"}
+{"timestamp": "2026-06-30T13:28:59.126Z", "level": "INFO", "service": "auth-service", "message": "login success user=194139 method=password"}
+{"timestamp": "2026-06-30T13:29:05.395Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_630535 items=7 status=200 latency=138ms"}
+{"timestamp": "2026-06-30T13:29:11.144Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/76254 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T13:29:21.285Z", "level": "INFO", "service": "auth-service", "message": "token issued user=768470 scope=read latency=68ms"}
+{"timestamp": "2026-06-30T13:29:32.576Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_98002 rows=35998 duration=760ms"}
+{"timestamp": "2026-06-30T13:29:37.107Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_299730 amount=747.58 currency=USD"}
+{"timestamp": "2026-06-30T13:30:10.264Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/87999 region=us-east ratio=0.91"}
+{"timestamp": "2026-06-30T13:30:10.872Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 2611 latency=70ms"}
+{"timestamp": "2026-06-30T13:30:11.877Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_924058 amount=150.70 currency=USD"}
+{"timestamp": "2026-06-30T13:30:12.163Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_88763 rows=4272 duration=425ms"}
+{"timestamp": "2026-06-30T13:30:15.904Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_95402 rows=2730 duration=566ms"}
+{"timestamp": "2026-06-30T13:30:20.265Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/07035 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:30:21.840Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_86915 rows=40871 duration=330ms"}
+{"timestamp": "2026-06-30T13:30:27.937Z", "level": "INFO", "service": "auth-service", "message": "token issued user=853729 scope=read latency=71ms"}
+{"timestamp": "2026-06-30T13:30:38.308Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_536806 items=6 status=200 latency=211ms"}
+{"timestamp": "2026-06-30T13:30:57.238Z", "level": "INFO", "service": "auth-service", "message": "login success user=729506 method=password"}
+{"timestamp": "2026-06-30T13:31:00.718Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 4118 latency=170ms"}
+{"timestamp": "2026-06-30T13:31:07.741Z", "level": "INFO", "service": "auth-service", "message": "token issued user=721296 scope=read latency=20ms"}
+{"timestamp": "2026-06-30T13:31:07.941Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_779240 amount=326.40 currency=USD"}
+{"timestamp": "2026-06-30T13:31:09.408Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_94919 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:31:11.762Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 9109 latency=76ms"}
+{"timestamp": "2026-06-30T13:31:21.821Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_21677 rows=3708 duration=755ms"}
+{"timestamp": "2026-06-30T13:31:35.271Z", "level": "INFO", "service": "auth-service", "message": "login success user=129912 method=password"}
+{"timestamp": "2026-06-30T13:31:39.371Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=3347398 total=349.57"}
+{"timestamp": "2026-06-30T13:31:39.540Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_317894 ms=186"}
+{"timestamp": "2026-06-30T13:31:42.669Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_60407 rows=43380 duration=487ms"}
+{"timestamp": "2026-06-30T13:31:47.309Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=4234456 total=53.40"}
+{"timestamp": "2026-06-30T13:31:50.046Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/89293 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T13:31:54.471Z", "level": "INFO", "service": "auth-service", "message": "token issued user=698177 scope=read latency=49ms"}
+{"timestamp": "2026-06-30T13:31:54.656Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/70468 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T13:32:04.402Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 8158 latency=31ms"}
+{"timestamp": "2026-06-30T13:32:23.149Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_52084 rows=2276 duration=739ms"}
+{"timestamp": "2026-06-30T13:32:25.581Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_08857 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:32:31.517Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 8267 latency=123ms"}
+{"timestamp": "2026-06-30T13:32:36.542Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_375503 bytes=851597 heap=47%"}
+{"timestamp": "2026-06-30T13:32:42.164Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_36788 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:32:48.202Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_67778 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:32:51.972Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_05657 rows=21615 duration=363ms"}
+{"timestamp": "2026-06-30T13:33:09.665Z", "level": "INFO", "service": "auth-service", "message": "token issued user=163086 scope=read latency=43ms"}
+{"timestamp": "2026-06-30T13:33:15.293Z", "level": "INFO", "service": "auth-service", "message": "token issued user=963491 scope=read latency=52ms"}
+{"timestamp": "2026-06-30T13:33:20.030Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_49449 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:33:20.048Z", "level": "INFO", "service": "auth-service", "message": "token issued user=449016 scope=read latency=96ms"}
+{"timestamp": "2026-06-30T13:33:21.559Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_94785 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:33:27.003Z", "level": "INFO", "service": "auth-service", "message": "login success user=643327 method=password"}
+{"timestamp": "2026-06-30T13:33:36.104Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_701457 items=6 status=200 latency=213ms"}
+{"timestamp": "2026-06-30T13:33:42.242Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=0052457 total=308.38"}
+{"timestamp": "2026-06-30T13:33:49.155Z", "level": "INFO", "service": "auth-service", "message": "login success user=152690 method=password"}
+{"timestamp": "2026-06-30T13:33:56.760Z", "level": "INFO", "service": "auth-service", "message": "login success user=852783 method=password"}
+{"timestamp": "2026-06-30T13:33:57.806Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_669698 items=6 status=200 latency=82ms"}
+{"timestamp": "2026-06-30T13:34:05.174Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_417692 bytes=395697 heap=59%"}
+{"timestamp": "2026-06-30T13:34:11.355Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_133780 amount=570.58 currency=USD"}
+{"timestamp": "2026-06-30T13:34:12.213Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_016777 amount=226.96 currency=USD"}
+{"timestamp": "2026-06-30T13:34:14.662Z", "level": "INFO", "service": "auth-service", "message": "token issued user=819605 scope=read latency=53ms"}
+{"timestamp": "2026-06-30T13:34:17.298Z", "level": "INFO", "service": "auth-service", "message": "login success user=337708 method=password"}
+{"timestamp": "2026-06-30T13:34:21.654Z", "level": "INFO", "service": "auth-service", "message": "token issued user=336610 scope=read latency=46ms"}
+{"timestamp": "2026-06-30T13:34:23.000Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_50684 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:34:23.921Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/16028 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T13:34:24.662Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/64197 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T13:34:32.318Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_141060 ms=83"}
+{"timestamp": "2026-06-30T13:34:34.291Z", "level": "INFO", "service": "auth-service", "message": "login success user=295921 method=password"}
+{"timestamp": "2026-06-30T13:34:34.556Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_547559 bytes=171244 heap=64%"}
+{"timestamp": "2026-06-30T13:34:53.004Z", "level": "INFO", "service": "auth-service", "message": "token issued user=988105 scope=read latency=109ms"}
+{"timestamp": "2026-06-30T13:35:06.103Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_06442 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:35:06.485Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=4960510 total=262.77"}
+{"timestamp": "2026-06-30T13:35:19.871Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 7934 latency=87ms"}
+{"timestamp": "2026-06-30T13:35:25.802Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_74262 rows=7772 duration=890ms"}
+{"timestamp": "2026-06-30T13:35:26.260Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_35459 rows=7605 duration=328ms"}
+{"timestamp": "2026-06-30T13:35:30.905Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/39123 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T13:35:33.727Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_918462 ms=114"}
+{"timestamp": "2026-06-30T13:35:38.545Z", "level": "INFO", "service": "auth-service", "message": "token issued user=413102 scope=read latency=86ms"}
+{"timestamp": "2026-06-30T13:35:41.754Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_97998 rows=3275 duration=860ms"}
+{"timestamp": "2026-06-30T13:35:51.824Z", "level": "INFO", "service": "auth-service", "message": "login success user=314139 method=password"}
+{"timestamp": "2026-06-30T13:36:00.628Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_615673 bytes=726990 heap=41%"}
+{"timestamp": "2026-06-30T13:36:01.932Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 8655 latency=104ms"}
+{"timestamp": "2026-06-30T13:36:06.505Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_07871 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:36:14.264Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/35012 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:36:17.600Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=23 idle=21"}
+{"timestamp": "2026-06-30T13:36:28.507Z", "level": "INFO", "service": "auth-service", "message": "token issued user=067029 scope=read latency=107ms"}
+{"timestamp": "2026-06-30T13:36:36.987Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_93430 rows=36275 duration=525ms"}
+{"timestamp": "2026-06-30T13:36:47.880Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_070734 bytes=726730 heap=64%"}
+{"timestamp": "2026-06-30T13:36:52.567Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/25964 region=us-east ratio=0.91"}
+{"timestamp": "2026-06-30T13:36:53.580Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=39 idle=28"}
+{"timestamp": "2026-06-30T13:37:07.490Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_81392 rows=37957 duration=489ms"}
+{"timestamp": "2026-06-30T13:37:11.496Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=1839043 total=80.92"}
+{"timestamp": "2026-06-30T13:37:11.780Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_306235 items=1 status=200 latency=165ms"}
+{"timestamp": "2026-06-30T13:37:15.796Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_134768 items=5 status=200 latency=146ms"}
+{"timestamp": "2026-06-30T13:37:20.321Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/97973 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T13:37:20.839Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_10220 rows=27181 duration=527ms"}
+{"timestamp": "2026-06-30T13:37:44.393Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=5529695 total=134.61"}
+{"timestamp": "2026-06-30T13:37:49.548Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=23 idle=45"}
+{"timestamp": "2026-06-30T13:38:03.214Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 3755 latency=163ms"}
+{"timestamp": "2026-06-30T13:38:07.093Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_40176 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:38:19.440Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/97497 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T13:38:21.574Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6636436 total=173.27"}
+{"timestamp": "2026-06-30T13:38:35.236Z", "level": "INFO", "service": "auth-service", "message": "login success user=260397 method=password"}
+{"timestamp": "2026-06-30T13:38:40.123Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/10085 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T13:38:47.802Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_930973 ms=66"}
+{"timestamp": "2026-06-30T13:38:51.757Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_379978 bytes=101596 heap=62%"}
+{"timestamp": "2026-06-30T13:38:56.501Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_35535 rows=12934 duration=694ms"}
+{"timestamp": "2026-06-30T13:39:02.575Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_66030 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:39:24.726Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/82302 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T13:39:29.146Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_76653 rows=14043 duration=296ms"}
+{"timestamp": "2026-06-30T13:39:36.417Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_75022 rows=7800 duration=871ms"}
+{"timestamp": "2026-06-30T13:39:41.688Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_575079 bytes=468164 heap=61%"}
+{"timestamp": "2026-06-30T13:39:53.535Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_364862 bytes=476479 heap=57%"}
+{"timestamp": "2026-06-30T13:40:06.726Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_206491 items=1 status=200 latency=237ms"}
+{"timestamp": "2026-06-30T13:40:29.926Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_115520 bytes=579315 heap=61%"}
+{"timestamp": "2026-06-30T13:40:54.090Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 3399 latency=177ms"}
+{"timestamp": "2026-06-30T13:41:01.631Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_85859 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:41:19.007Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_629792 items=1 status=200 latency=214ms"}
+{"timestamp": "2026-06-30T13:41:20.773Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_53608 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:41:23.212Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_10666 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:41:29.335Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_59007 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:41:36.885Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_47725 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:41:38.046Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_712130 items=2 status=200 latency=281ms"}
+{"timestamp": "2026-06-30T13:41:41.212Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 9823 latency=114ms"}
+{"timestamp": "2026-06-30T13:41:49.635Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=0428635 total=394.24"}
+{"timestamp": "2026-06-30T13:42:09.879Z", "level": "INFO", "service": "auth-service", "message": "token issued user=025183 scope=read latency=81ms"}
+{"timestamp": "2026-06-30T13:42:16.939Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/52349 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T13:42:49.317Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_938889 ms=158"}
+{"timestamp": "2026-06-30T13:42:50.107Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=2104451 total=207.04"}
+{"timestamp": "2026-06-30T13:42:50.339Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_63713 rows=6987 duration=375ms"}
+{"timestamp": "2026-06-30T13:43:05.788Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_986462 bytes=498459 heap=66%"}
+{"timestamp": "2026-06-30T13:43:24.432Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_486518 ms=110"}
+{"timestamp": "2026-06-30T13:43:39.319Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_99311 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:43:48.241Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_893672 ms=233"}
+{"timestamp": "2026-06-30T13:44:08.682Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 95% rss=1726MB oom risk asset=img_437353"}
+{"timestamp": "2026-06-30T13:44:17.171Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 90% rss=1788MB oom risk asset=img_576549"}
+{"timestamp": "2026-06-30T13:44:17.171Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/81105 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:44:21.365Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_41017 rows=37022 duration=854ms"}
+{"timestamp": "2026-06-30T13:44:26.894Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_26808 rows=29814 duration=348ms"}
+{"timestamp": "2026-06-30T13:44:31.008Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 95% rss=1766MB oom risk asset=img_672365"}
+{"timestamp": "2026-06-30T13:44:32.010Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_961960 amount=524.28 currency=USD"}
+{"timestamp": "2026-06-30T13:44:39.921Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 94% rss=2056MB oom risk asset=img_710247"}
+{"timestamp": "2026-06-30T13:44:40.007Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 92% rss=1825MB oom risk asset=img_945343"}
+{"timestamp": "2026-06-30T13:44:41.563Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_40751 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:44:47.254Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_569985 items=4 status=200 latency=101ms"}
+{"timestamp": "2026-06-30T13:44:50.394Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_65022 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:44:50.966Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_208990 amount=478.66 currency=USD"}
+{"timestamp": "2026-06-30T13:44:52.685Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 94% rss=1904MB oom risk asset=img_958118"}
+{"timestamp": "2026-06-30T13:44:56.041Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 98% rss=1769MB oom risk asset=img_617906"}
+{"timestamp": "2026-06-30T13:45:01.060Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 96% rss=2135MB oom risk asset=img_364935"}
+{"timestamp": "2026-06-30T13:45:02.810Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_35530 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:45:18.965Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_94488 rows=27820 duration=747ms"}
+{"timestamp": "2026-06-30T13:45:22.911Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 96% rss=1840MB oom risk asset=img_667344"}
+{"timestamp": "2026-06-30T13:45:23.590Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_01332 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:45:28.621Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 92% rss=1712MB oom risk asset=img_894673"}
+{"timestamp": "2026-06-30T13:45:35.066Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/90173 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T13:45:37.525Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 93% rss=2059MB oom risk asset=img_950654"}
+{"timestamp": "2026-06-30T13:45:39.549Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 95% rss=1785MB oom risk asset=img_121511"}
+{"timestamp": "2026-06-30T13:45:45.885Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_13057 rows=25776 duration=642ms"}
+{"timestamp": "2026-06-30T13:46:01.241Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=0522775 total=261.95"}
+{"timestamp": "2026-06-30T13:46:02.111Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 98% rss=1887MB oom risk asset=img_593759"}
+{"timestamp": "2026-06-30T13:46:03.208Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1991ms threshold=500ms user=814540"}
+{"timestamp": "2026-06-30T13:46:15.715Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 94% rss=1981MB oom risk asset=img_170401"}
+{"timestamp": "2026-06-30T13:46:16.626Z", "level": "INFO", "service": "auth-service", "message": "login success user=883166 method=password"}
+{"timestamp": "2026-06-30T13:46:16.643Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 94% rss=1971MB oom risk asset=img_019742"}
+{"timestamp": "2026-06-30T13:46:18.669Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/84200 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T13:46:26.187Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1179ms threshold=500ms user=372149"}
+{"timestamp": "2026-06-30T13:46:29.394Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_650086 ms=360"}
+{"timestamp": "2026-06-30T13:46:35.295Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6802161 total=340.00"}
+{"timestamp": "2026-06-30T13:46:37.167Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/64065 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T13:46:40.613Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=23 idle=34"}
+{"timestamp": "2026-06-30T13:46:44.277Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/93107 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T13:46:46.208Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/60538 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T13:46:47.785Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_60684 rows=14895 duration=335ms"}
+{"timestamp": "2026-06-30T13:46:53.269Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 5758 latency=117ms"}
+{"timestamp": "2026-06-30T13:46:53.276Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 93% rss=1779MB oom risk asset=img_333945"}
+{"timestamp": "2026-06-30T13:46:59.396Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_841614 ms=120"}
+{"timestamp": "2026-06-30T13:47:02.835Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1709ms threshold=500ms user=602748"}
+{"timestamp": "2026-06-30T13:47:06.564Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1819ms threshold=500ms user=212584"}
+{"timestamp": "2026-06-30T13:47:08.903Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_721978 bytes=728218 heap=46%"}
+{"timestamp": "2026-06-30T13:47:15.861Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1027ms threshold=500ms user=027032"}
+{"timestamp": "2026-06-30T13:47:25.543Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_186021 items=5 status=200 latency=298ms"}
+{"timestamp": "2026-06-30T13:47:26.264Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1762ms threshold=500ms user=250104"}
+{"timestamp": "2026-06-30T13:47:27.657Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_717332 bytes=188734 heap=67%"}
+{"timestamp": "2026-06-30T13:47:39.284Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_671598 amount=514.66 currency=USD"}
+{"timestamp": "2026-06-30T13:47:45.944Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2175ms threshold=500ms user=485543"}
+{"timestamp": "2026-06-30T13:47:55.325Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_22571 rows=37890 duration=867ms"}
+{"timestamp": "2026-06-30T13:48:00.612Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 6098 latency=174ms"}
+{"timestamp": "2026-06-30T13:48:01.222Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 90% rss=1774MB oom risk asset=img_019519"}
+{"timestamp": "2026-06-30T13:48:02.038Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 91% rss=1939MB oom risk asset=img_557084"}
+{"timestamp": "2026-06-30T13:48:05.285Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/52085 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T13:48:06.026Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 9302 latency=179ms"}
+{"timestamp": "2026-06-30T13:48:06.208Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2148ms threshold=500ms user=671183"}
+{"timestamp": "2026-06-30T13:48:09.509Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 98% rss=1892MB oom risk asset=img_201209"}
+{"timestamp": "2026-06-30T13:48:13.204Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 98% rss=2187MB oom risk asset=img_329122"}
+{"timestamp": "2026-06-30T13:48:19.328Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/76858 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T13:48:24.408Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1658ms threshold=500ms user=015132"}
+{"timestamp": "2026-06-30T13:48:24.794Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 92% rss=1895MB oom risk asset=img_440530"}
+{"timestamp": "2026-06-30T13:48:34.525Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 94% rss=2195MB oom risk asset=img_280702"}
+{"timestamp": "2026-06-30T13:48:39.949Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=5863559 total=40.81"}
+{"timestamp": "2026-06-30T13:48:41.246Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_27621 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:48:44.170Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 97% rss=1780MB oom risk asset=img_410643"}
+{"timestamp": "2026-06-30T13:48:48.150Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_272281 items=6 status=200 latency=257ms"}
+{"timestamp": "2026-06-30T13:48:54.780Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1080ms threshold=500ms user=721225"}
+{"timestamp": "2026-06-30T13:48:56.334Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2104ms threshold=500ms user=302105"}
+{"timestamp": "2026-06-30T13:48:58.034Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 93% rss=1949MB oom risk asset=img_358463"}
+{"timestamp": "2026-06-30T13:49:13.699Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1179ms threshold=500ms user=270447"}
+{"timestamp": "2026-06-30T13:49:14.723Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1207ms threshold=500ms user=036748"}
+{"timestamp": "2026-06-30T13:49:22.429Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=11 idle=17"}
+{"timestamp": "2026-06-30T13:49:25.446Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 93% rss=1910MB oom risk asset=img_358207"}
+{"timestamp": "2026-06-30T13:49:31.129Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1935ms threshold=500ms user=057755"}
+{"timestamp": "2026-06-30T13:49:31.936Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2126ms threshold=500ms user=640480"}
+{"timestamp": "2026-06-30T13:49:36.707Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1292ms threshold=500ms user=238991"}
+{"timestamp": "2026-06-30T13:49:37.770Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2178ms threshold=500ms user=986443"}
+{"timestamp": "2026-06-30T13:49:38.091Z", "level": "INFO", "service": "auth-service", "message": "login success user=433768 method=password"}
+{"timestamp": "2026-06-30T13:49:38.318Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 96% rss=1721MB oom risk asset=img_246379"}
+{"timestamp": "2026-06-30T13:49:39.400Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 94% rss=2000MB oom risk asset=img_776426"}
+{"timestamp": "2026-06-30T13:49:45.167Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=21 idle=40"}
+{"timestamp": "2026-06-30T13:49:47.028Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/65312 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T13:49:48.493Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2385ms threshold=500ms user=948157"}
+{"timestamp": "2026-06-30T13:49:53.846Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6307557 total=394.24"}
+{"timestamp": "2026-06-30T13:50:04.760Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 98% rss=1938MB oom risk asset=img_344321"}
+{"timestamp": "2026-06-30T13:50:10.412Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1156ms threshold=500ms user=815970"}
+{"timestamp": "2026-06-30T13:50:13.952Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 97% rss=2086MB oom risk asset=img_837081"}
+{"timestamp": "2026-06-30T13:50:15.663Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 96% rss=1754MB oom risk asset=img_057945"}
+{"timestamp": "2026-06-30T13:50:17.604Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 92% rss=2109MB oom risk asset=img_843962"}
+{"timestamp": "2026-06-30T13:50:20.027Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 93% rss=1740MB oom risk asset=img_061326"}
+{"timestamp": "2026-06-30T13:50:22.723Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1970ms threshold=500ms user=242642"}
+{"timestamp": "2026-06-30T13:50:32.872Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_19131 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:50:39.156Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 5159 latency=38ms"}
+{"timestamp": "2026-06-30T13:50:39.803Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1244ms threshold=500ms user=413129"}
+{"timestamp": "2026-06-30T13:50:49.373Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_24887 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:50:50.916Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1991ms threshold=500ms user=215693"}
+{"timestamp": "2026-06-30T13:50:53.923Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1650ms threshold=500ms user=823314"}
+{"timestamp": "2026-06-30T13:50:55.234Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_17464 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:50:55.766Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_70083 rows=22883 duration=707ms"}
+{"timestamp": "2026-06-30T13:50:57.333Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2389ms threshold=500ms user=415047"}
+{"timestamp": "2026-06-30T13:50:58.211Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1443ms threshold=500ms user=887707"}
+{"timestamp": "2026-06-30T13:51:04.720Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_329398 amount=134.72 currency=USD"}
+{"timestamp": "2026-06-30T13:51:08.243Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1876ms threshold=500ms user=449517"}
+{"timestamp": "2026-06-30T13:51:11.420Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1684ms threshold=500ms user=202926"}
+{"timestamp": "2026-06-30T13:51:12.623Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 95% rss=1970MB oom risk asset=img_981557"}
+{"timestamp": "2026-06-30T13:51:16.046Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_61546 rows=31104 duration=746ms"}
+{"timestamp": "2026-06-30T13:51:21.224Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2013ms threshold=500ms user=030213"}
+{"timestamp": "2026-06-30T13:51:21.564Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=16 idle=17"}
+{"timestamp": "2026-06-30T13:51:24.198Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 92% rss=1741MB oom risk asset=img_527412"}
+{"timestamp": "2026-06-30T13:51:24.286Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 93% rss=1744MB oom risk asset=img_913654"}
+{"timestamp": "2026-06-30T13:51:24.564Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 93% rss=1860MB oom risk asset=img_862367"}
+{"timestamp": "2026-06-30T13:51:27.844Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=8794100 total=21.90"}
+{"timestamp": "2026-06-30T13:51:28.405Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 92% rss=1778MB oom risk asset=img_608640"}
+{"timestamp": "2026-06-30T13:51:28.483Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2331ms threshold=500ms user=852667"}
+{"timestamp": "2026-06-30T13:51:28.517Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_00661 rows=36707 duration=559ms"}
+{"timestamp": "2026-06-30T13:51:35.808Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/44490 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:51:39.094Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 91% rss=1711MB oom risk asset=img_878460"}
+{"timestamp": "2026-06-30T13:51:39.596Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 91% rss=1918MB oom risk asset=img_053545"}
+{"timestamp": "2026-06-30T13:51:41.039Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2234ms threshold=500ms user=586404"}
+{"timestamp": "2026-06-30T13:51:41.353Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_53762 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:51:44.525Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_96917 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:51:45.318Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 93% rss=2037MB oom risk asset=img_241495"}
+{"timestamp": "2026-06-30T13:51:54.581Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2175ms threshold=500ms user=462564"}
+{"timestamp": "2026-06-30T13:51:55.068Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1935ms threshold=500ms user=487658"}
+{"timestamp": "2026-06-30T13:52:01.350Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 95% rss=1940MB oom risk asset=img_238630"}
+{"timestamp": "2026-06-30T13:52:12.591Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_864486 amount=684.13 currency=USD"}
+{"timestamp": "2026-06-30T13:52:19.815Z", "level": "INFO", "service": "auth-service", "message": "token issued user=177556 scope=read latency=116ms"}
+{"timestamp": "2026-06-30T13:52:23.032Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_60047 rows=47157 duration=696ms"}
+{"timestamp": "2026-06-30T13:52:24.439Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_465776 ms=212"}
+{"timestamp": "2026-06-30T13:52:30.493Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 91% rss=1844MB oom risk asset=img_796161"}
+{"timestamp": "2026-06-30T13:52:33.536Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 91% rss=1715MB oom risk asset=img_413172"}
+{"timestamp": "2026-06-30T13:52:44.039Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 98% rss=1738MB oom risk asset=img_891611"}
+{"timestamp": "2026-06-30T13:52:48.497Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2124ms threshold=500ms user=339836"}
+{"timestamp": "2026-06-30T13:52:50.670Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1165ms threshold=500ms user=509019"}
+{"timestamp": "2026-06-30T13:52:53.295Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_09062 rows=21706 duration=601ms"}
+{"timestamp": "2026-06-30T13:52:55.137Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 96% rss=1807MB oom risk asset=img_227902"}
+{"timestamp": "2026-06-30T13:52:56.080Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 92% rss=1878MB oom risk asset=img_413319"}
+{"timestamp": "2026-06-30T13:53:01.026Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_13881 rows=16915 duration=511ms"}
+{"timestamp": "2026-06-30T13:53:01.324Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 90% rss=2131MB oom risk asset=img_174279"}
+{"timestamp": "2026-06-30T13:53:02.438Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2040ms threshold=500ms user=932063"}
+{"timestamp": "2026-06-30T13:53:03.024Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=4 idle=5"}
+{"timestamp": "2026-06-30T13:53:03.693Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_61082 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:53:04.926Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 90% rss=1838MB oom risk asset=img_989664"}
+{"timestamp": "2026-06-30T13:53:09.178Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2027ms threshold=500ms user=159680"}
+{"timestamp": "2026-06-30T13:53:11.230Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1122ms threshold=500ms user=857427"}
+{"timestamp": "2026-06-30T13:53:13.736Z", "level": "INFO", "service": "auth-service", "message": "token issued user=761076 scope=read latency=32ms"}
+{"timestamp": "2026-06-30T13:53:18.356Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2239ms threshold=500ms user=434760"}
+{"timestamp": "2026-06-30T13:53:19.065Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_28470 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:53:23.907Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_179263 items=2 status=200 latency=223ms"}
+{"timestamp": "2026-06-30T13:53:24.352Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_365870 ms=186"}
+{"timestamp": "2026-06-30T13:53:25.689Z", "level": "INFO", "service": "auth-service", "message": "login success user=136114 method=password"}
+{"timestamp": "2026-06-30T13:53:28.256Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=2832565 total=133.73"}
+{"timestamp": "2026-06-30T13:53:33.290Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_59242 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:53:34.483Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 97% rss=2170MB oom risk asset=img_890850"}
+{"timestamp": "2026-06-30T13:53:37.541Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 95% rss=1782MB oom risk asset=img_971629"}
+{"timestamp": "2026-06-30T13:53:46.582Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_05433 rows=24601 duration=294ms"}
+{"timestamp": "2026-06-30T13:53:52.415Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_96909 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:53:53.176Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 93% rss=2049MB oom risk asset=img_462009"}
+{"timestamp": "2026-06-30T13:53:57.558Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_56077 rows=11623 duration=307ms"}
+{"timestamp": "2026-06-30T13:53:59.233Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 7836 latency=47ms"}
+{"timestamp": "2026-06-30T13:54:04.318Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 98% rss=1813MB oom risk asset=img_500772"}
+{"timestamp": "2026-06-30T13:54:06.462Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 97% rss=1887MB oom risk asset=img_958393"}
+{"timestamp": "2026-06-30T13:54:08.114Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1760ms threshold=500ms user=977011"}
+{"timestamp": "2026-06-30T13:54:10.488Z", "level": "INFO", "service": "payments-api", "message": "processed payment intent pi_923251 amount=496.26 currency=USD"}
+{"timestamp": "2026-06-30T13:54:10.536Z", "level": "INFO", "service": "auth-service", "message": "token issued user=436177 scope=read latency=30ms"}
+{"timestamp": "2026-06-30T13:54:14.862Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 92% rss=1794MB oom risk asset=img_705517"}
+{"timestamp": "2026-06-30T13:54:24.082Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 97% rss=1757MB oom risk asset=img_796112"}
+{"timestamp": "2026-06-30T13:54:26.811Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 94% rss=2179MB oom risk asset=img_030446"}
+{"timestamp": "2026-06-30T13:54:28.156Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 90% rss=1932MB oom risk asset=img_491241"}
+{"timestamp": "2026-06-30T13:54:32.106Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_552779 items=5 status=200 latency=212ms"}
+{"timestamp": "2026-06-30T13:54:36.734Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1564ms threshold=500ms user=928602"}
+{"timestamp": "2026-06-30T13:54:39.209Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6367160 total=117.53"}
+{"timestamp": "2026-06-30T13:54:48.985Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_942747 ms=227"}
+{"timestamp": "2026-06-30T13:54:50.604Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_28401 rows=13869 duration=245ms"}
+{"timestamp": "2026-06-30T13:54:51.243Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/42674 region=us-east ratio=0.96"}
+{"timestamp": "2026-06-30T13:54:59.511Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=22 idle=46"}
+{"timestamp": "2026-06-30T13:54:59.672Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2191ms threshold=500ms user=404514"}
+{"timestamp": "2026-06-30T13:54:59.711Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_094021 ms=313"}
+{"timestamp": "2026-06-30T13:55:00.386Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_172871 ms=367"}
+{"timestamp": "2026-06-30T13:55:00.412Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2340ms threshold=500ms user=749989"}
+{"timestamp": "2026-06-30T13:55:01.594Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1708ms threshold=500ms user=493684"}
+{"timestamp": "2026-06-30T13:55:03.277Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 94% rss=1925MB oom risk asset=img_115497"}
+{"timestamp": "2026-06-30T13:55:04.003Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_605400 ms=292"}
+{"timestamp": "2026-06-30T13:55:12.732Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/76793 region=us-east ratio=0.93"}
+{"timestamp": "2026-06-30T13:55:13.849Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=12 idle=9"}
+{"timestamp": "2026-06-30T13:55:15.510Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_12932 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:55:20.960Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 90% rss=1786MB oom risk asset=img_829188"}
+{"timestamp": "2026-06-30T13:55:21.993Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/31584 region=us-east ratio=0.97"}
+{"timestamp": "2026-06-30T13:55:23.733Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 97% rss=1759MB oom risk asset=img_437589"}
+{"timestamp": "2026-06-30T13:55:23.902Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_07509 rows=15596 duration=781ms"}
+{"timestamp": "2026-06-30T13:55:25.876Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_50841 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:55:29.598Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 97% rss=2076MB oom risk asset=img_848549"}
+{"timestamp": "2026-06-30T13:55:31.895Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 98% rss=2027MB oom risk asset=img_178828"}
+{"timestamp": "2026-06-30T13:55:33.439Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1931ms threshold=500ms user=000726"}
+{"timestamp": "2026-06-30T13:55:51.480Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2293ms threshold=500ms user=746499"}
+{"timestamp": "2026-06-30T13:55:53.380Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2273ms threshold=500ms user=374121"}
+{"timestamp": "2026-06-30T13:55:54.864Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 98% rss=2009MB oom risk asset=img_159519"}
+{"timestamp": "2026-06-30T13:56:03.200Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 96% rss=1951MB oom risk asset=img_565943"}
+{"timestamp": "2026-06-30T13:56:04.260Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/36602 region=us-east ratio=0.92"}
+{"timestamp": "2026-06-30T13:56:08.600Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=8076853 total=349.85"}
+{"timestamp": "2026-06-30T13:56:08.635Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/55647 region=us-east ratio=0.90"}
+{"timestamp": "2026-06-30T13:56:16.781Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1324ms threshold=500ms user=184194"}
+{"timestamp": "2026-06-30T13:56:20.603Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=4466921 total=18.59"}
+{"timestamp": "2026-06-30T13:56:25.267Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 98% rss=1949MB oom risk asset=img_571047"}
+{"timestamp": "2026-06-30T13:56:43.264Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2398ms threshold=500ms user=148522"}
+{"timestamp": "2026-06-30T13:56:50.186Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 98% rss=2123MB oom risk asset=img_686199"}
+{"timestamp": "2026-06-30T13:56:51.566Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_801991 items=4 status=200 latency=259ms"}
+{"timestamp": "2026-06-30T13:56:52.813Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2111ms threshold=500ms user=170778"}
+{"timestamp": "2026-06-30T13:56:56.014Z", "level": "INFO", "service": "analytics-api", "message": "rollup completed job=agg_66966 rows=4564 duration=412ms"}
+{"timestamp": "2026-06-30T13:56:59.251Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2008ms threshold=500ms user=305360"}
+{"timestamp": "2026-06-30T13:57:03.750Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2063ms threshold=500ms user=666102"}
+{"timestamp": "2026-06-30T13:57:04.136Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2140ms threshold=500ms user=385816"}
+{"timestamp": "2026-06-30T13:57:05.445Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1354ms threshold=500ms user=148139"}
+{"timestamp": "2026-06-30T13:57:08.848Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_047356 bytes=117211 heap=65%"}
+{"timestamp": "2026-06-30T13:57:12.632Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=0255527 total=121.30"}
+{"timestamp": "2026-06-30T13:57:12.847Z", "level": "INFO", "service": "auth-service", "message": "token issued user=264178 scope=read latency=40ms"}
+{"timestamp": "2026-06-30T13:57:14.631Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1310ms threshold=500ms user=509987"}
+{"timestamp": "2026-06-30T13:57:15.836Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 96% rss=1743MB oom risk asset=img_502070"}
+{"timestamp": "2026-06-30T13:57:16.141Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=9699868 total=261.27"}
+{"timestamp": "2026-06-30T13:57:17.696Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/13304 region=us-east ratio=0.98"}
+{"timestamp": "2026-06-30T13:57:18.918Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 96% rss=2051MB oom risk asset=img_805917"}
+{"timestamp": "2026-06-30T13:57:21.839Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 93% rss=2158MB oom risk asset=img_753125"}
+{"timestamp": "2026-06-30T13:57:27.198Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_64613 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:57:28.466Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 96% rss=2154MB oom risk asset=img_470250"}
+{"timestamp": "2026-06-30T13:57:30.093Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_486293 items=7 status=200 latency=129ms"}
+{"timestamp": "2026-06-30T13:57:30.940Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_102399 ms=312"}
+{"timestamp": "2026-06-30T13:57:37.575Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_521734 ms=72"}
+{"timestamp": "2026-06-30T13:57:43.977Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/32617 region=us-east ratio=0.95"}
+{"timestamp": "2026-06-30T13:57:44.215Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1132ms threshold=500ms user=248181"}
+{"timestamp": "2026-06-30T13:57:46.552Z", "level": "INFO", "service": "auth-service", "message": "login success user=808300 method=password"}
+{"timestamp": "2026-06-30T13:57:51.698Z", "level": "INFO", "service": "edge-cache", "message": "cache hit key=/product/24846 region=us-east ratio=0.94"}
+{"timestamp": "2026-06-30T13:57:53.364Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 92% rss=1814MB oom risk asset=img_758475"}
+{"timestamp": "2026-06-30T13:58:01.055Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2051ms threshold=500ms user=283425"}
+{"timestamp": "2026-06-30T13:58:16.287Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_161848 items=7 status=200 latency=270ms"}
+{"timestamp": "2026-06-30T13:58:17.896Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1228ms threshold=500ms user=158811"}
+{"timestamp": "2026-06-30T13:58:18.018Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 91% rss=2119MB oom risk asset=img_874968"}
+{"timestamp": "2026-06-30T13:58:20.485Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 94% rss=2193MB oom risk asset=img_804399"}
+{"timestamp": "2026-06-30T13:58:25.098Z", "level": "INFO", "service": "auth-service", "message": "token issued user=262424 scope=read latency=93ms"}
+{"timestamp": "2026-06-30T13:58:25.182Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 91% rss=1746MB oom risk asset=img_593718"}
+{"timestamp": "2026-06-30T13:58:29.355Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 92% rss=2079MB oom risk asset=img_608848"}
+{"timestamp": "2026-06-30T13:58:34.742Z", "level": "INFO", "service": "auth-service", "message": "login success user=198276 method=password"}
+{"timestamp": "2026-06-30T13:58:35.699Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1657ms threshold=500ms user=089955"}
+{"timestamp": "2026-06-30T13:58:36.493Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1846ms threshold=500ms user=231102"}
+{"timestamp": "2026-06-30T13:58:39.843Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2104ms threshold=500ms user=428852"}
+{"timestamp": "2026-06-30T13:58:39.904Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2242ms threshold=500ms user=064709"}
+{"timestamp": "2026-06-30T13:58:41.464Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_029172 bytes=604601 heap=66%"}
+{"timestamp": "2026-06-30T13:58:47.734Z", "level": "INFO", "service": "checkout-gateway", "message": "cart validated session=6023281 total=339.72"}
+{"timestamp": "2026-06-30T13:58:55.521Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 95% rss=2068MB oom risk asset=img_792365"}
+{"timestamp": "2026-06-30T13:58:59.645Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=2267ms threshold=500ms user=643210"}
+{"timestamp": "2026-06-30T13:59:00.674Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_263197 bytes=441763 heap=48%"}
+{"timestamp": "2026-06-30T13:59:02.165Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 95% rss=1989MB oom risk asset=img_938914"}
+{"timestamp": "2026-06-30T13:59:09.119Z", "level": "INFO", "service": "payments-api", "message": "charge authorized card=**** 5965 latency=72ms"}
+{"timestamp": "2026-06-30T13:59:14.404Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_86688 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:59:17.827Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_351165 ms=97"}
+{"timestamp": "2026-06-30T13:59:24.105Z", "level": "INFO", "service": "checkout-gateway", "message": "checkout completed order=ord_275942 items=5 status=200 latency=159ms"}
+{"timestamp": "2026-06-30T13:59:24.292Z", "level": "DEBUG", "service": "payments-api", "message": "acquired db connection from pool active=23 idle=37"}
+{"timestamp": "2026-06-30T13:59:29.762Z", "level": "INFO", "service": "webhooks", "message": "webhook delivered id=wh_22658 status=200 attempt=1"}
+{"timestamp": "2026-06-30T13:59:32.141Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 96% rss=2151MB oom risk asset=img_108109"}
+{"timestamp": "2026-06-30T13:59:33.288Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1877ms threshold=500ms user=382311"}
+{"timestamp": "2026-06-30T13:59:43.362Z", "level": "DEBUG", "service": "media-worker", "message": "thumbnail generated asset=img_905121 ms=319"}
+{"timestamp": "2026-06-30T13:59:47.832Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 97% rss=1921MB oom risk asset=img_541374"}
+{"timestamp": "2026-06-30T13:59:48.169Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1836ms threshold=500ms user=786921"}
+{"timestamp": "2026-06-30T13:59:55.211Z", "level": "INFO", "service": "media-worker", "message": "resized image asset=img_180184 bytes=579073 heap=43%"}
+{"timestamp": "2026-06-30T13:59:56.310Z", "level": "ERROR", "service": "media-worker", "message": "image resize worker heap usage 91% rss=1982MB oom risk asset=img_022682"}
+{"timestamp": "2026-06-30T13:59:57.876Z", "level": "ERROR", "service": "auth-service", "message": "auth token refresh exceeded slo latency=1959ms threshold=500ms user=833427"}

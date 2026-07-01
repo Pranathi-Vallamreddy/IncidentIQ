@@ -1,0 +1,27 @@
+"""Application configuration (env-driven, with safe defaults for local dev)."""
+
+from __future__ import annotations
+
+from pydantic_settings import BaseSettings, SettingsConfigDict
+
+
+class Settings(BaseSettings):
+    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+
+    gemini_api_key: str = ""
+    cors_origins: str = "http://localhost:5173,http://localhost:4173"
+    database_url: str = "sqlite:///./incidentiq.db"
+
+    # Engine defaults (overridable via the Settings page / AppSettings row).
+    default_sensitivity: float = 0.6
+
+    @property
+    def cors_origin_list(self) -> list[str]:
+        return [o.strip() for o in self.cors_origins.split(",") if o.strip()]
+
+    @property
+    def ai_enabled(self) -> bool:
+        return bool(self.gemini_api_key)
+
+
+settings = Settings()

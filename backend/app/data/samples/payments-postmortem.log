@@ -1,0 +1,520 @@
+2026-06-30T12:00:05.403Z INFO analytics-api rollup completed job=agg_01140 rows=11728 duration=338ms
+2026-06-30T12:01:04.044Z INFO payments-api processed payment intent pi_536426 amount=219.68 currency=USD
+2026-06-30T12:01:43.633Z INFO checkout-gateway checkout completed order=ord_219569 items=2 status=200 latency=150ms
+2026-06-30T12:02:07.823Z INFO edge-cache cache hit key=/product/20608 region=us-east ratio=0.91
+2026-06-30T12:02:08.105Z INFO edge-cache cache hit key=/product/94480 region=us-east ratio=0.95
+2026-06-30T12:03:17.789Z INFO webhooks webhook delivered id=wh_01060 status=200 attempt=1
+2026-06-30T12:03:18.352Z INFO analytics-api rollup completed job=agg_29686 rows=12485 duration=305ms
+2026-06-30T12:04:04.593Z INFO auth-service login success user=331079 method=password
+2026-06-30T12:05:16.137Z INFO payments-api processed payment intent pi_669209 amount=129.16 currency=USD
+2026-06-30T12:06:21.058Z INFO analytics-api rollup completed job=agg_43675 rows=19452 duration=771ms
+2026-06-30T12:08:32.857Z INFO auth-service login success user=902042 method=password
+2026-06-30T12:08:34.745Z INFO edge-cache cache hit key=/product/80471 region=us-east ratio=0.90
+2026-06-30T12:08:54.733Z INFO analytics-api rollup completed job=agg_09125 rows=7785 duration=370ms
+2026-06-30T12:09:00.364Z INFO webhooks webhook delivered id=wh_22011 status=200 attempt=1
+2026-06-30T12:09:29.148Z INFO edge-cache cache hit key=/product/68150 region=us-east ratio=0.98
+2026-06-30T12:09:34.222Z INFO analytics-api rollup completed job=agg_04566 rows=34963 duration=773ms
+2026-06-30T12:09:56.682Z INFO webhooks webhook delivered id=wh_12436 status=200 attempt=1
+2026-06-30T12:10:04.373Z INFO analytics-api rollup completed job=agg_56073 rows=4694 duration=400ms
+2026-06-30T12:10:12.741Z INFO checkout-gateway checkout completed order=ord_867578 items=3 status=200 latency=235ms
+2026-06-30T12:10:16.179Z INFO edge-cache cache hit key=/product/56898 region=us-east ratio=0.94
+2026-06-30T12:11:12.108Z INFO checkout-gateway checkout completed order=ord_373755 items=5 status=200 latency=188ms
+2026-06-30T12:12:26.054Z DEBUG media-worker thumbnail generated asset=img_297753 ms=384
+2026-06-30T12:12:38.637Z INFO payments-api charge authorized card=**** 1192 latency=143ms
+2026-06-30T12:12:57.403Z INFO media-worker resized image asset=img_138236 bytes=131112 heap=51%
+2026-06-30T12:13:04.462Z INFO media-worker resized image asset=img_736098 bytes=60018 heap=68%
+2026-06-30T12:13:10.214Z INFO payments-api processed payment intent pi_892836 amount=271.57 currency=USD
+2026-06-30T12:13:16.608Z INFO analytics-api rollup completed job=agg_56841 rows=16773 duration=727ms
+2026-06-30T12:13:49.153Z DEBUG media-worker thumbnail generated asset=img_921158 ms=263
+2026-06-30T12:13:49.790Z INFO edge-cache cache hit key=/product/31429 region=us-east ratio=0.94
+2026-06-30T12:14:18.407Z INFO payments-api charge authorized card=**** 8537 latency=65ms
+2026-06-30T12:15:32.471Z INFO media-worker resized image asset=img_634166 bytes=123261 heap=55%
+2026-06-30T12:16:09.326Z DEBUG media-worker thumbnail generated asset=img_937203 ms=182
+2026-06-30T12:16:23.776Z INFO analytics-api rollup completed job=agg_68307 rows=32205 duration=759ms
+2026-06-30T12:17:13.540Z INFO webhooks webhook delivered id=wh_96338 status=200 attempt=1
+2026-06-30T12:17:27.346Z INFO auth-service token issued user=152864 scope=read latency=40ms
+2026-06-30T12:17:47.325Z INFO payments-api processed payment intent pi_301010 amount=836.77 currency=USD
+2026-06-30T12:18:29.779Z DEBUG media-worker thumbnail generated asset=img_829191 ms=156
+2026-06-30T12:18:31.884Z INFO media-worker resized image asset=img_132580 bytes=256239 heap=51%
+2026-06-30T12:18:35.648Z INFO webhooks webhook delivered id=wh_43945 status=200 attempt=1
+2026-06-30T12:18:52.688Z INFO auth-service login success user=468300 method=password
+2026-06-30T12:19:01.847Z INFO analytics-api rollup completed job=agg_86829 rows=30349 duration=491ms
+2026-06-30T12:19:15.767Z INFO payments-api charge authorized card=**** 6110 latency=132ms
+2026-06-30T12:19:32.990Z INFO auth-service login success user=995569 method=password
+2026-06-30T12:19:38.958Z INFO webhooks webhook delivered id=wh_90288 status=200 attempt=1
+2026-06-30T12:19:49.654Z INFO auth-service token issued user=637397 scope=read latency=110ms
+2026-06-30T12:19:53.514Z INFO edge-cache cache hit key=/product/31244 region=us-east ratio=0.95
+2026-06-30T12:19:56.120Z INFO analytics-api rollup completed job=agg_89550 rows=39952 duration=559ms
+2026-06-30T12:20:02.120Z INFO webhooks webhook delivered id=wh_06552 status=200 attempt=1
+2026-06-30T12:20:36.605Z INFO payments-api charge authorized card=**** 8682 latency=116ms
+2026-06-30T12:20:39.671Z INFO analytics-api rollup completed job=agg_58221 rows=23434 duration=780ms
+2026-06-30T12:20:41.328Z INFO analytics-api rollup completed job=agg_05938 rows=17219 duration=306ms
+2026-06-30T12:21:11.065Z DEBUG media-worker thumbnail generated asset=img_017330 ms=249
+2026-06-30T12:21:23.806Z INFO edge-cache cache hit key=/product/57439 region=us-east ratio=0.97
+2026-06-30T12:22:41.121Z INFO media-worker resized image asset=img_225178 bytes=342378 heap=49%
+2026-06-30T12:23:32.839Z INFO auth-service token issued user=515736 scope=read latency=66ms
+2026-06-30T12:24:08.779Z INFO analytics-api rollup completed job=agg_67779 rows=19265 duration=898ms
+2026-06-30T12:24:31.804Z INFO edge-cache cache hit key=/product/13352 region=us-east ratio=0.92
+2026-06-30T12:24:54.110Z INFO auth-service login success user=817736 method=password
+2026-06-30T12:25:06.433Z INFO webhooks webhook delivered id=wh_14535 status=200 attempt=1
+2026-06-30T12:25:06.460Z INFO analytics-api rollup completed job=agg_43405 rows=24565 duration=438ms
+2026-06-30T12:25:41.761Z DEBUG media-worker thumbnail generated asset=img_326090 ms=210
+2026-06-30T12:26:29.663Z INFO analytics-api rollup completed job=agg_86400 rows=27039 duration=779ms
+2026-06-30T12:26:35.185Z DEBUG media-worker thumbnail generated asset=img_621264 ms=294
+2026-06-30T12:26:37.525Z INFO auth-service login success user=547842 method=password
+2026-06-30T12:26:42.942Z INFO payments-api charge authorized card=**** 2038 latency=139ms
+2026-06-30T12:26:44.121Z DEBUG payments-api acquired db connection from pool active=24 idle=11
+2026-06-30T12:27:24.166Z INFO webhooks webhook delivered id=wh_39320 status=200 attempt=1
+2026-06-30T12:27:34.362Z INFO auth-service login success user=799382 method=password
+2026-06-30T12:27:47.203Z DEBUG media-worker thumbnail generated asset=img_536690 ms=134
+2026-06-30T12:28:07.657Z INFO payments-api charge authorized card=**** 3685 latency=112ms
+2026-06-30T12:28:14.901Z DEBUG payments-api acquired db connection from pool active=33 idle=47
+2026-06-30T12:28:16.076Z INFO payments-api processed payment intent pi_247351 amount=99.97 currency=USD
+2026-06-30T12:28:55.194Z INFO edge-cache cache hit key=/product/41392 region=us-east ratio=0.90
+2026-06-30T12:29:15.681Z DEBUG media-worker thumbnail generated asset=img_943526 ms=248
+2026-06-30T12:29:19.723Z INFO auth-service token issued user=009650 scope=read latency=101ms
+2026-06-30T12:29:22.472Z INFO webhooks webhook delivered id=wh_56289 status=200 attempt=1
+2026-06-30T12:29:45.078Z INFO payments-api charge authorized card=**** 1722 latency=65ms
+2026-06-30T12:30:00.832Z INFO checkout-gateway checkout completed order=ord_592751 items=5 status=200 latency=296ms
+2026-06-30T12:30:04.622Z INFO auth-service token issued user=847655 scope=read latency=100ms
+2026-06-30T12:30:23.824Z INFO payments-api processed payment intent pi_834838 amount=171.90 currency=USD
+2026-06-30T12:32:29.149Z INFO webhooks webhook delivered id=wh_67384 status=200 attempt=1
+2026-06-30T12:32:52.630Z INFO checkout-gateway checkout completed order=ord_338237 items=2 status=200 latency=243ms
+2026-06-30T12:34:31.570Z INFO edge-cache cache hit key=/product/19828 region=us-east ratio=0.90
+2026-06-30T12:35:02.372Z INFO webhooks webhook delivered id=wh_78746 status=200 attempt=1
+2026-06-30T12:35:06.040Z INFO edge-cache cache hit key=/product/95223 region=us-east ratio=0.94
+2026-06-30T12:35:16.774Z INFO checkout-gateway checkout completed order=ord_513454 items=3 status=200 latency=220ms
+2026-06-30T12:35:41.752Z INFO payments-api processed payment intent pi_789046 amount=700.41 currency=USD
+2026-06-30T12:35:45.185Z INFO checkout-gateway cart validated session=8110916 total=124.00
+2026-06-30T12:35:48.929Z INFO edge-cache cache hit key=/product/09478 region=us-east ratio=0.91
+2026-06-30T12:36:12.618Z INFO edge-cache cache hit key=/product/45036 region=us-east ratio=0.97
+2026-06-30T12:36:39.519Z INFO auth-service login success user=783296 method=password
+2026-06-30T12:36:59.435Z INFO payments-api charge authorized card=**** 7861 latency=62ms
+2026-06-30T12:37:09.140Z INFO analytics-api rollup completed job=agg_58783 rows=22192 duration=655ms
+2026-06-30T12:37:16.962Z INFO webhooks webhook delivered id=wh_99113 status=200 attempt=1
+2026-06-30T12:37:37.123Z INFO webhooks webhook delivered id=wh_26383 status=200 attempt=1
+2026-06-30T12:38:26.675Z INFO media-worker resized image asset=img_962130 bytes=385010 heap=48%
+2026-06-30T12:39:24.759Z INFO checkout-gateway checkout completed order=ord_919454 items=2 status=200 latency=241ms
+2026-06-30T12:40:14.546Z INFO checkout-gateway checkout completed order=ord_095956 items=1 status=200 latency=118ms
+2026-06-30T12:40:25.035Z INFO analytics-api rollup completed job=agg_46667 rows=18709 duration=253ms
+2026-06-30T12:40:29.465Z INFO checkout-gateway cart validated session=5133554 total=126.68
+2026-06-30T12:41:34.957Z INFO auth-service login success user=009792 method=password
+2026-06-30T12:41:39.346Z INFO analytics-api rollup completed job=agg_70632 rows=26425 duration=253ms
+2026-06-30T12:41:39.506Z DEBUG media-worker thumbnail generated asset=img_821725 ms=315
+2026-06-30T12:42:04.053Z INFO edge-cache cache hit key=/product/88538 region=us-east ratio=0.93
+2026-06-30T12:42:34.264Z INFO analytics-api rollup completed job=agg_06459 rows=14011 duration=503ms
+2026-06-30T12:42:47.985Z INFO auth-service login success user=172187 method=password
+2026-06-30T12:43:10.770Z INFO analytics-api rollup completed job=agg_10151 rows=24047 duration=351ms
+2026-06-30T12:43:10.850Z INFO webhooks webhook delivered id=wh_32362 status=200 attempt=1
+2026-06-30T12:43:18.690Z INFO edge-cache cache hit key=/product/18023 region=us-east ratio=0.97
+2026-06-30T12:44:30.023Z INFO auth-service login success user=517443 method=password
+2026-06-30T12:47:09.144Z DEBUG media-worker thumbnail generated asset=img_242318 ms=378
+2026-06-30T12:47:58.646Z INFO checkout-gateway checkout completed order=ord_160905 items=6 status=200 latency=214ms
+2026-06-30T12:48:09.156Z INFO auth-service token issued user=718014 scope=read latency=104ms
+2026-06-30T12:48:20.587Z INFO analytics-api rollup completed job=agg_67764 rows=9067 duration=432ms
+2026-06-30T12:48:30.624Z INFO auth-service login success user=091046 method=password
+2026-06-30T12:49:22.858Z INFO edge-cache cache hit key=/product/33632 region=us-east ratio=0.91
+2026-06-30T12:49:33.216Z INFO webhooks webhook delivered id=wh_18075 status=200 attempt=1
+2026-06-30T12:49:58.206Z INFO webhooks webhook delivered id=wh_43787 status=200 attempt=1
+2026-06-30T12:50:12.159Z INFO webhooks webhook delivered id=wh_42665 status=200 attempt=1
+2026-06-30T12:50:27.753Z DEBUG payments-api acquired db connection from pool active=9 idle=18
+2026-06-30T12:50:27.904Z INFO checkout-gateway checkout completed order=ord_884568 items=1 status=200 latency=230ms
+2026-06-30T12:50:31.576Z INFO auth-service login success user=054782 method=password
+2026-06-30T12:50:51.180Z INFO analytics-api rollup completed job=agg_60420 rows=34097 duration=831ms
+2026-06-30T12:50:56.235Z DEBUG payments-api acquired db connection from pool active=27 idle=38
+2026-06-30T12:51:27.167Z INFO checkout-gateway cart validated session=8747638 total=99.90
+2026-06-30T12:52:28.941Z INFO edge-cache cache hit key=/product/91934 region=us-east ratio=0.96
+2026-06-30T12:52:30.282Z INFO checkout-gateway checkout completed order=ord_560164 items=6 status=200 latency=193ms
+2026-06-30T12:53:00.977Z INFO analytics-api rollup completed job=agg_71811 rows=47084 duration=579ms
+2026-06-30T12:53:37.100Z INFO webhooks webhook delivered id=wh_75522 status=200 attempt=1
+2026-06-30T12:53:40.707Z INFO analytics-api rollup completed job=agg_22293 rows=33365 duration=888ms
+2026-06-30T12:54:27.249Z INFO edge-cache cache hit key=/product/03091 region=us-east ratio=0.97
+2026-06-30T12:56:12.054Z INFO webhooks webhook delivered id=wh_93199 status=200 attempt=1
+2026-06-30T12:56:26.646Z INFO checkout-gateway checkout completed order=ord_049891 items=7 status=200 latency=147ms
+2026-06-30T12:57:08.959Z INFO webhooks webhook delivered id=wh_97624 status=200 attempt=1
+2026-06-30T12:57:57.301Z INFO analytics-api rollup completed job=agg_60645 rows=18282 duration=889ms
+2026-06-30T12:58:23.296Z INFO checkout-gateway cart validated session=5181170 total=264.42
+2026-06-30T12:58:27.024Z DEBUG media-worker thumbnail generated asset=img_251087 ms=80
+2026-06-30T12:58:40.673Z DEBUG media-worker thumbnail generated asset=img_057761 ms=264
+2026-06-30T12:58:55.806Z INFO checkout-gateway cart validated session=6479825 total=194.88
+2026-06-30T12:59:19.067Z INFO payments-api charge authorized card=**** 7778 latency=36ms
+2026-06-30T12:59:57.131Z INFO edge-cache cache hit key=/product/79479 region=us-east ratio=0.98
+2026-06-30T13:00:02.939Z INFO checkout-gateway checkout completed order=ord_226473 items=4 status=200 latency=186ms
+2026-06-30T13:00:03.492Z INFO auth-service login success user=297503 method=password
+2026-06-30T13:00:22.863Z DEBUG media-worker thumbnail generated asset=img_568376 ms=341
+2026-06-30T13:00:22.984Z INFO payments-api processed payment intent pi_390834 amount=100.15 currency=USD
+2026-06-30T13:00:26.072Z DEBUG media-worker thumbnail generated asset=img_080710 ms=107
+2026-06-30T13:00:33.865Z INFO webhooks webhook delivered id=wh_73656 status=200 attempt=1
+2026-06-30T13:00:38.200Z INFO media-worker resized image asset=img_135157 bytes=742382 heap=64%
+2026-06-30T13:01:04.362Z INFO analytics-api rollup completed job=agg_29498 rows=10303 duration=579ms
+2026-06-30T13:01:17.815Z INFO checkout-gateway checkout completed order=ord_449815 items=5 status=200 latency=227ms
+2026-06-30T13:01:46.371Z INFO webhooks webhook delivered id=wh_77785 status=200 attempt=1
+2026-06-30T13:02:03.972Z INFO webhooks webhook delivered id=wh_84828 status=200 attempt=1
+2026-06-30T13:02:31.392Z INFO auth-service token issued user=186575 scope=read latency=108ms
+2026-06-30T13:03:04.460Z INFO checkout-gateway cart validated session=8554133 total=260.08
+2026-06-30T13:03:32.288Z INFO webhooks webhook delivered id=wh_40586 status=200 attempt=1
+2026-06-30T13:04:30.556Z INFO auth-service login success user=865100 method=password
+2026-06-30T13:04:33.567Z INFO webhooks webhook delivered id=wh_29168 status=200 attempt=1
+2026-06-30T13:04:53.025Z INFO edge-cache cache hit key=/product/26035 region=us-east ratio=0.91
+2026-06-30T13:05:00.695Z INFO analytics-api rollup completed job=agg_90096 rows=6668 duration=757ms
+2026-06-30T13:05:06.835Z INFO payments-api charge authorized card=**** 5345 latency=90ms
+2026-06-30T13:05:10.410Z INFO media-worker resized image asset=img_707749 bytes=807554 heap=64%
+2026-06-30T13:05:11.521Z INFO checkout-gateway cart validated session=5248552 total=359.23
+2026-06-30T13:05:12.108Z INFO checkout-gateway checkout completed order=ord_261012 items=1 status=200 latency=223ms
+2026-06-30T13:05:20.966Z INFO media-worker resized image asset=img_173333 bytes=599354 heap=41%
+2026-06-30T13:05:57.096Z INFO analytics-api rollup completed job=agg_72067 rows=46219 duration=237ms
+2026-06-30T13:06:08.746Z INFO checkout-gateway cart validated session=9805542 total=162.21
+2026-06-30T13:06:12.025Z INFO auth-service login success user=950349 method=password
+2026-06-30T13:07:59.265Z INFO checkout-gateway cart validated session=5414911 total=104.19
+2026-06-30T13:08:16.312Z INFO analytics-api rollup completed job=agg_79371 rows=9472 duration=666ms
+2026-06-30T13:08:16.562Z INFO edge-cache cache hit key=/product/76033 region=us-east ratio=0.90
+2026-06-30T13:08:21.665Z INFO checkout-gateway cart validated session=3448949 total=350.63
+2026-06-30T13:08:47.522Z INFO payments-api processed payment intent pi_788395 amount=449.28 currency=USD
+2026-06-30T13:09:01.656Z INFO analytics-api rollup completed job=agg_75327 rows=16676 duration=565ms
+2026-06-30T13:10:47.821Z INFO auth-service token issued user=202143 scope=read latency=80ms
+2026-06-30T13:11:04.758Z INFO checkout-gateway cart validated session=7790182 total=58.38
+2026-06-30T13:11:08.153Z INFO media-worker resized image asset=img_130193 bytes=50408 heap=53%
+2026-06-30T13:11:32.083Z DEBUG media-worker thumbnail generated asset=img_139225 ms=142
+2026-06-30T13:11:32.178Z INFO auth-service login success user=502310 method=password
+2026-06-30T13:11:40.586Z INFO analytics-api rollup completed job=agg_81892 rows=43587 duration=879ms
+2026-06-30T13:11:55.617Z INFO webhooks webhook delivered id=wh_18895 status=200 attempt=1
+2026-06-30T13:12:37.361Z INFO media-worker resized image asset=img_270489 bytes=36420 heap=69%
+2026-06-30T13:12:57.671Z INFO auth-service token issued user=973071 scope=read latency=77ms
+2026-06-30T13:13:23.596Z DEBUG payments-api acquired db connection from pool active=31 idle=43
+2026-06-30T13:13:28.880Z INFO analytics-api rollup completed job=agg_59948 rows=12790 duration=713ms
+2026-06-30T13:13:46.531Z INFO media-worker resized image asset=img_312366 bytes=31053 heap=46%
+2026-06-30T13:13:59.977Z INFO checkout-gateway cart validated session=5801396 total=302.32
+2026-06-30T13:15:24.720Z INFO webhooks webhook delivered id=wh_11295 status=200 attempt=1
+2026-06-30T13:15:49.674Z INFO media-worker resized image asset=img_825194 bytes=663285 heap=69%
+2026-06-30T13:17:39.968Z INFO payments-api charge authorized card=**** 4509 latency=41ms
+2026-06-30T13:17:48.756Z INFO edge-cache cache hit key=/product/64575 region=us-east ratio=0.90
+2026-06-30T13:18:16.893Z DEBUG payments-api acquired db connection from pool active=6 idle=38
+2026-06-30T13:18:31.720Z INFO webhooks webhook delivered id=wh_80859 status=200 attempt=1
+2026-06-30T13:19:16.676Z INFO auth-service login success user=451728 method=password
+2026-06-30T13:19:51.209Z INFO webhooks webhook delivered id=wh_08732 status=200 attempt=1
+2026-06-30T13:20:51.828Z DEBUG media-worker thumbnail generated asset=img_681221 ms=81
+2026-06-30T13:21:18.313Z INFO payments-api processed payment intent pi_959198 amount=254.50 currency=USD
+2026-06-30T13:21:22.730Z INFO auth-service login success user=763370 method=password
+2026-06-30T13:22:04.082Z DEBUG payments-api acquired db connection from pool active=9 idle=35
+2026-06-30T13:22:21.718Z INFO auth-service login success user=689062 method=password
+2026-06-30T13:22:24.292Z INFO analytics-api rollup completed job=agg_32941 rows=6058 duration=672ms
+2026-06-30T13:22:27.376Z DEBUG payments-api acquired db connection from pool active=36 idle=16
+2026-06-30T13:22:55.614Z INFO edge-cache cache hit key=/product/88539 region=us-east ratio=0.92
+2026-06-30T13:23:12.762Z DEBUG media-worker thumbnail generated asset=img_182301 ms=224
+2026-06-30T13:24:15.051Z INFO media-worker resized image asset=img_935692 bytes=567356 heap=56%
+2026-06-30T13:25:08.511Z DEBUG media-worker thumbnail generated asset=img_301822 ms=191
+2026-06-30T13:26:25.516Z INFO webhooks webhook delivered id=wh_48059 status=200 attempt=1
+2026-06-30T13:27:30.753Z INFO checkout-gateway checkout completed order=ord_094180 items=2 status=200 latency=177ms
+2026-06-30T13:28:15.739Z INFO webhooks webhook delivered id=wh_11987 status=200 attempt=1
+2026-06-30T13:28:31.641Z INFO payments-api charge authorized card=**** 6286 latency=50ms
+2026-06-30T13:28:47.257Z INFO checkout-gateway cart validated session=5919802 total=302.53
+2026-06-30T13:28:50.584Z INFO auth-service token issued user=977465 scope=read latency=72ms
+2026-06-30T13:29:05.225Z DEBUG payments-api acquired db connection from pool active=21 idle=30
+2026-06-30T13:29:08.691Z INFO payments-api processed payment intent pi_065922 amount=263.43 currency=USD
+2026-06-30T13:29:23.909Z DEBUG media-worker thumbnail generated asset=img_402112 ms=114
+2026-06-30T13:29:36.380Z INFO payments-api processed payment intent pi_728104 amount=808.37 currency=USD
+2026-06-30T13:29:44.871Z INFO webhooks webhook delivered id=wh_36535 status=200 attempt=1
+2026-06-30T13:30:01.383Z INFO auth-service login success user=444255 method=password
+2026-06-30T13:30:07.769Z INFO auth-service login success user=724962 method=password
+2026-06-30T13:31:50.334Z INFO analytics-api rollup completed job=agg_29367 rows=6147 duration=497ms
+2026-06-30T13:32:39.718Z INFO auth-service login success user=423237 method=password
+2026-06-30T13:33:02.425Z INFO analytics-api rollup completed job=agg_80101 rows=17836 duration=829ms
+2026-06-30T13:33:24.674Z INFO edge-cache cache hit key=/product/80812 region=us-east ratio=0.91
+2026-06-30T13:36:45.877Z INFO checkout-gateway cart validated session=4087829 total=387.07
+2026-06-30T13:37:19.242Z INFO edge-cache cache hit key=/product/46870 region=us-east ratio=0.97
+2026-06-30T13:38:36.345Z DEBUG payments-api acquired db connection from pool active=8 idle=36
+2026-06-30T13:38:47.208Z INFO auth-service login success user=742407 method=password
+2026-06-30T13:38:48.953Z DEBUG payments-api acquired db connection from pool active=21 idle=15
+2026-06-30T13:38:50.638Z INFO edge-cache cache hit key=/product/83715 region=us-east ratio=0.97
+2026-06-30T13:38:52.622Z INFO auth-service token issued user=614553 scope=read latency=27ms
+2026-06-30T13:39:11.157Z INFO analytics-api rollup completed job=agg_82341 rows=18254 duration=572ms
+2026-06-30T13:39:32.039Z INFO checkout-gateway cart validated session=3610282 total=189.03
+2026-06-30T13:39:43.469Z INFO edge-cache cache hit key=/product/87464 region=us-east ratio=0.90
+2026-06-30T13:40:12.064Z DEBUG media-worker thumbnail generated asset=img_171878 ms=270
+2026-06-30T13:40:12.788Z INFO payments-api charge authorized card=**** 6013 latency=160ms
+2026-06-30T13:40:31.855Z INFO checkout-gateway cart validated session=0586786 total=385.49
+2026-06-30T13:42:15.360Z INFO edge-cache cache hit key=/product/27297 region=us-east ratio=0.93
+2026-06-30T13:42:33.480Z INFO edge-cache cache hit key=/product/47714 region=us-east ratio=0.97
+2026-06-30T13:42:55.108Z INFO webhooks webhook delivered id=wh_70872 status=200 attempt=1
+2026-06-30T13:43:42.199Z INFO analytics-api rollup completed job=agg_18074 rows=42686 duration=738ms
+2026-06-30T13:44:03.522Z INFO checkout-gateway checkout completed order=ord_034385 items=4 status=200 latency=231ms
+2026-06-30T13:44:38.944Z INFO edge-cache cache hit key=/product/99028 region=us-east ratio=0.93
+2026-06-30T13:44:42.785Z INFO edge-cache cache hit key=/product/22030 region=us-east ratio=0.90
+2026-06-30T13:44:43.525Z INFO edge-cache cache hit key=/product/84832 region=us-east ratio=0.98
+2026-06-30T13:45:09.339Z INFO webhooks webhook delivered id=wh_06953 status=200 attempt=1
+2026-06-30T13:45:13.278Z INFO payments-api processed payment intent pi_278247 amount=838.38 currency=USD
+2026-06-30T13:45:16.547Z INFO media-worker resized image asset=img_705258 bytes=264257 heap=54%
+2026-06-30T13:45:43.930Z INFO webhooks webhook delivered id=wh_37380 status=200 attempt=1
+2026-06-30T13:45:57.363Z DEBUG payments-api acquired db connection from pool active=36 idle=23
+2026-06-30T13:46:27.146Z INFO checkout-gateway cart validated session=9212163 total=118.18
+2026-06-30T13:47:22.934Z INFO auth-service token issued user=935643 scope=read latency=75ms
+2026-06-30T13:47:25.224Z INFO checkout-gateway cart validated session=2762827 total=205.71
+2026-06-30T13:48:03.299Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5343ms active=100 idle=0 waiting=104
+2026-06-30T13:48:04.365Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7464ms active=100 idle=0 waiting=138
+2026-06-30T13:48:04.429Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6527ms active=100 idle=0 waiting=87
+2026-06-30T13:48:04.729Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5810ms active=100 idle=0 waiting=74
+2026-06-30T13:48:15.116Z INFO checkout-gateway checkout completed order=ord_812209 items=1 status=200 latency=116ms
+2026-06-30T13:48:17.631Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6441ms active=100 idle=0 waiting=135
+2026-06-30T13:48:25.907Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5594ms active=100 idle=0 waiting=69
+2026-06-30T13:48:29.166Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4526ms active=100 idle=0 waiting=85
+2026-06-30T13:48:29.549Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8662ms active=100 idle=0 waiting=70
+2026-06-30T13:48:36.270Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6872ms active=100 idle=0 waiting=130
+2026-06-30T13:48:37.311Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4697ms active=100 idle=0 waiting=83
+2026-06-30T13:48:37.551Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6289ms active=100 idle=0 waiting=74
+2026-06-30T13:48:40.015Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7046ms active=100 idle=0 waiting=72
+2026-06-30T13:48:52.241Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5727ms active=100 idle=0 waiting=94
+2026-06-30T13:48:53.825Z INFO edge-cache cache hit key=/product/65106 region=us-east ratio=0.96
+2026-06-30T13:48:56.369Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8398ms active=100 idle=0 waiting=66
+2026-06-30T13:48:59.259Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6066ms active=100 idle=0 waiting=85
+2026-06-30T13:49:08.177Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8057ms active=100 idle=0 waiting=71
+2026-06-30T13:49:14.649Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8203ms active=100 idle=0 waiting=112
+2026-06-30T13:49:16.810Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4185ms active=100 idle=0 waiting=84
+2026-06-30T13:49:32.285Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7037ms active=100 idle=0 waiting=89
+2026-06-30T13:49:38.173Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8430ms active=100 idle=0 waiting=70
+2026-06-30T13:49:39.890Z INFO analytics-api rollup completed job=agg_66517 rows=20013 duration=865ms
+2026-06-30T13:49:46.669Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8755ms active=100 idle=0 waiting=73
+2026-06-30T13:49:51.929Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6975ms active=100 idle=0 waiting=77
+2026-06-30T13:50:02.829Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4370ms order=ord_219823
+2026-06-30T13:50:03.445Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4721ms order=ord_551283
+2026-06-30T13:50:04.974Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5098ms order=ord_701947
+2026-06-30T13:50:08.256Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4081ms order=ord_816559
+2026-06-30T13:50:11.440Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8026ms active=100 idle=0 waiting=80
+2026-06-30T13:50:17.140Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=3660ms order=ord_837438
+2026-06-30T13:50:17.588Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5860ms active=100 idle=0 waiting=102
+2026-06-30T13:50:21.772Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5109ms active=100 idle=0 waiting=112
+2026-06-30T13:50:21.802Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5863ms active=100 idle=0 waiting=129
+2026-06-30T13:50:21.952Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4941ms order=ord_774695
+2026-06-30T13:50:24.960Z INFO edge-cache cache hit key=/product/38933 region=us-east ratio=0.93
+2026-06-30T13:50:28.429Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5024ms order=ord_437045
+2026-06-30T13:50:36.787Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6676ms active=100 idle=0 waiting=100
+2026-06-30T13:50:46.759Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7395ms active=100 idle=0 waiting=87
+2026-06-30T13:50:47.630Z INFO auth-service login success user=495632 method=password
+2026-06-30T13:50:49.616Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6554ms order=ord_485205
+2026-06-30T13:50:52.192Z INFO edge-cache cache hit key=/product/49372 region=us-east ratio=0.92
+2026-06-30T13:50:56.513Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5989ms active=100 idle=0 waiting=60
+2026-06-30T13:50:57.016Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6061ms order=ord_844983
+2026-06-30T13:50:57.147Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5166ms order=ord_276004
+2026-06-30T13:50:58.080Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4749ms active=100 idle=0 waiting=115
+2026-06-30T13:50:59.305Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4961ms order=ord_012533
+2026-06-30T13:51:04.768Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4150ms order=ord_004623
+2026-06-30T13:51:05.192Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=3977ms order=ord_185486
+2026-06-30T13:51:06.690Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4540ms active=100 idle=0 waiting=84
+2026-06-30T13:51:11.681Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6038ms order=ord_293160
+2026-06-30T13:51:22.104Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4387ms order=ord_828296
+2026-06-30T13:51:30.041Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5389ms order=ord_320256
+2026-06-30T13:51:31.019Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5528ms order=ord_551762
+2026-06-30T13:51:36.017Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4646ms order=ord_460424
+2026-06-30T13:51:36.735Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4817ms order=ord_589199
+2026-06-30T13:51:37.969Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8631ms active=100 idle=0 waiting=82
+2026-06-30T13:51:40.019Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5550ms order=ord_856829
+2026-06-30T13:51:43.231Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6070ms order=ord_530410
+2026-06-30T13:51:46.797Z INFO auth-service login success user=243673 method=password
+2026-06-30T13:51:47.205Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5300ms active=100 idle=0 waiting=115
+2026-06-30T13:51:50.007Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6207ms active=100 idle=0 waiting=97
+2026-06-30T13:51:54.847Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8574ms active=100 idle=0 waiting=124
+2026-06-30T13:51:54.953Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6869ms order=ord_855726
+2026-06-30T13:51:57.739Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5195ms order=ord_676530
+2026-06-30T13:51:58.007Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6726ms active=100 idle=0 waiting=60
+2026-06-30T13:52:04.811Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7571ms active=100 idle=0 waiting=111
+2026-06-30T13:52:08.409Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7632ms active=100 idle=0 waiting=104
+2026-06-30T13:52:13.949Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4849ms active=100 idle=0 waiting=94
+2026-06-30T13:52:15.398Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=3856ms order=ord_183082
+2026-06-30T13:52:16.061Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5435ms order=ord_242273
+2026-06-30T13:52:19.938Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4902ms active=100 idle=0 waiting=96
+2026-06-30T13:52:25.612Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6762ms active=100 idle=0 waiting=89
+2026-06-30T13:52:26.957Z INFO edge-cache cache hit key=/product/71408 region=us-east ratio=0.95
+2026-06-30T13:52:28.031Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4962ms active=100 idle=0 waiting=92
+2026-06-30T13:52:28.282Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4016ms order=ord_901310
+2026-06-30T13:52:28.704Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5233ms order=ord_025887
+2026-06-30T13:52:28.876Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=3683ms order=ord_688639
+2026-06-30T13:52:35.640Z DEBUG media-worker thumbnail generated asset=img_846042 ms=372
+2026-06-30T13:52:41.605Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6795ms active=100 idle=0 waiting=121
+2026-06-30T13:52:42.409Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5791ms active=100 idle=0 waiting=91
+2026-06-30T13:52:44.397Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4081ms order=ord_250870
+2026-06-30T13:52:44.586Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5799ms order=ord_462925
+2026-06-30T13:52:44.784Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8103ms active=100 idle=0 waiting=123
+2026-06-30T13:52:50.330Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5531ms active=100 idle=0 waiting=60
+2026-06-30T13:52:53.948Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5083ms active=100 idle=0 waiting=106
+2026-06-30T13:52:54.507Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4775ms order=ord_020863
+2026-06-30T13:52:55.002Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4055ms order=ord_291699
+2026-06-30T13:52:59.315Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8748ms active=100 idle=0 waiting=132
+2026-06-30T13:52:59.516Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6658ms active=100 idle=0 waiting=74
+2026-06-30T13:52:59.837Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8184ms active=100 idle=0 waiting=116
+2026-06-30T13:53:01.034Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4408ms order=ord_307543
+2026-06-30T13:53:08.831Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8774ms active=100 idle=0 waiting=101
+2026-06-30T13:53:12.501Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5039ms order=ord_508035
+2026-06-30T13:53:12.902Z INFO checkout-gateway cart validated session=7673666 total=90.18
+2026-06-30T13:53:14.617Z DEBUG payments-api acquired db connection from pool active=23 idle=34
+2026-06-30T13:53:18.671Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8656ms active=100 idle=0 waiting=90
+2026-06-30T13:53:18.751Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4335ms active=100 idle=0 waiting=84
+2026-06-30T13:53:21.425Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4780ms order=ord_872127
+2026-06-30T13:53:22.085Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6144ms order=ord_770801
+2026-06-30T13:53:41.483Z INFO checkout-gateway checkout completed order=ord_085758 items=7 status=200 latency=104ms
+2026-06-30T13:53:41.587Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4142ms order=ord_689154
+2026-06-30T13:53:43.229Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4464ms order=ord_766214
+2026-06-30T13:53:45.108Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5101ms active=100 idle=0 waiting=121
+2026-06-30T13:53:47.402Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5389ms active=100 idle=0 waiting=116
+2026-06-30T13:53:47.694Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6297ms order=ord_901599
+2026-06-30T13:53:48.859Z INFO edge-cache cache hit key=/product/30172 region=us-east ratio=0.91
+2026-06-30T13:53:50.041Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5476ms order=ord_417306
+2026-06-30T13:53:55.413Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4147ms active=100 idle=0 waiting=128
+2026-06-30T13:53:58.810Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5780ms order=ord_116583
+2026-06-30T13:53:59.180Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7624ms active=100 idle=0 waiting=90
+2026-06-30T13:54:02.660Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8425ms active=100 idle=0 waiting=90
+2026-06-30T13:54:07.469Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5990ms order=ord_481457
+2026-06-30T13:54:09.872Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6971ms order=ord_484746
+2026-06-30T13:54:10.644Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6737ms order=ord_993809
+2026-06-30T13:54:12.925Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6928ms order=ord_276195
+2026-06-30T13:54:14.711Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5106ms order=ord_764556
+2026-06-30T13:54:18.345Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4430ms active=100 idle=0 waiting=135
+2026-06-30T13:54:18.841Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8440ms active=100 idle=0 waiting=84
+2026-06-30T13:54:18.957Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5311ms order=ord_035882
+2026-06-30T13:54:19.542Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6636ms order=ord_951778
+2026-06-30T13:54:24.970Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4885ms order=ord_150038
+2026-06-30T13:54:25.532Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=3846ms order=ord_656725
+2026-06-30T13:54:27.790Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7561ms active=100 idle=0 waiting=64
+2026-06-30T13:54:28.556Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6106ms order=ord_994285
+2026-06-30T13:54:31.227Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8013ms active=100 idle=0 waiting=79
+2026-06-30T13:54:34.083Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5936ms active=100 idle=0 waiting=99
+2026-06-30T13:54:34.518Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6229ms order=ord_452132
+2026-06-30T13:54:38.568Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4098ms active=100 idle=0 waiting=133
+2026-06-30T13:54:40.547Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4904ms active=100 idle=0 waiting=104
+2026-06-30T13:54:45.747Z INFO analytics-api rollup completed job=agg_33710 rows=49788 duration=721ms
+2026-06-30T13:54:46.982Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5043ms order=ord_181439
+2026-06-30T13:54:48.954Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4278ms active=100 idle=0 waiting=136
+2026-06-30T13:54:49.092Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6035ms order=ord_091520
+2026-06-30T13:54:52.291Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4563ms order=ord_221213
+2026-06-30T13:54:56.621Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4815ms order=ord_121025
+2026-06-30T13:54:58.639Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4831ms order=ord_119456
+2026-06-30T13:54:59.563Z INFO checkout-gateway checkout completed order=ord_153615 items=5 status=200 latency=168ms
+2026-06-30T13:55:00.623Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5446ms order=ord_214108
+2026-06-30T13:55:01.145Z INFO checkout-gateway cart validated session=2701375 total=64.80
+2026-06-30T13:55:03.971Z INFO webhooks webhook delivered id=wh_71659 status=200 attempt=1
+2026-06-30T13:55:04.175Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8701ms active=100 idle=0 waiting=115
+2026-06-30T13:55:05.888Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6489ms order=ord_913485
+2026-06-30T13:55:06.651Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4100ms order=ord_634780
+2026-06-30T13:55:06.778Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4693ms order=ord_686215
+2026-06-30T13:55:07.736Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6540ms active=100 idle=0 waiting=135
+2026-06-30T13:55:14.792Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4114ms order=ord_845173
+2026-06-30T13:55:22.413Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5480ms order=ord_265153
+2026-06-30T13:55:25.158Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4789ms order=ord_257859
+2026-06-30T13:55:25.399Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7447ms active=100 idle=0 waiting=112
+2026-06-30T13:55:26.530Z INFO auth-service login success user=258720 method=password
+2026-06-30T13:55:27.291Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4981ms order=ord_251862
+2026-06-30T13:55:28.320Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7820ms active=100 idle=0 waiting=100
+2026-06-30T13:55:29.242Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4773ms active=100 idle=0 waiting=79
+2026-06-30T13:55:30.190Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6719ms order=ord_750737
+2026-06-30T13:55:34.222Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5923ms order=ord_738155
+2026-06-30T13:55:38.653Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4656ms active=100 idle=0 waiting=95
+2026-06-30T13:55:39.267Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6480ms order=ord_557844
+2026-06-30T13:55:45.040Z INFO edge-cache cache hit key=/product/92641 region=us-east ratio=0.92
+2026-06-30T13:55:46.112Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7883ms active=100 idle=0 waiting=130
+2026-06-30T13:55:48.905Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6595ms active=100 idle=0 waiting=84
+2026-06-30T13:55:50.936Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6633ms order=ord_984845
+2026-06-30T13:55:57.398Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5081ms active=100 idle=0 waiting=123
+2026-06-30T13:55:57.558Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5496ms order=ord_644824
+2026-06-30T13:56:00.811Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7616ms active=100 idle=0 waiting=124
+2026-06-30T13:56:01.158Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4822ms order=ord_667174
+2026-06-30T13:56:03.155Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6841ms order=ord_851259
+2026-06-30T13:56:04.825Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5017ms active=100 idle=0 waiting=60
+2026-06-30T13:56:06.923Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6977ms active=100 idle=0 waiting=110
+2026-06-30T13:56:08.011Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4027ms active=100 idle=0 waiting=86
+2026-06-30T13:56:11.876Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5537ms order=ord_484974
+2026-06-30T13:56:11.881Z DEBUG media-worker thumbnail generated asset=img_117928 ms=113
+2026-06-30T13:56:13.447Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8960ms active=100 idle=0 waiting=126
+2026-06-30T13:56:13.594Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6874ms order=ord_801227
+2026-06-30T13:56:14.510Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4145ms order=ord_469446
+2026-06-30T13:56:15.893Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6213ms active=100 idle=0 waiting=117
+2026-06-30T13:56:17.048Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6974ms active=100 idle=0 waiting=95
+2026-06-30T13:56:19.058Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5655ms order=ord_939742
+2026-06-30T13:56:22.023Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6253ms order=ord_763464
+2026-06-30T13:56:28.824Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8148ms active=100 idle=0 waiting=130
+2026-06-30T13:56:30.921Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8102ms active=100 idle=0 waiting=138
+2026-06-30T13:56:31.407Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=3957ms order=ord_146392
+2026-06-30T13:56:31.455Z INFO media-worker resized image asset=img_874477 bytes=88990 heap=62%
+2026-06-30T13:56:34.001Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7807ms active=100 idle=0 waiting=81
+2026-06-30T13:56:35.927Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7109ms active=100 idle=0 waiting=119
+2026-06-30T13:56:36.439Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5036ms active=100 idle=0 waiting=77
+2026-06-30T13:56:37.342Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4034ms order=ord_845333
+2026-06-30T13:56:40.614Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5919ms active=100 idle=0 waiting=63
+2026-06-30T13:56:43.299Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6108ms active=100 idle=0 waiting=94
+2026-06-30T13:56:44.383Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4120ms order=ord_588840
+2026-06-30T13:56:45.202Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6585ms order=ord_978393
+2026-06-30T13:56:50.756Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6982ms active=100 idle=0 waiting=90
+2026-06-30T13:56:52.611Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5462ms order=ord_292218
+2026-06-30T13:56:54.390Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5368ms order=ord_225899
+2026-06-30T13:56:54.482Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6566ms active=100 idle=0 waiting=115
+2026-06-30T13:56:56.455Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4706ms active=100 idle=0 waiting=107
+2026-06-30T13:56:58.377Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6109ms order=ord_899431
+2026-06-30T13:56:58.596Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8753ms active=100 idle=0 waiting=99
+2026-06-30T13:56:59.686Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8260ms active=100 idle=0 waiting=91
+2026-06-30T13:57:00.092Z INFO webhooks webhook delivered id=wh_28744 status=200 attempt=1
+2026-06-30T13:57:01.701Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7014ms active=100 idle=0 waiting=88
+2026-06-30T13:57:02.366Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4489ms order=ord_778546
+2026-06-30T13:57:03.516Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8482ms active=100 idle=0 waiting=112
+2026-06-30T13:57:05.979Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5795ms active=100 idle=0 waiting=117
+2026-06-30T13:57:12.922Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5872ms order=ord_741922
+2026-06-30T13:57:18.395Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5399ms order=ord_603147
+2026-06-30T13:57:25.808Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5605ms order=ord_603694
+2026-06-30T13:57:31.906Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5793ms active=100 idle=0 waiting=125
+2026-06-30T13:57:34.599Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7720ms active=100 idle=0 waiting=122
+2026-06-30T13:57:36.496Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6640ms order=ord_702120
+2026-06-30T13:57:37.846Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5904ms active=100 idle=0 waiting=135
+2026-06-30T13:57:38.091Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6825ms active=100 idle=0 waiting=61
+2026-06-30T13:57:40.798Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6379ms active=100 idle=0 waiting=80
+2026-06-30T13:57:43.709Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5516ms order=ord_292293
+2026-06-30T13:57:50.153Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6447ms active=100 idle=0 waiting=61
+2026-06-30T13:57:51.393Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6683ms active=100 idle=0 waiting=82
+2026-06-30T13:57:55.940Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=3855ms order=ord_566596
+2026-06-30T13:57:56.694Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4204ms order=ord_396725
+2026-06-30T13:57:58.093Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5139ms active=100 idle=0 waiting=86
+2026-06-30T13:58:00.127Z INFO auth-service login success user=843117 method=password
+2026-06-30T13:58:14.195Z INFO edge-cache cache hit key=/product/94883 region=us-east ratio=0.91
+2026-06-30T13:58:16.860Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8454ms active=100 idle=0 waiting=86
+2026-06-30T13:58:17.988Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4499ms order=ord_988287
+2026-06-30T13:58:18.980Z INFO webhooks webhook delivered id=wh_67195 status=200 attempt=1
+2026-06-30T13:58:19.304Z INFO webhooks webhook delivered id=wh_28104 status=200 attempt=1
+2026-06-30T13:58:19.587Z INFO payments-api processed payment intent pi_117471 amount=792.13 currency=USD
+2026-06-30T13:58:20.293Z INFO analytics-api rollup completed job=agg_74898 rows=25745 duration=290ms
+2026-06-30T13:58:21.693Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4461ms order=ord_440170
+2026-06-30T13:58:24.013Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6781ms order=ord_198009
+2026-06-30T13:58:28.849Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4959ms order=ord_164065
+2026-06-30T13:58:31.300Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4438ms active=100 idle=0 waiting=79
+2026-06-30T13:58:32.724Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4416ms order=ord_032327
+2026-06-30T13:58:32.762Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6852ms order=ord_933494
+2026-06-30T13:58:33.881Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4541ms active=100 idle=0 waiting=119
+2026-06-30T13:58:33.990Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7019ms active=100 idle=0 waiting=83
+2026-06-30T13:58:35.279Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8193ms active=100 idle=0 waiting=95
+2026-06-30T13:58:36.674Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6951ms order=ord_453196
+2026-06-30T13:58:42.630Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5787ms order=ord_927675
+2026-06-30T13:58:44.767Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6174ms active=100 idle=0 waiting=127
+2026-06-30T13:58:47.708Z DEBUG media-worker thumbnail generated asset=img_917530 ms=156
+2026-06-30T13:58:54.592Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6287ms order=ord_598998
+2026-06-30T13:58:58.806Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=6320ms order=ord_927221
+2026-06-30T13:59:00.909Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5258ms active=100 idle=0 waiting=117
+2026-06-30T13:59:02.398Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8042ms active=100 idle=0 waiting=95
+2026-06-30T13:59:02.993Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5366ms active=100 idle=0 waiting=104
+2026-06-30T13:59:09.111Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8344ms active=100 idle=0 waiting=92
+2026-06-30T13:59:14.296Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7457ms active=100 idle=0 waiting=131
+2026-06-30T13:59:14.711Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=3626ms order=ord_054184
+2026-06-30T13:59:18.203Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7963ms active=100 idle=0 waiting=123
+2026-06-30T13:59:20.716Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8490ms active=100 idle=0 waiting=113
+2026-06-30T13:59:23.429Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6134ms active=100 idle=0 waiting=85
+2026-06-30T13:59:25.189Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5496ms order=ord_347554
+2026-06-30T13:59:25.774Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4216ms active=100 idle=0 waiting=133
+2026-06-30T13:59:25.901Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5620ms active=100 idle=0 waiting=86
+2026-06-30T13:59:26.417Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6982ms active=100 idle=0 waiting=120
+2026-06-30T13:59:26.587Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 4116ms active=100 idle=0 waiting=112
+2026-06-30T13:59:31.798Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8312ms active=100 idle=0 waiting=102
+2026-06-30T13:59:31.822Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7859ms active=100 idle=0 waiting=131
+2026-06-30T13:59:35.168Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=3585ms order=ord_137361
+2026-06-30T13:59:35.317Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4959ms order=ord_231562
+2026-06-30T13:59:35.590Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 5021ms active=100 idle=0 waiting=121
+2026-06-30T13:59:37.148Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=4477ms order=ord_817349
+2026-06-30T13:59:37.283Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 7600ms active=100 idle=0 waiting=75
+2026-06-30T13:59:38.596Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=3511ms order=ord_223637
+2026-06-30T13:59:43.515Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5805ms order=ord_180819
+2026-06-30T13:59:46.509Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 8408ms active=100 idle=0 waiting=97
+2026-06-30T13:59:51.247Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6036ms active=100 idle=0 waiting=68
+2026-06-30T13:59:52.827Z FATAL payments-api connection pool exhausted acquiring connection to payments-db after 6096ms active=100 idle=0 waiting=77
+2026-06-30T13:59:58.162Z ERROR checkout-gateway checkout request failed upstream payments-api returned 503 status=500 latency=5879ms order=ord_411176
