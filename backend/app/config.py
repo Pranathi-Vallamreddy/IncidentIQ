@@ -9,6 +9,9 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
     gemini_api_key: str = ""
+    # Gemini model id. Overridable via GEMINI_MODEL. gemini-1.5-* is retired;
+    # gemini-2.5-flash is the current fast/cheap default.
+    gemini_model: str = "gemini-2.5-flash"
     cors_origins: str = "http://localhost:5173,http://localhost:4173"
     # Regex of allowed origins. Defaults to any *.vercel.app deployment so the
     # frontend works without pinning its exact URL. Set to "" to disable, or

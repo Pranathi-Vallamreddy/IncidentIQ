@@ -15,8 +15,7 @@ const NAV = [
 
 export function Sidebar() {
   const { version } = useApp();
-  const dash = useAsync(() => api.dashboard(), [version]);
-  const run = dash.data?.run;
+  const { data: run } = useAsync(() => api.latestRun(), [version]);
 
   return (
     <aside className="flex w-[248px] shrink-0 flex-col border-r border-hairline bg-panel">

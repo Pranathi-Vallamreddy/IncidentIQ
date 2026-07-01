@@ -10,9 +10,16 @@ from sqlalchemy.orm import Session
 from .. import schemas
 from ..db import get_db
 from ..services import analysis
-from ..services.dashboard import build_analytics, build_dashboard
+from ..services.dashboard import _run_out, build_analytics, build_dashboard
 
 router = APIRouter(tags=["dashboard"])
+
+
+@router.get("/runs/latest", response_model=Optional[schemas.RunOut])
+def latest_run(db: Session = Depends(get_db)) -> Optional[schemas.RunOut]:
+    """Lightweight current-run summary for the sidebar (avoids a full dashboard fetch)."""
+    run = analysis.latest_run(db)
+    return _run_out(run) if run else None
 
 
 @router.get("/dashboard", response_model=schemas.DashboardOut)

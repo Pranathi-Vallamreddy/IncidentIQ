@@ -1,4 +1,4 @@
-import { Printer, FileDown, Mail, Sparkles } from "lucide-react";
+import { Printer, Sparkles } from "lucide-react";
 import { api } from "@/lib/api";
 import { useAsync } from "@/lib/useAsync";
 import { useApp } from "@/store";
@@ -25,7 +25,7 @@ function execSummary(d: Dashboard): string {
   let text =
     `This window analyzed ${run.event_count.toLocaleString()} log events, which the engine ` +
     `compressed into ${run.cluster_count} clusters. ${total} incidents were detected across ` +
-    `${services} services, ${critical} of them critical. Mean incident span was ${mttr}.`;
+    `${services} services, ${critical} of them critical. Mean incident duration was ${mttr}.`;
   if (cascade) text += ` ${cascade.detail}`;
   return text;
 }
@@ -65,7 +65,7 @@ export function ReportsPage() {
   const stats = [
     { label: "Incidents", value: String(total) },
     { label: "Critical", value: String(critical) },
-    { label: "MTTR", value: mttr },
+    { label: "Mean duration", value: mttr },
     { label: "Events analyzed", value: d.kpis.find((k) => k.key === "events")?.value ?? "—" },
   ];
 
@@ -73,36 +73,23 @@ export function ReportsPage() {
     <div className="animate-fade-in">
       <PageHeader
         title="Reports"
-        subtitle="Shareable, export-ready incident reports and postmortems."
-        right={
-          <Button variant="outline" size="sm" onClick={() => window.print()}>
-            <FileDown className="h-4 w-4" /> New report
-          </Button>
-        }
+        subtitle="An export-ready reliability review generated from the current analysis run."
       />
 
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
         <Card className="lg:col-span-2">
           <div className="flex items-center justify-between border-b border-hairline px-6 py-4">
             <div className="flex items-center gap-3">
-              <span className="rounded bg-emerald-500/15 px-2 py-0.5 text-xs font-medium text-emerald-400">
-                Published
+              <span className="rounded bg-white/10 px-2 py-0.5 text-xs font-medium text-muted">
+                Generated
               </span>
               <span className="text-xs text-muted">
                 {fmtDate(run.window_start)} – {fmtDate(run.window_end)}
               </span>
             </div>
-            <div className="flex items-center gap-2">
-              <Button size="sm" variant="ghost" onClick={() => window.print()}>
-                <FileDown className="h-3.5 w-3.5" /> PDF
-              </Button>
-              <Button size="sm" variant="ghost" onClick={() => window.print()}>
-                <Printer className="h-3.5 w-3.5" /> Print
-              </Button>
-              <Button size="sm" variant="ghost">
-                <Mail className="h-3.5 w-3.5" /> Email
-              </Button>
-            </div>
+            <Button size="sm" variant="outline" onClick={() => window.print()}>
+              <Printer className="h-3.5 w-3.5" /> Print / Save PDF
+            </Button>
           </div>
 
           <div className="p-6">
@@ -159,14 +146,14 @@ export function ReportsPage() {
           <div className="space-y-3 p-5 text-sm">
             {[
               ["Report ID", rpt],
-              ["Status", "Published"],
+              ["Status", "Generated"],
               ["Source", run.source_name],
               ["Incidents", String(total)],
-              ["MTTR", mttr],
+              ["Mean duration", mttr],
               ["Events", run.event_count.toLocaleString()],
               ["Clusters", String(run.cluster_count)],
               ["Generated", fmtDate(run.created_at)],
-              ["Author", "SRE Team"],
+              ["Author", "Pranathi Vallamreddy"],
             ].map(([k, v]) => (
               <div key={k} className="flex items-center justify-between">
                 <span className="text-muted">{k}</span>

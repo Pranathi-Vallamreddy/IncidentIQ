@@ -1,4 +1,3 @@
-import { ChevronDown } from "lucide-react";
 import { api } from "@/lib/api";
 import { useAsync } from "@/lib/useAsync";
 import { useApp } from "@/store";
@@ -6,6 +5,7 @@ import { Card, CardHeader, Spinner } from "@/components/ui/primitives";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { NoRun } from "@/components/ui/NoRun";
 import { LoadFailed } from "@/components/ui/LoadFailed";
+import { RunContext } from "@/components/ui/RunContext";
 import { TrendLines } from "@/components/charts/TrendLines";
 import { ClusterFrequencyBars } from "@/components/charts/ClusterFrequencyBars";
 import { SeverityTimeline } from "@/components/charts/SeverityTimeline";
@@ -37,13 +37,9 @@ export function AnalyticsPage() {
       <PageHeader
         title="Analytics"
         subtitle="Trends, cluster frequency, and incident distribution across the analyzed window."
-        right={
-          <button className="flex h-9 items-center gap-2 rounded-lg border border-hairline px-3 text-sm text-muted hover:text-ink">
-            {data.run.source_name}
-            <ChevronDown className="h-4 w-4" />
-          </button>
-        }
       />
+
+      <RunContext run={data.run} className="mb-4" />
 
       <Card>
         <CardHeader

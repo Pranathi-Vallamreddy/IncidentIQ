@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { User, SlidersHorizontal, Bell, Plug, ShieldCheck, KeyRound, Check, Sparkles } from "lucide-react";
+import { User, SlidersHorizontal, Check, Sparkles, Github } from "lucide-react";
 import { api } from "@/lib/api";
 import { useAsync } from "@/lib/useAsync";
 import { PageHeader } from "@/components/ui/PageHeader";
@@ -9,12 +9,8 @@ import { cn } from "@/lib/utils";
 import type { Settings } from "@/types";
 
 const TABS = [
-  { key: "profile", label: "Profile", icon: User },
   { key: "detection", label: "Detection", icon: SlidersHorizontal },
-  { key: "notifications", label: "Notifications", icon: Bell },
-  { key: "integrations", label: "Integrations", icon: Plug },
-  { key: "security", label: "Security", icon: ShieldCheck },
-  { key: "apikeys", label: "API keys", icon: KeyRound },
+  { key: "profile", label: "Profile", icon: User },
 ];
 
 function Row({ title, hint, children }: { title: string; hint?: string; children: React.ReactNode }) {
@@ -25,21 +21,6 @@ function Row({ title, hint, children }: { title: string; hint?: string; children
         {hint && <div className="mt-0.5 text-xs text-muted">{hint}</div>}
       </div>
       {children}
-    </div>
-  );
-}
-
-function Field({ label, value, mono }: { label: string; value: string; mono?: boolean }) {
-  return (
-    <div>
-      <label className="text-xs text-muted">{label}</label>
-      <input
-        defaultValue={value}
-        className={cn(
-          "mt-1.5 h-10 w-full rounded-lg border border-hairline bg-card px-3 text-sm text-ink focus:border-white/20 focus:outline-none",
-          mono && "font-mono",
-        )}
-      />
     </div>
   );
 }
@@ -61,9 +42,7 @@ export function SettingsPage() {
     try {
       const next = await api.updateSettings({
         anomaly_sensitivity: draft.anomaly_sensitivity,
-        auto_cluster: draft.auto_cluster,
         ai_root_cause: draft.ai_root_cause,
-        page_on_critical: draft.page_on_critical,
       });
       setDraft(next);
       setSaved(true);
@@ -76,7 +55,7 @@ export function SettingsPage() {
   if (error && !draft) {
     return (
       <>
-        <PageHeader title="Settings" subtitle="Manage your workspace, detection thresholds, and notifications." />
+        <PageHeader title="Settings" subtitle="Detection thresholds that feed the analysis engine." />
         <LoadFailed onRetry={reload} />
       </>
     );
@@ -87,12 +66,14 @@ export function SettingsPage() {
     <div className="animate-fade-in">
       <PageHeader
         title="Settings"
-        subtitle="Manage your workspace, detection thresholds, and notifications."
+        subtitle="Detection thresholds that feed the analysis engine on the next run."
         right={
-          <Button variant="primary" size="sm" onClick={save} disabled={saving}>
-            {saved ? <Check className="h-4 w-4" /> : null}
-            {saved ? "Saved" : saving ? "Saving…" : "Save changes"}
-          </Button>
+          tab === "detection" ? (
+            <Button variant="primary" size="sm" onClick={save} disabled={saving}>
+              {saved ? <Check className="h-4 w-4" /> : null}
+              {saved ? "Saved" : saving ? "Saving…" : "Save changes"}
+            </Button>
+          ) : undefined
         }
       />
 
@@ -118,7 +99,7 @@ export function SettingsPage() {
             <Card className="p-6">
               <h3 className="text-base font-semibold">Detection thresholds</h3>
               <p className="mt-0.5 text-xs text-muted">
-                These values feed the engine directly on the next analysis run.
+                These values are read by the engine on the next analysis run.
               </p>
               <div className="mt-4 divide-y divide-hairline">
                 <div className="py-4">
@@ -145,72 +126,59 @@ export function SettingsPage() {
                     className="mt-3 w-full accent-white"
                   />
                 </div>
-                <Row title="Auto-cluster similar errors" hint="Group matching templates into a single incident">
-                  <Toggle
-                    checked={draft.auto_cluster}
-                    onChange={(v) => setDraft({ ...draft, auto_cluster: v })}
-                  />
-                </Row>
-                <Row title="AI root cause analysis" hint="Generate explanations and suggested fixes">
+                <Row
+                  title="AI root cause analysis"
+                  hint="Use Gemini to explain incidents when a key is configured; otherwise the deterministic explainer is used."
+                >
                   <Toggle
                     checked={draft.ai_root_cause}
                     onChange={(v) => setDraft({ ...draft, ai_root_cause: v })}
                   />
                 </Row>
               </div>
-              <div className="mt-4 flex items-center gap-2 rounded-lg border border-hairline bg-card px-3 py-2 text-xs text-muted">
-                <Sparkles className="h-3.5 w-3.5 text-violet-400" />
-                Gemini {draft.ai_available ? "is configured — live explanations enabled." : "key not set — using the deterministic explainer."}
-              </div>
-            </Card>
-          )}
-
-          {tab === "notifications" && (
-            <Card className="p-6">
-              <h3 className="text-base font-semibold">Notifications</h3>
-              <div className="mt-2 divide-y divide-hairline">
-                <Row title="Critical incidents" hint="Page on-call immediately">
-                  <Toggle
-                    checked={draft.page_on_critical}
-                    onChange={(v) => setDraft({ ...draft, page_on_critical: v })}
-                  />
-                </Row>
-                <Row title="Weekly reliability digest" hint="Emailed summary every Monday">
-                  <Toggle checked onChange={() => {}} disabled />
-                </Row>
-                <Row title="Anomaly cluster alerts" hint="Notify when a new anomaly cluster forms">
-                  <Toggle checked={false} onChange={() => {}} disabled />
-                </Row>
+              <div className="mt-4 flex items-start gap-2 rounded-lg border border-hairline bg-card px-3 py-2.5 text-xs text-muted">
+                <Sparkles className="mt-0.5 h-3.5 w-3.5 shrink-0 text-violet-400" />
+                <span>
+                  {draft.ai_available ? (
+                    <>
+                      Gemini is configured — live explanations use{" "}
+                      <span className="font-mono text-ink">{draft.ai_model}</span>.
+                    </>
+                  ) : (
+                    <>
+                      No <span className="font-mono">GEMINI_API_KEY</span> set — explanations use the
+                      deterministic engine-based explainer. Both produce the same structured output.
+                    </>
+                  )}
+                </span>
               </div>
             </Card>
           )}
 
           {tab === "profile" && (
             <Card className="p-6">
-              <h3 className="text-base font-semibold">Profile</h3>
+              <h3 className="text-base font-semibold">Project author</h3>
               <div className="mt-4 flex items-center gap-4">
-                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-zinc-500 to-zinc-700 text-lg font-semibold text-white">
-                  AR
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-gradient-to-br from-violet-500 to-indigo-600 text-lg font-semibold text-white">
+                  PV
                 </div>
                 <div>
-                  <div className="text-sm font-medium">Alex Rivera</div>
-                  <div className="text-xs text-muted">Site Reliability Engineer</div>
+                  <div className="text-sm font-medium">Pranathi Vallamreddy</div>
+                  <div className="text-xs text-muted">Software Engineer · IncidentIQ author</div>
                 </div>
               </div>
-              <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
-                <Field label="Full name" value="Alex Rivera" />
-                <Field label="Email" value="alex@incidentiq.io" />
-                <Field label="Team" value="Platform Reliability" />
-                <Field label="Timezone" value="UTC-05:00 (Eastern)" />
-              </div>
-            </Card>
-          )}
-
-          {["integrations", "security", "apikeys"].includes(tab) && (
-            <Card className="p-6">
-              <h3 className="text-base font-semibold capitalize">{TABS.find((t) => t.key === tab)?.label}</h3>
-              <p className="mt-1 text-sm text-muted">
-                Presentational in this build — the engineering focus is the detection pipeline.
+              <a
+                href="https://github.com/Pranathi-Vallamreddy"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-5 inline-flex items-center gap-2 rounded-lg border border-hairline px-3 py-2 text-sm text-ink hover:bg-white/5"
+              >
+                <Github className="h-4 w-4" />
+                github.com/Pranathi-Vallamreddy
+              </a>
+              <p className="mt-4 text-xs text-muted">
+                IncidentIQ is a single-workspace demo — there is no multi-user auth. This page shows the
+                project author rather than editable account fields.
               </p>
             </Card>
           )}

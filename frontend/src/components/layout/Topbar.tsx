@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Search, UploadCloud, Bell } from "lucide-react";
+import { Search, UploadCloud } from "lucide-react";
 import { Button } from "@/components/ui/primitives";
 
 export function Topbar({ onUpload }: { onUpload: () => void }) {
@@ -38,12 +38,11 @@ export function Topbar({ onUpload }: { onUpload: () => void }) {
         Upload logs
       </Button>
 
-      <button className="text-muted hover:text-ink" title="Notifications (demo)">
-        <Bell className="h-5 w-5" />
-      </button>
-
-      <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-zinc-500 to-zinc-700 text-xs font-semibold text-white">
-        AR
+      <div
+        className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-violet-500 to-indigo-600 text-xs font-semibold text-white"
+        title="Pranathi Vallamreddy"
+      >
+        PV
       </div>
     </header>
   );

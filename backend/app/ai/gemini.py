@@ -1,17 +1,19 @@
-"""Thin optional Gemini client.
+"""Thin optional Gemini client (google-genai SDK).
 
 Isolated so the rest of the app never imports the SDK directly. If the key or the
-package is missing, `available()` is False and callers fall back to the
-deterministic explainer.
+package is missing, or the API call fails, `generate_json` returns None and the
+caller falls back to the deterministic explainer. Failures are logged at WARNING
+so the reason is visible in server logs instead of being silently swallowed.
 """
 
 from __future__ import annotations
 
 import json
+import logging
 
 from ..config import settings
 
-_MODEL = "gemini-1.5-flash"
+logger = logging.getLogger("incidentiq.ai")
 
 
 def available() -> bool:
@@ -19,22 +21,29 @@ def available() -> bool:
 
 
 def generate_json(prompt: str) -> dict | None:
-    """Return parsed JSON from Gemini, or None on any failure."""
+    """Return parsed JSON from Gemini, or None on any failure (logged)."""
     if not available():
         return None
     try:
-        import google.generativeai as genai
+        from google import genai
 
-        genai.configure(api_key=settings.gemini_api_key)
-        model = genai.GenerativeModel(_MODEL)
-        resp = model.generate_content(
-            prompt,
-            generation_config={"response_mime_type": "application/json"},
+        client = genai.Client(api_key=settings.gemini_api_key)
+        resp = client.models.generate_content(
+            model=settings.gemini_model,
+            contents=prompt,
+            config={"response_mime_type": "application/json"},
         )
         text = (resp.text or "").strip()
         if not text:
+            logger.warning(
+                "Gemini (%s) returned an empty response; using deterministic fallback",
+                settings.gemini_model,
+            )
             return None
         return json.loads(text)
-    except Exception:
-        # Any SDK/network/parse error degrades gracefully to deterministic mode.
+    except Exception as e:  # noqa: BLE001 - degrade gracefully, but log why
+        logger.warning(
+            "Gemini call failed (%s: %s); using deterministic fallback",
+            type(e).__name__, e,
+        )
         return None

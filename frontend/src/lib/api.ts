@@ -7,6 +7,7 @@ import type {
   Run,
   Sample,
   Settings,
+  SettingsUpdate,
 } from "@/types";
 
 const BASE = import.meta.env.VITE_API_BASE || "/api";
@@ -48,6 +49,7 @@ export const api = {
     }
     return res.json();
   },
+  latestRun: () => req<Run | null>("/runs/latest"),
   dashboard: () => req<Dashboard>("/dashboard"),
   analytics: () => req<Analytics>("/analytics"),
   incidents: (params: { severity?: string; status?: string; q?: string } = {}) => {
@@ -63,6 +65,6 @@ export const api = {
     req<Explanation>(`/incidents/${id}/explain`, { method: "POST" }),
   exportUrl: () => `${BASE}/incidents/export`,
   settings: () => req<Settings>("/settings"),
-  updateSettings: (payload: Partial<Settings>) =>
+  updateSettings: (payload: Partial<SettingsUpdate>) =>
     req<Settings>("/settings", { method: "PUT", body: JSON.stringify(payload) }),
 };

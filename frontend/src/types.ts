@@ -180,8 +180,9 @@ export interface Analytics {
 
 export interface Settings {
   anomaly_sensitivity: number;
-  auto_cluster: boolean;
   ai_root_cause: boolean;
-  page_on_critical: boolean;
   ai_available: boolean;
+  ai_model: string;
 }
+
+export type SettingsUpdate = Pick<Settings, "anomaly_sensitivity" | "ai_root_cause">;

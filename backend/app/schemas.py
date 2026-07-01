@@ -186,14 +186,11 @@ class AnalyticsOut(BaseModel):
 
 class SettingsOut(BaseModel):
     anomaly_sensitivity: float
-    auto_cluster: bool
     ai_root_cause: bool
-    page_on_critical: bool
     ai_available: bool
+    ai_model: str
 
 
 class SettingsIn(BaseModel):
     anomaly_sensitivity: Optional[float] = None
-    auto_cluster: Optional[bool] = None
     ai_root_cause: Optional[bool] = None
-    page_on_critical: Optional[bool] = None

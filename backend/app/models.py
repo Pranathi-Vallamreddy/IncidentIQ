@@ -123,12 +123,15 @@ class Correlation(Base):
 
 
 class AppSettings(Base):
-    """Singleton config row (id always 1)."""
+    """Singleton config row (id always 1).
+
+    Only settings that actually change engine behaviour are stored here:
+    `anomaly_sensitivity` feeds the anomaly detector and `ai_root_cause` gates
+    the Gemini explainer.
+    """
 
     __tablename__ = "app_settings"
 
     id: Mapped[int] = mapped_column(primary_key=True, default=1)
     anomaly_sensitivity: Mapped[float] = mapped_column(Float, default=0.6)
-    auto_cluster: Mapped[bool] = mapped_column(Boolean, default=True)
     ai_root_cause: Mapped[bool] = mapped_column(Boolean, default=True)
-    page_on_critical: Mapped[bool] = mapped_column(Boolean, default=True)

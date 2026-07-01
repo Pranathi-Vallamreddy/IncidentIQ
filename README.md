@@ -157,8 +157,15 @@ exercised** in production and there is no build-time API URL to configure.
 
 ## Live demo
 
-- **App:** _add your Vercel URL after deploying_
-- **API:** _add your Render URL after deploying_ (`/api/health` for a liveness check)
+- **App:** https://incident-iq-mu.vercel.app
+- **API:** https://incidentiq-api-ozj5.onrender.com (`/api/health` for a liveness check)
+
+> The backend runs on Render's free tier — the first request after idle may take
+> ~50s to cold-start, and the app auto-seeds a sample analysis so it's never blank.
+
+## Author
+
+**Pranathi Vallamreddy** — [github.com/Pranathi-Vallamreddy](https://github.com/Pranathi-Vallamreddy)
 
 ---
 

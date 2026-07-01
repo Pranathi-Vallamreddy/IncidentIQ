@@ -23,10 +23,11 @@ import { Card, CardHeader, SeverityBadge, Spinner, Button } from "@/components/u
 import { PageHeader } from "@/components/ui/PageHeader";
 import { NoRun } from "@/components/ui/NoRun";
 import { LoadFailed } from "@/components/ui/LoadFailed";
+import { RunContext } from "@/components/ui/RunContext";
 import { SeverityTimeline } from "@/components/charts/SeverityTimeline";
 import { HealthGauge } from "@/components/charts/HealthGauge";
-import { cn, fmtGrowth, severityFill, timeAgo } from "@/lib/utils";
-import type { Kpi, Pipeline, Run, Severity } from "@/types";
+import { cn, fmtGrowth, severityFill } from "@/lib/utils";
+import type { Kpi, Pipeline, Severity } from "@/types";
 
 const KPI_ICON: Record<string, typeof Database> = {
   events: Database,
@@ -48,29 +49,6 @@ const KPI_EXPLAIN: Record<string, string> = {
 const HEALTH_EXPLAIN =
   "Health score = 100 − 12 per Critical service − 6 per Degraded service. " +
   "A service is Critical if it has an active Critical incident, Degraded if it has an active High/Medium incident.";
-
-function fmtWindow(startIso: string, endIso: string): string {
-  const s = new Date(startIso);
-  const e = new Date(endIso);
-  const day = s.toLocaleDateString(undefined, { month: "short", day: "numeric", year: "numeric" });
-  const t = (d: Date) => d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-  return `${day} · ${t(s)}–${t(e)}`;
-}
-
-function RunContext({ run }: { run: Run }) {
-  return (
-    <div className="mb-4 flex flex-wrap items-center gap-x-3 gap-y-1 rounded-lg border border-hairline bg-card px-4 py-2.5 text-xs">
-      <span className="inline-flex items-center gap-1.5 text-muted">
-        <FileText className="h-3.5 w-3.5" />
-        <span className="font-mono text-ink">{run.source_name}</span>
-      </span>
-      <span className="text-faint">·</span>
-      <span className="text-muted">{fmtWindow(run.window_start, run.window_end)}</span>
-      <span className="text-faint">·</span>
-      <span className="text-muted">analyzed {timeAgo(run.created_at)}</span>
-    </div>
-  );
-}
 
 function PipelineStrip({ p }: { p: Pipeline }) {
   const stages = [
@@ -172,7 +150,7 @@ export function DashboardPage() {
         }
       />
 
-      <RunContext run={data.run} />
+      <RunContext run={data.run} className="mb-4" />
 
       {loading && data && (
         <div className="mb-4 flex items-center gap-2 rounded-lg border border-hairline bg-card px-4 py-2 text-xs text-muted">
