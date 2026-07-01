@@ -9,7 +9,6 @@ import { IncidentsPage } from "./features/incidents/IncidentsPage";
 import { IncidentDetailPage } from "./features/incidents/IncidentDetailPage";
 import { AnalyticsPage } from "./features/analytics/AnalyticsPage";
 import { ReportsPage } from "./features/reports/ReportsPage";
-import { SettingsPage } from "./features/settings/SettingsPage";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -22,7 +21,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
             <Route path="incidents/:id" element={<IncidentDetailPage />} />
             <Route path="analytics" element={<AnalyticsPage />} />
             <Route path="reports" element={<ReportsPage />} />
-            <Route path="settings" element={<SettingsPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

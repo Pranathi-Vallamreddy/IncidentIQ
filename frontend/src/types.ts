@@ -178,11 +178,3 @@ export interface Analytics {
   timeline: TimelinePoint[];
 }
 
-export interface Settings {
-  anomaly_sensitivity: number;
-  ai_root_cause: boolean;
-  ai_available: boolean;
-  ai_model: string;
-}
-
-export type SettingsUpdate = Pick<Settings, "anomaly_sensitivity" | "ai_root_cause">;

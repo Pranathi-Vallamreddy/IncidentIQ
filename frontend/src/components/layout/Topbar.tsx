@@ -38,11 +38,11 @@ export function Topbar({ onUpload }: { onUpload: () => void }) {
         Upload logs
       </Button>
 
-      <div
-        className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-violet-500 to-indigo-600 text-xs font-semibold text-white"
-        title="Pranathi Vallamreddy"
-      >
-        PV
+      <div className="flex items-center gap-2.5">
+        <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-violet-500 to-indigo-600 text-xs font-semibold text-white">
+          PV
+        </div>
+        <span className="hidden text-sm font-medium text-ink sm:block">Pranathi Vallamreddy</span>
       </div>
     </header>
   );

@@ -6,8 +6,6 @@ import type {
   Explanation,
   Run,
   Sample,
-  Settings,
-  SettingsUpdate,
 } from "@/types";
 
 const BASE = import.meta.env.VITE_API_BASE || "/api";
@@ -64,7 +62,4 @@ export const api = {
   explain: (id: string) =>
     req<Explanation>(`/incidents/${id}/explain`, { method: "POST" }),
   exportUrl: () => `${BASE}/incidents/export`,
-  settings: () => req<Settings>("/settings"),
-  updateSettings: (payload: Partial<SettingsUpdate>) =>
-    req<Settings>("/settings", { method: "PUT", body: JSON.stringify(payload) }),
 };

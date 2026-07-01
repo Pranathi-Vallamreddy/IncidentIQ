@@ -7,7 +7,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .api import dashboard, incidents, logs, settings
+from .api import dashboard, incidents, logs
 from .config import settings as env_settings
 from .db import SessionLocal, init_db
 from .services.bootstrap import seed_if_empty
@@ -42,7 +42,6 @@ app.add_middleware(
 app.include_router(logs.router, prefix="/api")
 app.include_router(dashboard.router, prefix="/api")
 app.include_router(incidents.router, prefix="/api")
-app.include_router(settings.router, prefix="/api")
 
 
 @app.get("/api/health")

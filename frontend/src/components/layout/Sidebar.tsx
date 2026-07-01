@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { Activity, LayoutDashboard, ShieldAlert, BarChart3, FileText, Settings } from "lucide-react";
+import { Activity, LayoutDashboard, ShieldAlert, BarChart3, FileText } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { api } from "@/lib/api";
 import { useAsync } from "@/lib/useAsync";
@@ -10,7 +10,6 @@ const NAV = [
   { to: "/incidents", label: "Incidents", icon: ShieldAlert, end: false },
   { to: "/analytics", label: "Analytics", icon: BarChart3, end: false },
   { to: "/reports", label: "Reports", icon: FileText, end: false },
-  { to: "/settings", label: "Settings", icon: Settings, end: false },
 ];
 
 export function Sidebar() {

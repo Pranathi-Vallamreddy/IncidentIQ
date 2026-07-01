@@ -184,13 +184,3 @@ class AnalyticsOut(BaseModel):
     timeline: list[TimelinePoint]
 
 
-class SettingsOut(BaseModel):
-    anomaly_sensitivity: float
-    ai_root_cause: bool
-    ai_available: bool
-    ai_model: str
-
-
-class SettingsIn(BaseModel):
-    anomaly_sensitivity: Optional[float] = None
-    ai_root_cause: Optional[bool] = None
