@@ -26,7 +26,9 @@ feature works without an API key.
 |---|---|
 | ![Incident Detail](docs/screenshots/incident-detail.png) | ![Incident Explorer](docs/screenshots/incidents.png) |
 
-![Analytics](docs/screenshots/analytics.png)
+| Analytics | Reports |
+|---|---|
+| ![Analytics](docs/screenshots/analytics.png) | ![Reports](docs/screenshots/reports.png) |
 
 ---
 

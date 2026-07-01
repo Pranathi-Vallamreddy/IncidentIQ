@@ -10,5 +10,6 @@ links keep working):
 | `incident-detail.png` | An incident's detail page (e.g. `/incidents/INC-4807`) |
 | `incidents.png` | Incident Explorer table |
 | `analytics.png` | Analytics page |
+| `reports.png` | Reports page |
 
 Suggested width: ~1600px, dark theme, PNG.
