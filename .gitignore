@@ -9,6 +9,9 @@ venv/
 *.db
 *.sqlite3
 
+# Claude
+.claude/
+
 # Node
 node_modules/
 dist/
