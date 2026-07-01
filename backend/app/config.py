@@ -10,6 +10,10 @@ class Settings(BaseSettings):
 
     gemini_api_key: str = ""
     cors_origins: str = "http://localhost:5173,http://localhost:4173"
+    # Regex of allowed origins. Defaults to any *.vercel.app deployment so the
+    # frontend works without pinning its exact URL. Set to "" to disable, or
+    # tighten via CORS_ORIGINS with an explicit list.
+    cors_origin_regex: str = r"https://.*\.vercel\.app"
     database_url: str = "sqlite:///./incidentiq.db"
 
     # Engine defaults (overridable via the Settings page / AppSettings row).

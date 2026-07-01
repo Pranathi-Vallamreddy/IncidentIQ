@@ -33,6 +33,7 @@ app = FastAPI(title="IncidentIQ API", version="0.1.0", lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=env_settings.cors_origin_list,
+    allow_origin_regex=env_settings.cors_origin_regex or None,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

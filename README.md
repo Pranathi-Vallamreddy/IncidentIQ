@@ -126,25 +126,27 @@ determinism, and the full API surface.
 
 ## Deployment
 
-Architecture: the browser only talks to the Vercel origin; Vercel rewrites
-`/api/*` to the Render backend server-side, so **no CORS is exercised** in
-production.
+Architecture: the frontend calls the Render backend directly using a build-time
+`VITE_API_BASE` env var (no backend URL is hardcoded in the repo). The backend
+allows the Vercel origin via CORS.
 
 **Backend → Render** (`backend/render.yaml` blueprint):
-- Create a Blueprint from this repo. The service is named `incidentiq-api` and
-  must keep that name (or update `frontend/vercel.json` to match), because the
-  Vercel rewrite targets `https://incidentiq-api.onrender.com`.
+- Create a Blueprint from this repo (Blueprint Path `backend/render.yaml`).
 - Build generates the sample datasets; start runs uvicorn; health check is
   `/api/health`.
-- `GEMINI_API_KEY` is optional. `CORS_ORIGINS` is only needed if you bypass the
-  Vercel proxy and call Render directly.
+- `GEMINI_API_KEY` is optional (blank → deterministic explainer).
+- CORS: by default the backend accepts any `https://*.vercel.app` origin
+  (`CORS_ORIGIN_REGEX`), so it works with your Vercel URL out of the box. To
+  restrict it, set `CORS_ORIGINS` to your exact frontend URL and blank out
+  `CORS_ORIGIN_REGEX`.
 
 **Frontend → Vercel** (`frontend/vercel.json`):
-- Set the Vercel project's **Root Directory to `frontend`** (the repo is a
-  monorepo; `vercel.json` lives there).
-- `vercel.json` builds the Vite app, serves `dist/`, rewrites `/api/*` to Render,
-  and falls back all other routes to `index.html` for client-side routing.
-- If your Render URL differs, update the rewrite destination.
+- Set the Vercel project's **Root Directory to `frontend`** (monorepo).
+- Add an env var **`VITE_API_BASE`** = your Render URL + `/api` (no trailing
+  slash), e.g. `https://incidentiq-api.onrender.com/api`, for Production +
+  Preview.
+- `vercel.json` builds the Vite app, serves `dist/`, and falls back all routes
+  to `index.html` for client-side routing.
 
 > **Data persistence:** the backend uses SQLite on Render's ephemeral free-tier
 > disk, so uploaded runs reset on redeploy/cold start. On startup the app
