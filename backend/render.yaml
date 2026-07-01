@@ -1,0 +1,20 @@
+# Render blueprint for the IncidentIQ backend.
+# Deploy: create a new Blueprint on Render pointing at this repo's `backend/` dir.
+services:
+  - type: web
+    name: incidentiq-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: "pip install -r requirements.txt && python -m app.data.generate_samples"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.7"
+      - key: CORS_ORIGINS
+        sync: false # set to your Vercel URL, e.g. https://incidentiq.vercel.app
+      - key: GEMINI_API_KEY
+        sync: false # optional; leave blank to use the deterministic explainer
+      - key: DATABASE_URL
+        value: "sqlite:///./incidentiq.db"

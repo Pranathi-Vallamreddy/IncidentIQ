@@ -9,12 +9,22 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from .api import dashboard, incidents, logs, settings
 from .config import settings as env_settings
-from .db import init_db
+from .db import SessionLocal, init_db
+from .services.bootstrap import seed_if_empty
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     init_db()
+    # Populate a default run so a fresh (ephemeral) deploy isn't empty.
+    db = SessionLocal()
+    try:
+        seed_if_empty(db)
+    except Exception:
+        # Seeding is best-effort; never block startup on it.
+        pass
+    finally:
+        db.close()
     yield
 
 

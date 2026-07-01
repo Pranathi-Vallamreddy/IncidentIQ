@@ -17,6 +17,7 @@ import { useApp } from "@/store";
 import { Card, CardHeader, SeverityBadge, Spinner, Button } from "@/components/ui/primitives";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { NoRun } from "@/components/ui/NoRun";
+import { LoadFailed } from "@/components/ui/LoadFailed";
 import { SeverityTimeline } from "@/components/charts/SeverityTimeline";
 import { HealthGauge } from "@/components/charts/HealthGauge";
 import { cn, fmtGrowth, severityFill } from "@/lib/utils";
@@ -56,9 +57,17 @@ function KpiCard({ kpi }: { kpi: Kpi }) {
 
 export function DashboardPage() {
   const { version } = useApp();
-  const { data, loading } = useAsync(() => api.dashboard(), [version]);
+  const { data, loading, error, reload } = useAsync(() => api.dashboard(), [version]);
 
   if (loading && !data) return <Spinner label="Loading dashboard…" />;
+  if (error && !data) {
+    return (
+      <>
+        <PageHeader title="Overview" subtitle="Real-time incident intelligence across all services." />
+        <LoadFailed onRetry={reload} />
+      </>
+    );
+  }
   if (!data || !data.run) {
     return (
       <>

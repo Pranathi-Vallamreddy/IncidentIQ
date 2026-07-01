@@ -6,6 +6,7 @@ import { useAsync } from "@/lib/useAsync";
 import { useApp } from "@/store";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { NoRun } from "@/components/ui/NoRun";
+import { LoadFailed } from "@/components/ui/LoadFailed";
 import {
   Button,
   Chip,
@@ -48,7 +49,7 @@ function sortIncidents(list: Incident[], key: SortKey): Incident[] {
 export function IncidentsPage() {
   const { version } = useApp();
   const navigate = useNavigate();
-  const { data, loading } = useAsync(() => api.incidents(), [version]);
+  const { data, loading, error, reload } = useAsync(() => api.incidents(), [version]);
 
   const [q, setQ] = useState("");
   const [severity, setSeverity] = useState<Severity | "All">("All");
@@ -71,6 +72,17 @@ export function IncidentsPage() {
   }, [all, q, severity, status, sort]);
 
   if (loading && !data) return <Spinner label="Loading incidents…" />;
+  if (error && !data) {
+    return (
+      <>
+        <PageHeader
+          title="Incidents"
+          subtitle="Every detected incident, ranked by severity and confidence."
+        />
+        <LoadFailed onRetry={reload} />
+      </>
+    );
+  }
   if (!data || data.length === 0) {
     return (
       <>
